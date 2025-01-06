@@ -249,3 +249,30 @@ git status
 git commit -m "Removed Zone from the repository"
 git push origin main
 exit
+ls -al ~/.ssh
+ssh-keygen -t rsa -b 4096 -C "akaskvenkat@tigeranalytice.com"
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_rsa
+cat ~/.ssh/id_rsa.pub
+ssh -T git@github.com
+git clone git@github.com:PALADUGUAKASH/Tiger.git
+ls -al ~/.ssh
+git status
+git reset'
+
+q
+git reset
+git staus
+git status
+git checkout -- .
+git status
+git checkout --orphan latest_branch]
+git reset --hard
+rm -rf *
+git add .
+git commit -m "Initial commit after clearing history"
+git push origin latest_branch --force
+git branch -D master
+git branch -m latest_branch master
+git staus
+git status
