@@ -276,3 +276,11 @@ git branch -D master
 git branch -m latest_branch master
 git staus
 git status
+git add .
+git commit -m "Initial commit after clearing history"
+git branch -m latest_branch master
+git branch -m main
+\git branch -D main
+git branch -m latest_branch master
+\git branch -D latest_branch
+git status
