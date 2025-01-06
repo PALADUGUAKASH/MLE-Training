@@ -284,3 +284,11 @@ git branch -m main
 git branch -m latest_branch master
 \git branch -D latest_branch
 git status
+git commit -a
+git status
+git add .bash_history
+git commit -m "Update .bash_history"
+git push origin latest_branch
+git restore .bash_history
+git status
+exit
