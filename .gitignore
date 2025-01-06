@@ -1,0 +1,21 @@
+
+# Ignore Python bytecode files
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignore all CSV files
+*.csv
+
+# Ignore Miniconda installer
+Miniconda3-latest-Linux-x86_64.sh
+
+# Ignore Miniconda environment folder
+miniconda3/
+
+#Ignore history
+.bash_history
+.conda/environments.txt
+
+.ssh/id_ed25519
+.ssh/id_ed25519.pub
