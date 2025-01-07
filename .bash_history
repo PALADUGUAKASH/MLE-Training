@@ -292,3 +292,20 @@ git push origin latest_branch
 git restore .bash_history
 git status
 exit
+git remote add origin git@github.com:PALADUGUAKASH/MLE-Training.git
+ls
+git add Screenshot.png 
+git commit -m "Added the output"
+git add .bash_history 
+git add .viminfo 
+git commit -m "commit"
+git git push -u origin main
+git push -u origin main
+git status
+git branch -a
+git checkout enh/1/code 
+ls
+git add Screenshot.png 
+git commit -m "Added the code output"
+git push -u origin enh/1/code 
+exit
