@@ -1,0 +1,24 @@
+{
+    "python.pythonPath": "/root/miniconda3/envs/mle-dev/bin/python",
+    "python.linting.enabled": true,
+    "python.linting.flake8Enabled": true,
+    "python.formatting.provider": "black", // Auto-format using Black
+    "python.sortImports.path": "./path/to/isort", // Path to Isort
+    "python.autoComplete.addBrackets": true,
+    "editor.formatOnSave": true, // Auto-format on save
+    "editor.tabSize": 4, // 4 spaces for indentation
+    "editor.insertSpaces": true, // Use spaces instead of tabs
+    "editor.trimAutoWhitespace": true, // Remove trailing spaces
+    "python.sortImports.args": [
+        "--profile",
+        "black"
+    ], // Isort configuration for Black profile
+    "python.formatting.blackArgs": [
+        "--line-length",
+        "88"
+    ], // Black line length customization
+    "python.linting.flake8Args": [
+        "--max-line-length=88" // Customize Flake8 line length to match Black
+    ],
+    "json.schemas": []
+}

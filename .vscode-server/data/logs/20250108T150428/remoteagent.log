@@ -1,0 +1,10 @@
+2025-01-08 15:04:28.599 [info] 
+
+
+
+
+2025-01-08 15:04:28.610 [info] Extension host agent started.
+2025-01-08 15:04:28.932 [info] [127.0.0.1][620e222c][ManagementConnection] New connection established.
+2025-01-08 15:04:29.733 [info] [127.0.0.1][5e505644][ExtensionHostConnection] New connection established.
+2025-01-08 15:04:30.337 [info] [127.0.0.1][5e505644][ExtensionHostConnection] <128> Launched Extension Host Process.
+2025-01-08 15:04:45.381 [error] [network] #1: https://main.vscode-cdn.net/extensions/marketplace.json - error GET getaddrinfo EAI_AGAIN main.vscode-cdn.net

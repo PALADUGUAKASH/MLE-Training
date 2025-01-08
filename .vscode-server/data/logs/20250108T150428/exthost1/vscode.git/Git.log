@@ -1,0 +1,57 @@
+2025-01-08 15:04:31.013 [info] [main] Log level: Info
+2025-01-08 15:04:31.013 [info] [main] Validating found git in: "git"
+2025-01-08 15:04:31.013 [info] [main] Using git "2.47.1" from "git"
+2025-01-08 15:04:31.013 [info] [Model][doInitialScan] Initial repository scan started
+2025-01-08 15:04:31.013 [info] > git rev-parse --show-toplevel [5ms]
+2025-01-08 15:04:31.013 [info] > git rev-parse --git-dir --git-common-dir [3ms]
+2025-01-08 15:04:31.013 [info] [Model][openRepository] Opened repository: /root
+2025-01-08 15:04:31.015 [info] > git config --get commit.template [2ms]
+2025-01-08 15:04:31.042 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/fix/6/vscode-refactor refs/remotes/fix/6/vscode-refactor [24ms]
+2025-01-08 15:04:31.042 [info] > git rev-parse --show-toplevel [21ms]
+2025-01-08 15:04:31.053 [info] > git rev-parse --show-toplevel [8ms]
+2025-01-08 15:04:31.056 [info] > git rev-parse --show-toplevel [0ms]
+2025-01-08 15:04:31.059 [info] > git rev-parse --show-toplevel [1ms]
+2025-01-08 15:04:31.062 [info] > git rev-parse --show-toplevel [0ms]
+2025-01-08 15:04:31.065 [info] > git rev-parse --show-toplevel [1ms]
+2025-01-08 15:04:31.067 [info] > git rev-parse --show-toplevel [1ms]
+2025-01-08 15:04:31.069 [info] > git rev-parse --show-toplevel [1ms]
+2025-01-08 15:04:31.072 [info] > git rev-parse --show-toplevel [0ms]
+2025-01-08 15:04:31.073 [info] > git rev-parse --show-toplevel [0ms]
+2025-01-08 15:04:31.075 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-01-08 15:04:31.322 [info] > git show -s --decorate=full --shortstat --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z d61768c20cff46372361dacf35e505f81829c587 [303ms]
+2025-01-08 15:04:31.327 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-01-08 15:04:31.359 [info] > git status -z -uall [35ms] (cancelled)
+2025-01-08 15:04:38.218 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/fix/6/vscode-refactor refs/remotes/fix/6/vscode-refactor [5ms]
+2025-01-08 15:04:38.224 [info] > git config --local branch.fix/6/vscode-refactor.vscode-merge-base [3ms]
+2025-01-08 15:04:38.224 [warning] [Git][config] git config failed: Failed to execute git
+2025-01-08 15:04:38.228 [info] > git config --get commit.template [5ms]
+2025-01-08 15:04:38.235 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/fix/6/vscode-refactor refs/remotes/fix/6/vscode-refactor [4ms]
+2025-01-08 15:04:38.235 [info] > git reflog fix/6/vscode-refactor --grep-reflog=branch: Created from *. [8ms]
+2025-01-08 15:04:38.712 [info] > git show -s --decorate=full --shortstat --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z d61768c20cff46372361dacf35e505f81829c587 [479ms]
+2025-01-08 15:04:38.718 [info] > git reflog HEAD --grep-reflog=checkout: moving from .* to fix/6/vscode-refactor [481ms]
+2025-01-08 15:04:38.741 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/c6a5f051a0f185a985cf938ee857e530d060589d refs/remotes/c6a5f051a0f185a985cf938ee857e530d060589d [20ms]
+2025-01-08 15:04:38.741 [warning] [Git][getBranch] No such branch: c6a5f051a0f185a985cf938ee857e530d060589d
+2025-01-08 15:04:38.745 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [27ms]
+2025-01-08 15:04:38.749 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [5ms]
+2025-01-08 15:04:38.749 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2025-01-08 15:04:38.749 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2025-01-08 15:04:38.843 [info] > git status -z -uall [128ms] (cancelled)
+2025-01-08 15:04:53.310 [info] > git show --textconv :.vscode/settings.json [2ms]
+2025-01-08 15:04:53.311 [info] > git ls-files --stage -- /root/.vscode/settings.json [1ms]
+2025-01-08 15:04:53.358 [info] > git blame --root --incremental 5b871dce20de260eab80bc6ab06735403800a513 -- /root/.vscode/settings.json [1ms]
+2025-01-08 15:04:53.358 [info] fatal: no such path .vscode/settings.json in 5b871dce20de260eab80bc6ab06735403800a513
+2025-01-08 15:04:53.499 [info] > git check-ignore -v -z --stdin [1ms]
+2025-01-08 15:07:24.392 [info] > git show --textconv :.vscode/settings.json [3ms]
+2025-01-08 15:07:24.392 [info] > git ls-files --stage -- /root/.vscode/settings.json [1ms]
+2025-01-08 15:08:54.137 [info] > git show --textconv :pycode.py [3ms]
+2025-01-08 15:08:54.137 [info] > git ls-files --stage -- /root/pycode.py [1ms]
+2025-01-08 15:08:54.140 [info] > git cat-file -s 52c16cf17ecfb41139dc84375b4e96581a509985 [1ms]
+2025-01-08 15:08:54.167 [info] > git blame --root --incremental 5b871dce20de260eab80bc6ab06735403800a513 -- /root/pycode.py [7ms]
+2025-01-08 15:08:54.391 [info] > git check-ignore -v -z --stdin [0ms]
+2025-01-08 15:13:15.406 [info] > git show --textconv :.vscode/settings.json [4ms]
+2025-01-08 15:13:15.406 [info] > git ls-files --stage -- /root/.vscode/settings.json [2ms]
+2025-01-08 15:13:31.048 [info] > git show --textconv :pycode.py [2ms]
+2025-01-08 15:13:31.049 [info] > git ls-files --stage -- /root/pycode.py [1ms]
+2025-01-08 15:13:31.052 [info] > git cat-file -s 52c16cf17ecfb41139dc84375b4e96581a509985 [1ms]
+2025-01-08 15:13:33.419 [info] > git show --textconv :.vscode/settings.json [2ms]
+2025-01-08 15:13:33.420 [info] > git ls-files --stage -- /root/.vscode/settings.json [1ms]

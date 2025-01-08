@@ -1,0 +1,11 @@
+{
+    "terminal.integrated.commandsToSkipShell": [
+        "",
+        "",
+        ""
+    ],
+    "isort.check": true,
+    "json.schemas": [
+        
+    ]
+}

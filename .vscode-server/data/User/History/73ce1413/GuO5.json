@@ -1,0 +1,24 @@
+{
+    "python.linting.enabled": true,
+    "python.linting.flake8Enabled": true,
+    "python.formatting.provider": "black",
+    "python.autoComplete.addBrackets": true,
+    "python.formatting.blackArgs": [
+        "--line-length",
+        "88"
+    ], // Optional, if you want a custom line length
+    "editor.formatOnSave": true, // Automatically format on save
+    "editor.tabSize": 4, // 4 spaces for indentation
+    "editor.insertSpaces": true, // Convert tabs to spaces
+    "editor.trimAutoWhitespace": true, // Remove trailing whitespace
+    "python.linting.flake8Args": [
+        "--max-line-length=88" // Optional: Set max line length for flake8
+    ]
+}
+
+{
+    "python.sortImports.args": [
+        "--profile",
+        "black"
+    ]
+}

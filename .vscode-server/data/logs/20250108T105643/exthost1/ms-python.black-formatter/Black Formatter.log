@@ -1,0 +1,205 @@
+2025-01-08 10:56:57.932 [info] Name: Black Formatter
+2025-01-08 10:56:57.932 [info] Module: black
+2025-01-08 10:56:57.932 [info] Default formatter is set to null for workspace /root
+2025-01-08 10:56:57.932 [warning] Black Formatter is NOT set as the default formatter for workspace /root
+2025-01-08 10:56:57.932 [warning] To set Black Formatter as the default formatter, add the following to your settings.json file:
+2025-01-08 10:56:57.932 [warning] 
+"[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+}
+2025-01-08 10:56:57.932 [warning] "python.formatting.blackArgs" is deprecated. Use "black-formatter.args" instead.
+2025-01-08 10:56:57.932 [warning] "python.formatting.blackArgs" for workspace /root:
+2025-01-08 10:56:57.932 [warning] 
+[
+    "--line-length",
+    "90"
+]
+2025-01-08 10:56:57.932 [info] Python extension loading
+2025-01-08 10:56:57.932 [info] Waiting for interpreter from python extension.
+2025-01-08 10:56:57.932 [info] No interpreter found from setting black-formatter.interpreter
+2025-01-08 10:56:57.932 [info] Getting interpreter from ms-python.python extension for workspace /root
+2025-01-08 10:56:57.932 [info] Python extension loaded
+2025-01-08 10:56:57.932 [info] Interpreter from ms-python.python extension for /root: /root/miniconda3/envs/mle-dev/bin/python
+2025-01-08 10:56:57.932 [info] Workspace settings for /root (client side): {
+    "cwd": "/root",
+    "workspace": "file:///root",
+    "args": [],
+    "path": [],
+    "interpreter": [
+        "/root/miniconda3/envs/mle-dev/bin/python"
+    ],
+    "importStrategy": "useBundled",
+    "showNotifications": "off"
+}
+2025-01-08 10:56:57.932 [info] No interpreter found from setting black-formatter.interpreter
+2025-01-08 10:56:57.932 [info] Getting interpreter from ms-python.python extension for workspace /root
+2025-01-08 10:56:57.932 [info] Interpreter from ms-python.python extension for /root: /root/miniconda3/envs/mle-dev/bin/python
+2025-01-08 10:56:57.932 [info] Workspace settings for /root (client side): {
+    "cwd": "/root",
+    "workspace": "file:///root",
+    "args": [],
+    "path": [],
+    "interpreter": [
+        "/root/miniconda3/envs/mle-dev/bin/python"
+    ],
+    "importStrategy": "useBundled",
+    "showNotifications": "off"
+}
+2025-01-08 10:56:57.932 [info] Global settings (client side): {
+    "cwd": "/mnt/c/Users/akashvenkat.pala/AppData/Local/Programs/Microsoft VS Code",
+    "workspace": "/mnt/c/Users/akashvenkat.pala/AppData/Local/Programs/Microsoft VS Code",
+    "args": [],
+    "path": [],
+    "interpreter": [],
+    "importStrategy": "useBundled",
+    "showNotifications": "off"
+}
+2025-01-08 10:56:57.932 [info] Server run command: /root/miniconda3/envs/mle-dev/bin/python /root/.vscode-server/extensions/ms-python.black-formatter-2024.4.0/bundled/tool/lsp_server.py
+2025-01-08 10:56:57.932 [info] Server: Start requested.
+2025-01-08 10:56:58.152 [info] CWD Server: /root
+2025-01-08 10:56:58.152 [info] Settings received on server:
+[
+    {
+        "cwd": "/root",
+        "workspace": "file:///root",
+        "args": [],
+        "path": [],
+        "interpreter": [
+            "/root/miniconda3/envs/mle-dev/bin/python"
+        ],
+        "importStrategy": "useBundled",
+        "showNotifications": "off"
+    }
+]
+
+2025-01-08 10:56:58.152 [info] Global settings received on server:
+{
+    "cwd": "/mnt/c/Users/akashvenkat.pala/AppData/Local/Programs/Microsoft VS Code",
+    "workspace": "/mnt/c/Users/akashvenkat.pala/AppData/Local/Programs/Microsoft VS Code",
+    "args": [],
+    "path": [],
+    "interpreter": [],
+    "importStrategy": "useBundled",
+    "showNotifications": "off"
+}
+
+2025-01-08 10:56:58.152 [info] sys.path used to run Server:
+   /root/.vscode-server/extensions/ms-python.black-formatter-2024.4.0/bundled/libs
+   /root/.vscode-server/extensions/ms-python.black-formatter-2024.4.0/bundled/tool
+   /root/miniconda3/envs/mle-dev/lib/python313.zip
+   /root/miniconda3/envs/mle-dev/lib/python3.13
+   /root/miniconda3/envs/mle-dev/lib/python3.13/lib-dynload
+   /root/miniconda3/envs/mle-dev/lib/python3.13/site-packages
+2025-01-08 10:56:58.153 [info] /root/miniconda3/envs/mle-dev/bin/python -m black --version
+2025-01-08 10:56:58.153 [info] CWD formatter: /root
+2025-01-08 10:56:58.317 [info] Version info for formatter running for /root:
+black, 24.8.0 (compiled: no)
+Python (CPython) 3.13.1
+
+2025-01-08 10:56:58.322 [info] SUPPORTED black>=22.3.0
+FOUND black==24.8.0
+
+2025-01-08 10:57:05.569 [info] /root/miniconda3/envs/mle-dev/bin/python -m black --stdin-filename /root/pycode.py -
+2025-01-08 10:57:05.570 [info] CWD formatter: /root
+2025-01-08 10:57:05.635 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2025-01-08 10:57:06.612 [info] /root/miniconda3/envs/mle-dev/bin/python -m black --stdin-filename /root/pycode.py -
+2025-01-08 10:57:06.613 [info] CWD formatter: /root
+2025-01-08 10:57:06.684 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2025-01-08 10:57:06.895 [info] /root/miniconda3/envs/mle-dev/bin/python -m black --stdin-filename /root/pycode.py -
+2025-01-08 10:57:06.895 [info] CWD formatter: /root
+2025-01-08 10:57:06.968 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2025-01-08 10:57:07.136 [info] /root/miniconda3/envs/mle-dev/bin/python -m black --stdin-filename /root/pycode.py -
+2025-01-08 10:57:07.136 [info] CWD formatter: /root
+2025-01-08 10:57:07.195 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2025-01-08 10:57:07.312 [info] /root/miniconda3/envs/mle-dev/bin/python -m black --stdin-filename /root/pycode.py -
+2025-01-08 10:57:07.312 [info] CWD formatter: /root
+2025-01-08 10:57:07.360 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2025-01-08 10:57:07.541 [info] /root/miniconda3/envs/mle-dev/bin/python -m black --stdin-filename /root/pycode.py -
+2025-01-08 10:57:07.541 [info] CWD formatter: /root
+2025-01-08 10:57:07.611 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2025-01-08 10:57:07.772 [info] /root/miniconda3/envs/mle-dev/bin/python -m black --stdin-filename /root/pycode.py -
+2025-01-08 10:57:07.772 [info] CWD formatter: /root
+2025-01-08 10:57:07.846 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2025-01-08 10:57:09.592 [info] /root/miniconda3/envs/mle-dev/bin/python -m black --stdin-filename /root/pycode.py -
+2025-01-08 10:57:09.592 [info] CWD formatter: /root
+2025-01-08 10:57:09.799 [info] reformatted /root/pycode.py
+
+All done! ✨ 🍰 ✨
+1 file reformatted.
+
+2025-01-08 10:57:50.205 [info] /root/miniconda3/envs/mle-dev/bin/python -m black --stdin-filename /root/pycode.py -
+2025-01-08 10:57:50.205 [info] CWD formatter: /root
+2025-01-08 10:57:50.273 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2025-01-08 10:57:50.516 [info] /root/miniconda3/envs/mle-dev/bin/python -m black --stdin-filename /root/pycode.py -
+2025-01-08 10:57:50.516 [info] CWD formatter: /root
+2025-01-08 10:57:50.576 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2025-01-08 10:57:50.819 [info] /root/miniconda3/envs/mle-dev/bin/python -m black --stdin-filename /root/pycode.py -
+2025-01-08 10:57:50.819 [info] CWD formatter: /root
+2025-01-08 10:57:50.886 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2025-01-08 10:57:51.131 [info] /root/miniconda3/envs/mle-dev/bin/python -m black --stdin-filename /root/pycode.py -
+2025-01-08 10:57:51.132 [info] CWD formatter: /root
+2025-01-08 10:57:51.203 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2025-01-08 10:58:51.557 [info] /root/miniconda3/envs/mle-dev/bin/python -m black --stdin-filename /root/pycode.py -
+2025-01-08 10:58:51.557 [info] CWD formatter: /root
+2025-01-08 10:58:51.797 [info] reformatted /root/pycode.py
+
+All done! ✨ 🍰 ✨
+1 file reformatted.
+
+2025-01-08 10:59:08.336 [info] /root/miniconda3/envs/mle-dev/bin/python -m black --stdin-filename /root/pycode.py -
+2025-01-08 10:59:08.336 [info] CWD formatter: /root
+2025-01-08 10:59:08.400 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2025-01-08 11:01:06.294 [info] /root/miniconda3/envs/mle-dev/bin/python -m black --stdin-filename /root/pycode.py -
+2025-01-08 11:01:06.294 [info] CWD formatter: /root
+2025-01-08 11:01:06.363 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2025-01-08 11:01:07.759 [info] /root/miniconda3/envs/mle-dev/bin/python -m black --stdin-filename /root/pycode.py -
+2025-01-08 11:01:07.759 [info] CWD formatter: /root
+2025-01-08 11:01:07.822 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2025-01-08 11:01:09.453 [info] /root/miniconda3/envs/mle-dev/bin/python -m black --stdin-filename /root/pycode.py -
+2025-01-08 11:01:09.453 [info] CWD formatter: /root
+2025-01-08 11:01:09.516 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2025-01-08 11:01:09.705 [info] /root/miniconda3/envs/mle-dev/bin/python -m black --stdin-filename /root/pycode.py -
+2025-01-08 11:01:09.705 [info] CWD formatter: /root
+2025-01-08 11:01:09.757 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2025-01-08 11:01:09.920 [info] /root/miniconda3/envs/mle-dev/bin/python -m black --stdin-filename /root/pycode.py -
+2025-01-08 11:01:09.921 [info] CWD formatter: /root
+2025-01-08 11:01:09.990 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2025-01-08 11:01:10.093 [info] /root/miniconda3/envs/mle-dev/bin/python -m black --stdin-filename /root/pycode.py -
+2025-01-08 11:01:10.093 [info] CWD formatter: /root
+2025-01-08 11:01:10.140 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+

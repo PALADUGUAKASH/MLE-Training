@@ -1,0 +1,51 @@
+2025-01-08 15:04:37.274 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2025-01-08 15:04:37.274 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2025-01-08 15:04:37.274 [info] Experiment 'pythonTestAdapter' is active
+2025-01-08 15:04:37.287 [warning] Dir "/root/.pixi/envs" is not watchable (directory does not exist)
+2025-01-08 15:04:37.369 [info] Python interpreter path: ./miniconda3/envs/mle-dev/bin/python
+2025-01-08 15:04:37.452 [info] > pyenv which python
+2025-01-08 15:04:37.452 [info] cwd: .
+2025-01-08 15:04:38.087 [info] Shell integration status changed, can confirm it's working.
+2025-01-08 15:04:38.090 [info] > conda info --json
+2025-01-08 15:04:38.090 [info] shell: bash
+2025-01-08 15:04:38.864 [info] > conda run -n mle-dev --no-capture-output python ./.vscode-server/extensions/ms-python.python-2024.22.2/python_files/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2024.22.2/python_files/printEnvVariables.py
+2025-01-08 15:04:38.864 [info] shell: bash
+2025-01-08 15:04:39.386 [info] > conda run -n mle-dev --no-capture-output python ./.vscode-server/extensions/ms-python.python-2024.22.2/python_files/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2024.22.2/python_files/printEnvVariables.py
+2025-01-08 15:04:39.386 [info] shell: bash
+2025-01-08 15:04:39.947 [info] > /bin/python3 ./.vscode-server/extensions/ms-python.python-2024.22.2/python_files/printEnvVariables.py
+2025-01-08 15:04:39.947 [info] shell: bash
+2025-01-08 15:04:40.030 [info] Setting environment variable GSETTINGS_SCHEMA_DIR in collection to /root/miniconda3/envs/mle-dev/share/glib-2.0/schemas {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2025-01-08 15:04:40.030 [info] Setting environment variable CONDA_ROOT in collection to /root/miniconda3 {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2025-01-08 15:04:40.030 [info] Setting environment variable CONDA_PREFIX in collection to /root/miniconda3/envs/mle-dev {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2025-01-08 15:04:40.030 [info] Setting environment variable GSETTINGS_SCHEMA_DIR_CONDA_BACKUP in collection to  {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2025-01-08 15:04:40.030 [info] Setting environment variable CONDA_PROMPT_MODIFIER in collection to (mle-dev)  {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2025-01-08 15:04:40.030 [info] Setting environment variable CONDA_SHLVL in collection to 2 {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2025-01-08 15:04:40.030 [info] Setting environment variable CONDA_DEFAULT_ENV in collection to mle-dev {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2025-01-08 15:04:40.030 [info] Prepending environment variable PATH in collection to /root/.vscode-server/bin/fabdb6a30b49f79a7aba0f2ad9df9b399473380f/bin/remote-cli:/root/miniconda3/envs/mle-dev/bin:/root/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Windows/System32/OpenSSH:/mnt/c/Program Files/PuTTY:/mnt/c/Users/akashvenkat.pala/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/akashvenkat.pala/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/akashvenkat.pala/AppData/Local/Programs/Git/cmd:/snap/bin: {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2025-01-08 15:04:40.030 [info] Setting environment variable CONDA_PREFIX_1 in collection to /root/miniconda3 {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2025-01-08 15:04:40.030 [info] Prepending environment variable PS1 in collection with (mle-dev)  {"applyAtShellIntegration":true,"applyAtProcessCreation":false}
+2025-01-08 15:04:40.031 [info] Send text to terminal: /bin/python3 /root/.vscode-server/extensions/ms-python.python-2024.22.2/python_files/printEnvVariablesToFile.py /root/.vscode-server/extensions/ms-python.python-2024.22.2/python_files/deactivate/bash/envVars.txt
+2025-01-08 15:04:40.436 [info] Setting environment variable GSETTINGS_SCHEMA_DIR in collection to /root/miniconda3/envs/mle-dev/share/glib-2.0/schemas {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2025-01-08 15:04:40.436 [info] Setting environment variable CONDA_ROOT in collection to /root/miniconda3 {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2025-01-08 15:04:40.436 [info] Setting environment variable CONDA_PREFIX in collection to /root/miniconda3/envs/mle-dev {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2025-01-08 15:04:40.436 [info] Setting environment variable GSETTINGS_SCHEMA_DIR_CONDA_BACKUP in collection to  {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2025-01-08 15:04:40.436 [info] Setting environment variable CONDA_PROMPT_MODIFIER in collection to (mle-dev)  {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2025-01-08 15:04:40.436 [info] Setting environment variable CONDA_SHLVL in collection to 2 {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2025-01-08 15:04:40.436 [info] Setting environment variable CONDA_DEFAULT_ENV in collection to mle-dev {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2025-01-08 15:04:40.436 [info] Prepending environment variable PATH in collection to /root/.vscode-server/bin/fabdb6a30b49f79a7aba0f2ad9df9b399473380f/bin/remote-cli:/root/miniconda3/envs/mle-dev/bin:/root/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Windows/System32/OpenSSH:/mnt/c/Program Files/PuTTY:/mnt/c/Users/akashvenkat.pala/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/akashvenkat.pala/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/akashvenkat.pala/AppData/Local/Programs/Git/cmd:/snap/bin: {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2025-01-08 15:04:40.436 [info] Setting environment variable CONDA_PREFIX_1 in collection to /root/miniconda3 {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2025-01-08 15:04:40.436 [info] Prepending environment variable PS1 in collection with (mle-dev)  {"applyAtShellIntegration":true,"applyAtProcessCreation":false}
+2025-01-08 15:04:43.966 [info] Starting Pylance language server.
+2025-01-08 15:04:43.970 [info] > conda info --json
+2025-01-08 15:07:19.251 [info] Discover tests for workspace name: root - uri: /root/.vscode/settings.json
+2025-01-08 15:09:00.096 [info] Discover tests for workspace name: root - uri: /root/pycode.py
+2025-01-08 15:09:01.648 [info] Discover tests for workspace name: root - uri: /root/pycode.py
+2025-01-08 15:11:04.595 [info] Discover tests for workspace name: root - uri: /root/pycode.py
+2025-01-08 15:11:05.413 [info] Discover tests for workspace name: root - uri: /root/pycode.py
+2025-01-08 15:11:33.205 [info] Discover tests for workspace name: root - uri: /root/pycode.py
+2025-01-08 15:11:33.493 [info] Discover tests for workspace name: root - uri: /root/pycode.py
+2025-01-08 15:11:34.197 [info] Discover tests for workspace name: root - uri: /root/pycode.py
+2025-01-08 15:13:27.463 [info] Discover tests for workspace name: root - uri: /root/.vscode/settings.json
+2025-01-08 15:13:29.008 [info] Discover tests for workspace name: root - uri: /root/.vscode/settings.json
+2025-01-08 15:13:32.271 [info] Discover tests for workspace name: root - uri: /root/pycode.py
+2025-01-08 15:13:32.911 [info] Discover tests for workspace name: root - uri: /root/pycode.py

@@ -1,0 +1,8 @@
+{
+    "terminal.integrated.commandsToSkipShell": [
+        "",
+        "",
+        ""
+    ],
+    "isort.check": true
+}

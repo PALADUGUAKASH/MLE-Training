@@ -1,0 +1,206 @@
+2025-01-08 15:04:37.511 [info] Name: Flake8
+2025-01-08 15:04:37.511 [info] Module: flake8
+2025-01-08 15:04:37.511 [warning] "python.linting.flake8Enabled" is deprecated. You can remove that setting.
+2025-01-08 15:04:37.511 [warning] The flake8 extension is always enabled. However, you can disable it per workspace using the extensions view.
+2025-01-08 15:04:37.511 [warning] You can exclude files and folders using the `python.linting.ignorePatterns` setting.
+2025-01-08 15:04:37.511 [warning] "python.linting.flake8Enabled" value for workspace /root: true
+2025-01-08 15:04:37.511 [warning] "python.linting.flake8Args" is deprecated. Use "flake8.args" instead.
+2025-01-08 15:04:37.511 [warning] "python.linting.flake8Args" value for workspace /root:
+2025-01-08 15:04:37.511 [warning] 
+[
+    "--max-line-length=88"
+]
+2025-01-08 15:04:37.511 [info] Python extension loading
+2025-01-08 15:04:37.511 [info] Waiting for interpreter from Python extension.
+2025-01-08 15:04:37.511 [info] No interpreter found from setting flake8.interpreter
+2025-01-08 15:04:37.511 [info] Getting interpreter from ms-python.python extension for workspace /root
+2025-01-08 15:04:37.511 [info] Python extension loaded
+2025-01-08 15:04:37.511 [info] Interpreter from ms-python.python extension for /root: /root/miniconda3/envs/mle-dev/bin/python
+2025-01-08 15:04:37.511 [info] No interpreter found from setting flake8.interpreter
+2025-01-08 15:04:37.511 [info] Getting interpreter from ms-python.python extension for workspace /root
+2025-01-08 15:04:37.511 [info] Interpreter from ms-python.python extension for /root: /root/miniconda3/envs/mle-dev/bin/python
+2025-01-08 15:04:37.511 [info] Server run command: /root/miniconda3/envs/mle-dev/bin/python /root/.vscode-server/extensions/ms-python.flake8-2023.10.0/bundled/tool/lsp_server.py
+2025-01-08 15:04:37.511 [info] Server: Start requested.
+2025-01-08 15:04:38.224 [info] CWD Server: /root
+2025-01-08 15:04:38.228 [info] sys.path used to run Server:
+   /root/.vscode-server/extensions/ms-python.flake8-2023.10.0/bundled/libs
+   /root/.vscode-server/extensions/ms-python.flake8-2023.10.0/bundled/tool
+   /root/miniconda3/envs/mle-dev/lib/python313.zip
+   /root/miniconda3/envs/mle-dev/lib/python3.13
+   /root/miniconda3/envs/mle-dev/lib/python3.13/lib-dynload
+   /root/miniconda3/envs/mle-dev/lib/python3.13/site-packages
+2025-01-08 15:04:38.234 [info] Settings used to run Server:
+[
+    {
+        "cwd": "/root",
+        "workspace": "file:///root",
+        "args": [],
+        "severity": {
+            "E": "Error",
+            "F": "Error",
+            "I": "Information",
+            "W": "Warning"
+        },
+        "path": [],
+        "ignorePatterns": [],
+        "interpreter": [
+            "/root/miniconda3/envs/mle-dev/bin/python"
+        ],
+        "importStrategy": "useBundled",
+        "showNotifications": "off"
+    }
+]
+
+2025-01-08 15:04:38.235 [info] Global settings:
+{
+    "cwd": "${workspaceFolder}",
+    "workspace": "/mnt/c/Users/akashvenkat.pala/AppData/Local/Programs/Microsoft VS Code",
+    "args": [],
+    "severity": {
+        "E": "Error",
+        "F": "Error",
+        "I": "Information",
+        "W": "Warning"
+    },
+    "path": [],
+    "ignorePatterns": [],
+    "interpreter": [],
+    "importStrategy": "useBundled",
+    "showNotifications": "off"
+}
+
+2025-01-08 15:04:38.243 [info] /root/miniconda3/envs/mle-dev/bin/python -m flake8 --version
+2025-01-08 15:04:38.244 [info] CWD Linter: /root
+2025-01-08 15:04:38.741 [info] 
+6.1.0 (mccabe: 0.7.0, pycodestyle: 2.11.1, pyflakes: 3.1.0) CPython 3.13.1 on
+Linux
+
+
+2025-01-08 15:04:38.748 [info] Version info for linter running for /root:
+6.1.0 (mccabe: 0.7.0, pycodestyle: 2.11.1, pyflakes: 3.1.0) CPython 3.13.1 on
+Linux
+
+2025-01-08 15:04:38.760 [info] SUPPORTED flake8>=5.0.0
+FOUND flake8==6.1.0
+
+2025-01-08 15:08:53.962 [info] [Trace - 3:08:53 PM] Sending notification 'textDocument/didOpen'.
+2025-01-08 15:08:53.966 [info] [Trace - 3:08:53 PM] Sending request 'textDocument/codeAction - (1)'.
+2025-01-08 15:08:53.971 [info] [Trace - 3:08:53 PM] Received notification 'window/logMessage'.
+2025-01-08 15:08:53.971 [info] /root/miniconda3/envs/mle-dev/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /root/pycode.py
+2025-01-08 15:08:53.971 [info] [Trace - 3:08:53 PM] Received notification 'window/logMessage'.
+2025-01-08 15:08:53.971 [info] CWD Linter: /root
+2025-01-08 15:08:54.016 [info] [Trace - 3:08:54 PM] Received notification 'textDocument/publishDiagnostics'.
+2025-01-08 15:08:54.018 [info] [Trace - 3:08:54 PM] Received response 'textDocument/codeAction - (1)' in 53ms.
+2025-01-08 15:08:54.172 [info] [Trace - 3:08:54 PM] Sending request 'textDocument/codeAction - (2)'.
+2025-01-08 15:08:54.175 [info] [Trace - 3:08:54 PM] Received response 'textDocument/codeAction - (2)' in 2ms.
+2025-01-08 15:08:54.572 [info] [Trace - 3:08:54 PM] Sending request 'textDocument/codeAction - (3)'.
+2025-01-08 15:08:54.574 [info] [Trace - 3:08:54 PM] Received response 'textDocument/codeAction - (3)' in 2ms.
+2025-01-08 15:08:55.930 [info] [Trace - 3:08:55 PM] Sending request 'textDocument/codeAction - (4)'.
+2025-01-08 15:08:55.932 [info] [Trace - 3:08:55 PM] Received response 'textDocument/codeAction - (4)' in 2ms.
+2025-01-08 15:08:58.825 [info] [Trace - 3:08:58 PM] Sending request 'textDocument/codeAction - (5)'.
+2025-01-08 15:08:58.828 [info] [Trace - 3:08:58 PM] Received response 'textDocument/codeAction - (5)' in 3ms.
+2025-01-08 15:08:59.845 [info] [Trace - 3:08:59 PM] Sending notification 'textDocument/didSave'.
+2025-01-08 15:08:59.848 [info] [Trace - 3:08:59 PM] Received notification 'window/logMessage'.
+2025-01-08 15:08:59.848 [info] /root/miniconda3/envs/mle-dev/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /root/pycode.py
+2025-01-08 15:08:59.848 [info] [Trace - 3:08:59 PM] Received notification 'window/logMessage'.
+2025-01-08 15:08:59.848 [info] CWD Linter: /root
+2025-01-08 15:08:59.866 [info] [Trace - 3:08:59 PM] Received notification 'textDocument/publishDiagnostics'.
+2025-01-08 15:09:01.397 [info] [Trace - 3:09:01 PM] Sending notification 'textDocument/didSave'.
+2025-01-08 15:09:01.399 [info] [Trace - 3:09:01 PM] Received notification 'window/logMessage'.
+2025-01-08 15:09:01.399 [info] /root/miniconda3/envs/mle-dev/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /root/pycode.py
+2025-01-08 15:09:01.400 [info] [Trace - 3:09:01 PM] Received notification 'window/logMessage'.
+2025-01-08 15:09:01.400 [info] CWD Linter: /root
+2025-01-08 15:09:01.415 [info] [Trace - 3:09:01 PM] Received notification 'textDocument/publishDiagnostics'.
+2025-01-08 15:09:03.983 [info] [Trace - 3:09:03 PM] Sending request 'textDocument/codeAction - (6)'.
+2025-01-08 15:09:03.985 [info] [Trace - 3:09:03 PM] Received response 'textDocument/codeAction - (6)' in 2ms.
+2025-01-08 15:09:05.485 [info] [Trace - 3:09:05 PM] Sending request 'textDocument/codeAction - (7)'.
+2025-01-08 15:09:05.487 [info] [Trace - 3:09:05 PM] Received response 'textDocument/codeAction - (7)' in 2ms.
+2025-01-08 15:10:05.183 [info] [Trace - 3:10:05 PM] Sending request 'textDocument/codeAction - (8)'.
+2025-01-08 15:10:05.185 [info] [Trace - 3:10:05 PM] Received response 'textDocument/codeAction - (8)' in 2ms.
+2025-01-08 15:11:03.787 [info] [Trace - 3:11:03 PM] Sending request 'textDocument/codeAction - (9)'.
+2025-01-08 15:11:03.789 [info] [Trace - 3:11:03 PM] Received response 'textDocument/codeAction - (9)' in 2ms.
+2025-01-08 15:11:03.955 [info] [Trace - 3:11:03 PM] Sending notification 'textDocument/didOpen'.
+2025-01-08 15:11:03.956 [info] [Trace - 3:11:03 PM] Sending notification 'textDocument/didClose'.
+2025-01-08 15:11:03.961 [info] [Trace - 3:11:03 PM] Received notification 'window/logMessage'.
+2025-01-08 15:11:03.961 [info] [Warn  - 3:11:03 PM] Skipping standard library file (stdlib excluded): /root/miniconda3/envs/mle-dev/lib/python3.13/site-packages/sklearn/ensemble/_forest.py
+2025-01-08 15:11:03.961 [info] [Trace - 3:11:03 PM] Received notification 'textDocument/publishDiagnostics'.
+2025-01-08 15:11:03.961 [info] [Trace - 3:11:03 PM] Received notification 'textDocument/publishDiagnostics'.
+2025-01-08 15:11:04.345 [info] [Trace - 3:11:04 PM] Sending notification 'textDocument/didSave'.
+2025-01-08 15:11:04.347 [info] [Trace - 3:11:04 PM] Received notification 'window/logMessage'.
+2025-01-08 15:11:04.347 [info] /root/miniconda3/envs/mle-dev/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /root/pycode.py
+2025-01-08 15:11:04.347 [info] [Trace - 3:11:04 PM] Received notification 'window/logMessage'.
+2025-01-08 15:11:04.347 [info] CWD Linter: /root
+2025-01-08 15:11:04.363 [info] [Trace - 3:11:04 PM] Received notification 'textDocument/publishDiagnostics'.
+2025-01-08 15:11:04.555 [info] [Trace - 3:11:04 PM] Sending notification 'textDocument/didOpen'.
+2025-01-08 15:11:04.555 [info] [Trace - 3:11:04 PM] Sending notification 'textDocument/didClose'.
+2025-01-08 15:11:04.558 [info] [Trace - 3:11:04 PM] Received notification 'window/logMessage'.
+2025-01-08 15:11:04.558 [info] [Warn  - 3:11:04 PM] Skipping standard library file (stdlib excluded): /root/miniconda3/envs/mle-dev/lib/python3.13/site-packages/sklearn/ensemble/_forest.py
+2025-01-08 15:11:04.558 [info] [Trace - 3:11:04 PM] Received notification 'textDocument/publishDiagnostics'.
+2025-01-08 15:11:04.559 [info] [Trace - 3:11:04 PM] Received notification 'textDocument/publishDiagnostics'.
+2025-01-08 15:11:04.919 [info] [Trace - 3:11:04 PM] Sending notification 'textDocument/didOpen'.
+2025-01-08 15:11:04.919 [info] [Trace - 3:11:04 PM] Sending notification 'textDocument/didClose'.
+2025-01-08 15:11:04.923 [info] [Trace - 3:11:04 PM] Received notification 'window/logMessage'.
+2025-01-08 15:11:04.923 [info] [Warn  - 3:11:04 PM] Skipping standard library file (stdlib excluded): /root/miniconda3/envs/mle-dev/lib/python3.13/site-packages/sklearn/ensemble/_forest.py
+2025-01-08 15:11:04.923 [info] [Trace - 3:11:04 PM] Received notification 'textDocument/publishDiagnostics'.
+2025-01-08 15:11:04.924 [info] [Trace - 3:11:04 PM] Received notification 'textDocument/publishDiagnostics'.
+2025-01-08 15:11:05.164 [info] [Trace - 3:11:05 PM] Sending notification 'textDocument/didSave'.
+2025-01-08 15:11:05.165 [info] [Trace - 3:11:05 PM] Received notification 'window/logMessage'.
+2025-01-08 15:11:05.165 [info] /root/miniconda3/envs/mle-dev/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /root/pycode.py
+2025-01-08 15:11:05.165 [info] [Trace - 3:11:05 PM] Received notification 'window/logMessage'.
+2025-01-08 15:11:05.165 [info] CWD Linter: /root
+2025-01-08 15:11:05.182 [info] [Trace - 3:11:05 PM] Received notification 'textDocument/publishDiagnostics'.
+2025-01-08 15:11:07.142 [info] [Trace - 3:11:07 PM] Sending request 'textDocument/codeAction - (10)'.
+2025-01-08 15:11:07.144 [info] [Trace - 3:11:07 PM] Received response 'textDocument/codeAction - (10)' in 2ms.
+2025-01-08 15:11:19.119 [info] [Trace - 3:11:19 PM] Sending notification 'textDocument/didChange'.
+2025-01-08 15:11:19.861 [info] [Trace - 3:11:19 PM] Sending request 'textDocument/codeAction - (11)'.
+2025-01-08 15:11:19.863 [info] [Trace - 3:11:19 PM] Received response 'textDocument/codeAction - (11)' in 2ms.
+2025-01-08 15:11:21.191 [info] [Trace - 3:11:21 PM] Sending request 'textDocument/codeAction - (12)'.
+2025-01-08 15:11:21.194 [info] [Trace - 3:11:21 PM] Received response 'textDocument/codeAction - (12)' in 3ms.
+2025-01-08 15:11:23.362 [info] [Trace - 3:11:23 PM] Sending request 'textDocument/codeAction - (13)'.
+2025-01-08 15:11:23.363 [info] [Trace - 3:11:23 PM] Received response 'textDocument/codeAction - (13)' in 1ms.
+2025-01-08 15:11:24.502 [info] [Trace - 3:11:24 PM] Sending notification 'textDocument/didChange'.
+2025-01-08 15:11:24.681 [info] [Trace - 3:11:24 PM] Sending notification 'textDocument/didChange'.
+2025-01-08 15:11:24.853 [info] [Trace - 3:11:24 PM] Sending notification 'textDocument/didChange'.
+2025-01-08 15:11:25.023 [info] [Trace - 3:11:25 PM] Sending notification 'textDocument/didChange'.
+2025-01-08 15:11:25.200 [info] [Trace - 3:11:25 PM] Sending notification 'textDocument/didChange'.
+2025-01-08 15:11:25.365 [info] [Trace - 3:11:25 PM] Sending notification 'textDocument/didChange'.
+2025-01-08 15:11:25.582 [info] [Trace - 3:11:25 PM] Sending notification 'textDocument/didChange'.
+2025-01-08 15:11:25.838 [info] [Trace - 3:11:25 PM] Sending notification 'textDocument/didChange'.
+2025-01-08 15:11:26.086 [info] [Trace - 3:11:26 PM] Sending request 'textDocument/codeAction - (14)'.
+2025-01-08 15:11:26.088 [info] [Trace - 3:11:26 PM] Received response 'textDocument/codeAction - (14)' in 3ms.
+2025-01-08 15:11:26.132 [info] [Trace - 3:11:26 PM] Sending notification 'textDocument/didChange'.
+2025-01-08 15:11:26.275 [info] [Trace - 3:11:26 PM] Sending notification 'textDocument/didChange'.
+2025-01-08 15:11:26.456 [info] [Trace - 3:11:26 PM] Sending notification 'textDocument/didChange'.
+2025-01-08 15:11:26.650 [info] [Trace - 3:11:26 PM] Sending notification 'textDocument/didChange'.
+2025-01-08 15:11:27.042 [info] [Trace - 3:11:27 PM] Sending notification 'textDocument/didChange'.
+2025-01-08 15:11:27.267 [info] [Trace - 3:11:27 PM] Sending notification 'textDocument/didChange'.
+2025-01-08 15:11:29.029 [info] [Trace - 3:11:29 PM] Sending notification 'textDocument/didChange'.
+2025-01-08 15:11:29.294 [info] [Trace - 3:11:29 PM] Sending request 'textDocument/codeAction - (15)'.
+2025-01-08 15:11:29.296 [info] [Trace - 3:11:29 PM] Received response 'textDocument/codeAction - (15)' in 2ms.
+2025-01-08 15:11:29.659 [info] [Trace - 3:11:29 PM] Sending request 'textDocument/codeAction - (16)'.
+2025-01-08 15:11:29.662 [info] [Trace - 3:11:29 PM] Received response 'textDocument/codeAction - (16)' in 3ms.
+2025-01-08 15:11:32.052 [info] [Trace - 3:11:32 PM] Sending request 'textDocument/codeAction - (17)'.
+2025-01-08 15:11:32.054 [info] [Trace - 3:11:32 PM] Received response 'textDocument/codeAction - (17)' in 1ms.
+2025-01-08 15:11:32.910 [info] [Trace - 3:11:32 PM] Sending notification 'textDocument/didChange'.
+2025-01-08 15:11:32.954 [info] [Trace - 3:11:32 PM] Sending notification 'textDocument/didSave'.
+2025-01-08 15:11:32.957 [info] [Trace - 3:11:32 PM] Received notification 'window/logMessage'.
+2025-01-08 15:11:32.957 [info] /root/miniconda3/envs/mle-dev/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /root/pycode.py
+2025-01-08 15:11:32.957 [info] [Trace - 3:11:32 PM] Received notification 'window/logMessage'.
+2025-01-08 15:11:32.957 [info] CWD Linter: /root
+2025-01-08 15:11:32.974 [info] [Trace - 3:11:32 PM] Received notification 'textDocument/publishDiagnostics'.
+2025-01-08 15:11:33.242 [info] [Trace - 3:11:33 PM] Sending notification 'textDocument/didSave'.
+2025-01-08 15:11:33.245 [info] [Trace - 3:11:33 PM] Received notification 'window/logMessage'.
+2025-01-08 15:11:33.245 [info] /root/miniconda3/envs/mle-dev/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /root/pycode.py
+2025-01-08 15:11:33.245 [info] [Trace - 3:11:33 PM] Received notification 'window/logMessage'.
+2025-01-08 15:11:33.245 [info] CWD Linter: /root
+2025-01-08 15:11:33.262 [info] [Trace - 3:11:33 PM] Received notification 'textDocument/publishDiagnostics'.
+2025-01-08 15:11:33.946 [info] [Trace - 3:11:33 PM] Sending notification 'textDocument/didSave'.
+2025-01-08 15:11:33.948 [info] [Trace - 3:11:33 PM] Received notification 'window/logMessage'.
+2025-01-08 15:11:33.948 [info] /root/miniconda3/envs/mle-dev/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /root/pycode.py
+2025-01-08 15:11:33.948 [info] [Trace - 3:11:33 PM] Received notification 'window/logMessage'.
+2025-01-08 15:11:33.948 [info] CWD Linter: /root
+2025-01-08 15:11:33.964 [info] [Trace - 3:11:33 PM] Received notification 'textDocument/publishDiagnostics'.
+2025-01-08 15:13:32.022 [info] /root/miniconda3/envs/mle-dev/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /root/pycode.py
+2025-01-08 15:13:32.022 [info] CWD Linter: /root
+2025-01-08 15:13:32.661 [info] /root/miniconda3/envs/mle-dev/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /root/pycode.py
+2025-01-08 15:13:32.661 [info] CWD Linter: /root

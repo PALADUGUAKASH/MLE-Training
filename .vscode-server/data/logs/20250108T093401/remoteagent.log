@@ -1,0 +1,132 @@
+2025-01-08 09:34:01.394 [info] 
+
+
+
+
+2025-01-08 09:34:01.407 [info] Extension host agent started.
+2025-01-08 09:34:01.808 [info] [127.0.0.1][ec7df75d][ManagementConnection] New connection established.
+2025-01-08 09:34:02.090 [info] [127.0.0.1][f37e949a][ExtensionHostConnection] New connection established.
+2025-01-08 09:34:02.771 [info] [127.0.0.1][f37e949a][ExtensionHostConnection] <276> Launched Extension Host Process.
+2025-01-08 09:34:03.082 [error] [network] #1: https://main.vscode-cdn.net/extensions/marketplace.json - error GET AggregateError [ETIMEDOUT]: 
+2025-01-08 09:36:15.339 [error] [network] #2: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST connect ETIMEDOUT 40.79.141.153:443
+2025-01-08 09:38:27.391 [info] Getting Manifest... ms-python.flake8
+2025-01-08 09:38:28.457 [error] [network] #3: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST connect ETIMEDOUT 20.189.173.14:443
+2025-01-08 09:38:50.533 [info] Getting Manifest... ms-python.isort
+2025-01-08 09:38:55.808 [info] Getting Manifest... ms-python.black-formatter
+2025-01-08 09:40:41.577 [error] [network] #4: https://ms-python.gallery.vsassets.io/_apis/public/gallery/publisher/ms-python/extension/flake8/2023.10.0/assetbyname/Microsoft.VisualStudio.Code.Manifest - error GET connect ETIMEDOUT 13.107.6.175:443
+2025-01-08 09:40:41.879 [error] [network] #7: https://ms-python.gallerycdn.vsassets.io/extensions/ms-python/flake8/2023.10.0/1699027596874/Microsoft.VisualStudio.Code.Manifest - error GET AggregateError [ETIMEDOUT]: 
+2025-01-08 09:40:52.390 [info] Downloaded extension to file:///root/.vscode-server/data/CachedExtensionVSIXs/1bcf291b-8fb2-48d9-844e-c05d55c3832a
+2025-01-08 09:40:52.426 [info] Installing extension: ms-python.python {"installPreReleaseVersion":false,"donotVerifySignature":false,"donotIncludePackAndDependencies":true,"keepExisting":true,"installOnlyNewlyAddedFromExtensionPack":false,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/root/.vscode-server/extensions/extensions.json","external":"file:///root/.vscode-server/extensions/extensions.json","path":"/root/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.96.2","date":"2024-12-19T10:22:47.216Z"}}
+2025-01-08 09:40:52.429 [info] Installing the extension without checking dependencies and pack ms-python.python
+2025-01-08 09:40:55.231 [info] Extracted extension to file:///root/.vscode-server/extensions/ms-python.python-2024.22.2: ms-python.python
+2025-01-08 09:40:55.417 [info] Renamed to /root/.vscode-server/extensions/ms-python.python-2024.22.2
+2025-01-08 09:40:55.439 [info] Extension installed successfully: ms-python.python file:///root/.vscode-server/extensions/extensions.json
+2025-01-08 09:40:55.717 [error] [network] #9: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST AggregateError [ETIMEDOUT]: 
+2025-01-08 09:40:55.802 [error] [network] #10: https://main.vscode-cdn.net/extensions/marketplace.json - error GET AggregateError [ETIMEDOUT]: 
+2025-01-08 09:40:58.997 [info] Downloaded extension to file:///root/.vscode-server/data/CachedExtensionVSIXs/f4a79b34-46be-4fc0-9339-597254f3a258
+2025-01-08 09:41:00.152 [info] Installing extension: ms-python.vscode-pylance {"installPreReleaseVersion":false,"donotVerifySignature":false,"donotIncludePackAndDependencies":true,"keepExisting":true,"installOnlyNewlyAddedFromExtensionPack":false,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/root/.vscode-server/extensions/extensions.json","external":"file:///root/.vscode-server/extensions/extensions.json","path":"/root/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.96.2","date":"2024-12-19T10:22:47.216Z"}}
+2025-01-08 09:41:00.153 [info] Installing the extension without checking dependencies and pack ms-python.vscode-pylance
+2025-01-08 09:41:02.057 [error] [network] #5: https://ms-python.gallery.vsassets.io/_apis/public/gallery/publisher/ms-python/extension/isort/2023.10.1/assetbyname/Microsoft.VisualStudio.Code.Manifest - error GET connect ETIMEDOUT 13.107.6.175:443
+2025-01-08 09:41:02.314 [error] [network] #12: https://ms-python.gallerycdn.vsassets.io/extensions/ms-python/isort/2023.10.1/1689206181823/Microsoft.VisualStudio.Code.Manifest - error GET AggregateError [ETIMEDOUT]: 
+2025-01-08 09:41:07.178 [error] [network] #6: https://ms-python.gallery.vsassets.io/_apis/public/gallery/publisher/ms-python/extension/black-formatter/2024.4.0/assetbyname/Microsoft.VisualStudio.Code.Manifest - error GET connect ETIMEDOUT 13.107.6.175:443
+2025-01-08 09:41:07.439 [error] [network] #13: https://ms-python.gallerycdn.vsassets.io/extensions/ms-python/black-formatter/2024.4.0/1728570031777/Microsoft.VisualStudio.Code.Manifest - error GET AggregateError [ETIMEDOUT]: 
+2025-01-08 09:41:08.857 [info] Extracted extension to file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2024.12.1: ms-python.vscode-pylance
+2025-01-08 09:41:09.499 [info] Renamed to /root/.vscode-server/extensions/ms-python.vscode-pylance-2024.12.1
+2025-01-08 09:41:09.517 [info] Extension installed successfully: ms-python.vscode-pylance file:///root/.vscode-server/extensions/extensions.json
+2025-01-08 09:41:09.772 [error] [network] #14: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST AggregateError [ETIMEDOUT]: 
+2025-01-08 09:41:11.090 [info] Downloaded extension to file:///root/.vscode-server/data/CachedExtensionVSIXs/b02ea844-68a7-435a-b29f-860ce1dd0b7b
+2025-01-08 09:41:11.098 [info] Installing extension: ms-python.python {"installPreReleaseVersion":false,"donotVerifySignature":false,"donotIncludePackAndDependencies":true,"keepExisting":true,"installOnlyNewlyAddedFromExtensionPack":false,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/root/.vscode-server/extensions/extensions.json","external":"file:///root/.vscode-server/extensions/extensions.json","path":"/root/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.96.2","date":"2024-12-19T10:22:47.216Z"}}
+2025-01-08 09:41:11.100 [info] Installing the extension without checking dependencies and pack ms-python.python
+2025-01-08 09:41:11.109 [info] Deleted existing extension from disk ms-python.python /root/.vscode-server/extensions/ms-python.python-2024.22.2
+2025-01-08 09:41:12.216 [info] Downloaded extension to file:///root/.vscode-server/data/CachedExtensionVSIXs/e25ae028-48fb-4e54-b61b-e3ac37af4e22
+2025-01-08 09:41:12.223 [info] Installing extension: ms-python.python {"installPreReleaseVersion":false,"donotVerifySignature":false,"donotIncludePackAndDependencies":true,"keepExisting":true,"installOnlyNewlyAddedFromExtensionPack":false,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/root/.vscode-server/extensions/extensions.json","external":"file:///root/.vscode-server/extensions/extensions.json","path":"/root/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.96.2","date":"2024-12-19T10:22:47.216Z"}}
+2025-01-08 09:41:12.224 [info] Installing the extension without checking dependencies and pack ms-python.python
+2025-01-08 09:41:12.790 [info] Downloaded extension to file:///root/.vscode-server/data/CachedExtensionVSIXs/5b87a084-30ed-49c7-890f-3b38944f5aa0
+2025-01-08 09:41:12.800 [info] Installing extension: ms-python.debugpy {"installPreReleaseVersion":false,"donotVerifySignature":false,"donotIncludePackAndDependencies":true,"keepExisting":true,"installOnlyNewlyAddedFromExtensionPack":false,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/root/.vscode-server/extensions/extensions.json","external":"file:///root/.vscode-server/extensions/extensions.json","path":"/root/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.96.2","date":"2024-12-19T10:22:47.216Z"}}
+2025-01-08 09:41:12.800 [info] Installing the extension without checking dependencies and pack ms-python.debugpy
+2025-01-08 09:41:14.192 [info] Extracted extension to file:///root/.vscode-server/extensions/ms-python.debugpy-2024.14.0: ms-python.debugpy
+2025-01-08 09:41:14.259 [info] Renamed to /root/.vscode-server/extensions/ms-python.debugpy-2024.14.0
+2025-01-08 09:41:14.291 [info] Extension installed successfully: ms-python.debugpy file:///root/.vscode-server/extensions/extensions.json
+2025-01-08 09:41:14.547 [error] [network] #15: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST AggregateError [ETIMEDOUT]: 
+2025-01-08 09:41:15.130 [info] Downloaded extension to file:///root/.vscode-server/data/CachedExtensionVSIXs/ef8fcfbd-31da-469d-aeb6-07400ff83ff8
+2025-01-08 09:41:15.244 [info] Installing extension: ms-python.flake8 {"installPreReleaseVersion":false,"donotVerifySignature":false,"donotIncludePackAndDependencies":true,"keepExisting":true,"installOnlyNewlyAddedFromExtensionPack":false,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/root/.vscode-server/extensions/extensions.json","external":"file:///root/.vscode-server/extensions/extensions.json","path":"/root/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.96.2","date":"2024-12-19T10:22:47.216Z"}}
+2025-01-08 09:41:15.244 [info] Installing the extension without checking dependencies and pack ms-python.flake8
+2025-01-08 09:41:15.851 [info] Extracted extension to file:///root/.vscode-server/extensions/ms-python.flake8-2023.10.0: ms-python.flake8
+2025-01-08 09:41:15.895 [info] Renamed to /root/.vscode-server/extensions/ms-python.flake8-2023.10.0
+2025-01-08 09:41:15.916 [info] Extension installed successfully: ms-python.flake8 file:///root/.vscode-server/extensions/extensions.json
+2025-01-08 09:41:16.053 [info] Extracted extension to file:///root/.vscode-server/extensions/ms-python.python-2024.22.2: ms-python.python
+2025-01-08 09:41:16.193 [error] [network] #16: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST AggregateError [ETIMEDOUT]: 
+2025-01-08 09:41:16.255 [info] Renamed to /root/.vscode-server/extensions/ms-python.python-2024.22.2
+2025-01-08 09:41:16.277 [info] Extension installed successfully: ms-python.python file:///root/.vscode-server/extensions/extensions.json
+2025-01-08 09:41:16.531 [error] [network] #17: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST AggregateError [ETIMEDOUT]: 
+2025-01-08 09:41:17.095 [info] Extracted extension to file:///root/.vscode-server/extensions/ms-python.python-2024.22.2: ms-python.python
+2025-01-08 09:41:17.273 [info] Rename failed because of ENOTEMPTY: directory not empty, rename '/root/.vscode-server/extensions/.0b1d0a61-0c08-4497-8030-005639860e63' -> '/root/.vscode-server/extensions/ms-python.python-2024.22.2'. Deleted from extracted location {"$mid":1,"fsPath":"/root/.vscode-server/extensions/.0b1d0a61-0c08-4497-8030-005639860e63","path":"/root/.vscode-server/extensions/.0b1d0a61-0c08-4497-8030-005639860e63","scheme":"file"}
+2025-01-08 09:41:17.274 [error] Error while installing the extension ms-python.python ENOTEMPTY: directory not empty, rename '/root/.vscode-server/extensions/.0b1d0a61-0c08-4497-8030-005639860e63' -> '/root/.vscode-server/extensions/ms-python.python-2024.22.2' file:///root/.vscode-server/extensions/extensions.json
+2025-01-08 09:41:21.995 [info] Downloaded extension to file:///root/.vscode-server/data/CachedExtensionVSIXs/b6f67acd-7198-4cdc-adbf-db4f7b307ca0
+2025-01-08 09:41:22.963 [info] Installing extension: ms-python.vscode-pylance {"installPreReleaseVersion":false,"donotVerifySignature":false,"donotIncludePackAndDependencies":true,"keepExisting":true,"installOnlyNewlyAddedFromExtensionPack":false,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/root/.vscode-server/extensions/extensions.json","external":"file:///root/.vscode-server/extensions/extensions.json","path":"/root/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.96.2","date":"2024-12-19T10:22:47.216Z"}}
+2025-01-08 09:41:22.964 [info] Installing the extension without checking dependencies and pack ms-python.vscode-pylance
+2025-01-08 09:41:22.971 [info] Deleted existing extension from disk ms-python.vscode-pylance /root/.vscode-server/extensions/ms-python.vscode-pylance-2024.12.1
+2025-01-08 09:41:29.887 [info] Extracted extension to file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2024.12.1: ms-python.vscode-pylance
+2025-01-08 09:41:30.404 [info] Renamed to /root/.vscode-server/extensions/ms-python.vscode-pylance-2024.12.1
+2025-01-08 09:41:30.421 [info] Extension installed successfully: ms-python.vscode-pylance file:///root/.vscode-server/extensions/extensions.json
+2025-01-08 09:41:30.698 [error] [network] #18: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST AggregateError [ETIMEDOUT]: 
+2025-01-08 09:41:33.617 [info] Downloaded extension to file:///root/.vscode-server/data/CachedExtensionVSIXs/6e013cde-bd86-476a-97ea-9a3a1858475e
+2025-01-08 09:41:33.624 [info] Installing extension: ms-python.debugpy {"installPreReleaseVersion":false,"donotVerifySignature":false,"donotIncludePackAndDependencies":true,"keepExisting":true,"installOnlyNewlyAddedFromExtensionPack":false,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/root/.vscode-server/extensions/extensions.json","external":"file:///root/.vscode-server/extensions/extensions.json","path":"/root/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.96.2","date":"2024-12-19T10:22:47.216Z"}}
+2025-01-08 09:41:33.625 [info] Installing the extension without checking dependencies and pack ms-python.debugpy
+2025-01-08 09:41:33.637 [info] Deleted existing extension from disk ms-python.debugpy /root/.vscode-server/extensions/ms-python.debugpy-2024.14.0
+2025-01-08 09:41:34.502 [info] Extracted extension to file:///root/.vscode-server/extensions/ms-python.debugpy-2024.14.0: ms-python.debugpy
+2025-01-08 09:41:34.537 [info] Renamed to /root/.vscode-server/extensions/ms-python.debugpy-2024.14.0
+2025-01-08 09:41:34.547 [info] Extension installed successfully: ms-python.debugpy file:///root/.vscode-server/extensions/extensions.json
+2025-01-08 09:41:34.821 [error] [network] #19: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST AggregateError [ETIMEDOUT]: 
+2025-01-08 09:41:35.440 [info] Downloaded extension to file:///root/.vscode-server/data/CachedExtensionVSIXs/e7c46622-7f93-440c-b445-5053999dbbff
+2025-01-08 09:41:35.489 [info] Installing extension: ms-python.isort {"installPreReleaseVersion":false,"donotVerifySignature":false,"donotIncludePackAndDependencies":true,"keepExisting":true,"installOnlyNewlyAddedFromExtensionPack":false,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/root/.vscode-server/extensions/extensions.json","external":"file:///root/.vscode-server/extensions/extensions.json","path":"/root/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.96.2","date":"2024-12-19T10:22:47.216Z"}}
+2025-01-08 09:41:35.490 [info] Installing the extension without checking dependencies and pack ms-python.isort
+2025-01-08 09:41:35.787 [info] Extracted extension to file:///root/.vscode-server/extensions/ms-python.isort-2023.10.1: ms-python.isort
+2025-01-08 09:41:35.821 [info] Renamed to /root/.vscode-server/extensions/ms-python.isort-2023.10.1
+2025-01-08 09:41:35.838 [info] Extension installed successfully: ms-python.isort file:///root/.vscode-server/extensions/extensions.json
+2025-01-08 09:41:36.092 [error] [network] #20: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST AggregateError [ETIMEDOUT]: 
+2025-01-08 09:41:50.555 [info] Getting Manifest... ms-python.black-formatter
+2025-01-08 09:42:59.827 [error] [network] #8: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST connect ETIMEDOUT 20.189.173.6:443
+2025-01-08 09:43:15.177 [error] [network] #11: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST connect ETIMEDOUT 20.50.201.205:443
+2025-01-08 09:44:01.257 [error] [network] #21: https://ms-python.gallery.vsassets.io/_apis/public/gallery/publisher/ms-python/extension/black-formatter/2024.4.0/assetbyname/Microsoft.VisualStudio.Code.Manifest - error GET connect ETIMEDOUT 13.107.6.175:443
+2025-01-08 09:44:01.695 [error] [network] #24: https://ms-python.gallerycdn.vsassets.io/extensions/ms-python/black-formatter/2024.4.0/1728570031777/Microsoft.VisualStudio.Code.Manifest - error GET AggregateError [ETIMEDOUT]: 
+2025-01-08 09:44:09.849 [info] Downloaded extension to file:///root/.vscode-server/data/CachedExtensionVSIXs/bc05f35a-e75c-4a06-97d5-7fe47e364d3b
+2025-01-08 09:44:09.859 [info] Installing extension: ms-python.python {"installPreReleaseVersion":false,"donotVerifySignature":false,"donotIncludePackAndDependencies":true,"keepExisting":true,"installOnlyNewlyAddedFromExtensionPack":false,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/root/.vscode-server/extensions/extensions.json","external":"file:///root/.vscode-server/extensions/extensions.json","path":"/root/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.96.2","date":"2024-12-19T10:22:47.216Z"}}
+2025-01-08 09:44:09.860 [info] Installing the extension without checking dependencies and pack ms-python.python
+2025-01-08 09:44:09.884 [info] Deleted existing extension from disk ms-python.python /root/.vscode-server/extensions/ms-python.python-2024.22.2
+2025-01-08 09:44:12.867 [info] Extracted extension to file:///root/.vscode-server/extensions/ms-python.python-2024.22.2: ms-python.python
+2025-01-08 09:44:13.092 [info] Renamed to /root/.vscode-server/extensions/ms-python.python-2024.22.2
+2025-01-08 09:44:13.125 [info] Extension installed successfully: ms-python.python file:///root/.vscode-server/extensions/extensions.json
+2025-01-08 09:44:13.417 [error] [network] #25: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST AggregateError [ETIMEDOUT]: 
+2025-01-08 09:44:21.266 [info] Downloaded extension to file:///root/.vscode-server/data/CachedExtensionVSIXs/610d8bc3-6f0d-4cbd-8a2e-f335d741f74c
+2025-01-08 09:44:22.636 [info] Installing extension: ms-python.vscode-pylance {"installPreReleaseVersion":false,"donotVerifySignature":false,"donotIncludePackAndDependencies":true,"keepExisting":true,"installOnlyNewlyAddedFromExtensionPack":false,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/root/.vscode-server/extensions/extensions.json","external":"file:///root/.vscode-server/extensions/extensions.json","path":"/root/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.96.2","date":"2024-12-19T10:22:47.216Z"}}
+2025-01-08 09:44:22.637 [info] Installing the extension without checking dependencies and pack ms-python.vscode-pylance
+2025-01-08 09:44:22.659 [info] Deleted existing extension from disk ms-python.vscode-pylance /root/.vscode-server/extensions/ms-python.vscode-pylance-2024.12.1
+2025-01-08 09:44:30.884 [info] Extracted extension to file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2024.12.1: ms-python.vscode-pylance
+2025-01-08 09:44:31.325 [info] Renamed to /root/.vscode-server/extensions/ms-python.vscode-pylance-2024.12.1
+2025-01-08 09:44:31.347 [info] Extension installed successfully: ms-python.vscode-pylance file:///root/.vscode-server/extensions/extensions.json
+2025-01-08 09:44:31.620 [error] [network] #26: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST AggregateError [ETIMEDOUT]: 
+2025-01-08 09:44:34.637 [info] Downloaded extension to file:///root/.vscode-server/data/CachedExtensionVSIXs/87145f59-bd4d-4253-95bb-1e990f11f8f3
+2025-01-08 09:44:34.641 [info] Installing extension: ms-python.debugpy {"installPreReleaseVersion":false,"donotVerifySignature":false,"donotIncludePackAndDependencies":true,"keepExisting":true,"installOnlyNewlyAddedFromExtensionPack":false,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/root/.vscode-server/extensions/extensions.json","external":"file:///root/.vscode-server/extensions/extensions.json","path":"/root/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.96.2","date":"2024-12-19T10:22:47.216Z"}}
+2025-01-08 09:44:34.642 [info] Installing the extension without checking dependencies and pack ms-python.debugpy
+2025-01-08 09:44:34.667 [info] Deleted existing extension from disk ms-python.debugpy /root/.vscode-server/extensions/ms-python.debugpy-2024.14.0
+2025-01-08 09:44:35.341 [info] Extracted extension to file:///root/.vscode-server/extensions/ms-python.debugpy-2024.14.0: ms-python.debugpy
+2025-01-08 09:44:35.378 [info] Renamed to /root/.vscode-server/extensions/ms-python.debugpy-2024.14.0
+2025-01-08 09:44:35.405 [info] Extension installed successfully: ms-python.debugpy file:///root/.vscode-server/extensions/extensions.json
+2025-01-08 09:44:35.662 [error] [network] #27: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST AggregateError [ETIMEDOUT]: 
+2025-01-08 09:44:36.249 [info] Downloaded extension to file:///root/.vscode-server/data/CachedExtensionVSIXs/40543fd0-a674-4db2-a70b-050b1e9a3e89
+2025-01-08 09:44:36.257 [info] Installing extension: ms-python.black-formatter {"installPreReleaseVersion":false,"donotVerifySignature":false,"donotIncludePackAndDependencies":true,"keepExisting":true,"installOnlyNewlyAddedFromExtensionPack":false,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/root/.vscode-server/extensions/extensions.json","external":"file:///root/.vscode-server/extensions/extensions.json","path":"/root/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.96.2","date":"2024-12-19T10:22:47.216Z"}}
+2025-01-08 09:44:36.257 [info] Installing the extension without checking dependencies and pack ms-python.black-formatter
+2025-01-08 09:44:36.703 [info] Extracted extension to file:///root/.vscode-server/extensions/ms-python.black-formatter-2024.4.0: ms-python.black-formatter
+2025-01-08 09:44:36.741 [info] Renamed to /root/.vscode-server/extensions/ms-python.black-formatter-2024.4.0
+2025-01-08 09:44:36.765 [info] Extension installed successfully: ms-python.black-formatter file:///root/.vscode-server/extensions/extensions.json
+2025-01-08 09:44:37.023 [error] [network] #28: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST AggregateError [ETIMEDOUT]: 
+2025-01-08 09:45:12.938 [error] [network] #22: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST connect ETIMEDOUT 13.89.179.11:443
+2025-01-08 09:45:28.296 [error] [network] #23: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST connect ETIMEDOUT 13.89.179.11:443
+2025-01-08 09:47:31.178 [error] [network] #29: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST connect ETIMEDOUT 20.42.73.24:443
+2025-01-08 09:49:44.298 [error] [network] #30: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST connect ETIMEDOUT 20.189.173.3:443
+2025-01-08 09:52:38.377 [error] [network] #31: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST connect ETIMEDOUT 51.105.71.136:443
+2025-01-08 09:54:51.498 [error] [network] #32: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST connect ETIMEDOUT 20.42.65.89:443
+2025-01-08 09:57:33.245 [error] [network] #33: https://main.vscode-cdn.net/extensions/marketplace.json - error GET AggregateError [ETIMEDOUT]: 
+2025-01-08 10:56:36.123 [info] [127.0.0.1][ec7df75d][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-01-08 10:56:36.452 [info] [127.0.0.1][f37e949a][ExtensionHostConnection] <276> Extension Host Process exited with code: 0, signal: null.
