@@ -2,7 +2,7 @@
 	name = AKASHVENKAT
 	email = akashvenkat.pala@tigeranalytics.com
 [core]
-	editor = 'C:/Program Files/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin
+	editor = 'C:/Program Files/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin'
 [init]
 	defaultBranch = main
 [alias]
