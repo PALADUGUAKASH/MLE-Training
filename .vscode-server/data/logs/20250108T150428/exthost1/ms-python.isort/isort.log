@@ -1,0 +1,172 @@
+2025-01-08 15:08:54.020 [info] Name: isort
+2025-01-08 15:08:54.020 [info] Module: isort
+2025-01-08 15:08:54.020 [info] Python extension loading
+2025-01-08 15:08:54.020 [info] Waiting for interpreter from python extension.
+2025-01-08 15:08:54.020 [info] No interpreter found from setting isort.interpreter
+2025-01-08 15:08:54.020 [info] Getting interpreter from ms-python.python extension for workspace /root
+2025-01-08 15:08:54.020 [info] Python extension loaded
+2025-01-08 15:08:54.020 [info] Interpreter from ms-python.python extension for /root: /root/miniconda3/envs/mle-dev/bin/python
+2025-01-08 15:08:54.020 [info] Using legacy configuration form 'python.sortImports.args': --profile black.
+2025-01-08 15:08:54.020 [info] Using legacy configuration form 'python.sortImports.path': ./path/to/isort
+2025-01-08 15:08:54.020 [info] No interpreter found from setting isort.interpreter
+2025-01-08 15:08:54.020 [info] Getting interpreter from ms-python.python extension for workspace /root
+2025-01-08 15:08:54.020 [info] Interpreter from ms-python.python extension for /root: /root/miniconda3/envs/mle-dev/bin/python
+2025-01-08 15:08:54.020 [info] Using legacy configuration form 'python.sortImports.args': --profile black.
+2025-01-08 15:08:54.020 [info] Using legacy configuration form 'python.sortImports.path': ./path/to/isort
+2025-01-08 15:08:54.020 [info] Server run command: /root/miniconda3/envs/mle-dev/bin/python /root/.vscode-server/extensions/ms-python.isort-2023.10.1/bundled/tool/lsp_server.py
+2025-01-08 15:08:54.020 [info] Server: Start requested.
+2025-01-08 15:08:54.543 [info] CWD Server: /root
+2025-01-08 15:08:54.543 [info] sys.path used to run Server:
+   /root/.vscode-server/extensions/ms-python.isort-2023.10.1/bundled/libs
+   /root/.vscode-server/extensions/ms-python.isort-2023.10.1/bundled/tool
+   /root/miniconda3/envs/mle-dev/lib/python313.zip
+   /root/miniconda3/envs/mle-dev/lib/python3.13
+   /root/miniconda3/envs/mle-dev/lib/python3.13/lib-dynload
+   /root/miniconda3/envs/mle-dev/lib/python3.13/site-packages
+2025-01-08 15:08:54.543 [info] Settings used to run Server:
+[
+    {
+        "check": false,
+        "cwd": "/root",
+        "workspace": "file:///root",
+        "args": [
+            "--profile",
+            "black"
+        ],
+        "path": [
+            "./path/to/isort"
+        ],
+        "severity": {
+            "W": "Warning",
+            "E": "Hint"
+        },
+        "interpreter": [
+            "/root/miniconda3/envs/mle-dev/bin/python"
+        ],
+        "importStrategy": "useBundled",
+        "showNotifications": "off"
+    }
+]
+
+2025-01-08 15:08:54.543 [info] Global settings:
+{
+    "check": false,
+    "cwd": "/mnt/c/Users/akashvenkat.pala/AppData/Local/Programs/Microsoft VS Code",
+    "workspace": "/mnt/c/Users/akashvenkat.pala/AppData/Local/Programs/Microsoft VS Code",
+    "args": [],
+    "path": [],
+    "severity": {
+        "W": "Warning",
+        "E": "Hint"
+    },
+    "interpreter": [],
+    "importStrategy": "useBundled",
+    "showNotifications": "off"
+}
+
+2025-01-08 15:08:54.550 [info] ./path/to/isort --version-number
+2025-01-08 15:08:54.550 [info] CWD Server: /root
+2025-01-08 15:08:54.554 [info] Error while detecting isort version:
+Traceback (most recent call last):
+  File "/root/.vscode-server/extensions/ms-python.isort-2023.10.1/bundled/tool/lsp_server.py", line 419, in _log_version_info
+    result = _run_tool(["--version-number"], settings)
+  File "/root/.vscode-server/extensions/ms-python.isort-2023.10.1/bundled/tool/lsp_server.py", line 690, in _run_tool
+    result = utils.run_path(argv=argv, use_stdin=True, cwd=cwd)
+  File "/root/.vscode-server/extensions/ms-python.isort-2023.10.1/bundled/tool/lsp_utils.py", line 157, in run_path
+    with subprocess.Popen(
+         ~~~~~~~~~~~~~~~~^
+        argv,
+        ^^^^^
+    ...<4 lines>...
+        cwd=cwd,
+        ^^^^^^^^
+    ) as process:
+    ^
+  File "/root/miniconda3/envs/mle-dev/lib/python3.13/subprocess.py", line 1038, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        pass_fds, cwd, env,
+                        ^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+                        gid, gids, uid, umask,
+                        ^^^^^^^^^^^^^^^^^^^^^^
+                        start_new_session, process_group)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/envs/mle-dev/lib/python3.13/subprocess.py", line 1968, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: './path/to/isort'
+
+2025-01-08 15:08:54.566 [info] [Trace - 3:08:54 PM] Received notification 'textDocument/publishDiagnostics'.
+2025-01-08 15:08:54.572 [info] [Trace - 3:08:54 PM] Sending request 'textDocument/codeAction - (1)'.
+2025-01-08 15:08:54.576 [info] [Trace - 3:08:54 PM] Received response 'textDocument/codeAction - (1)' in 4ms.
+2025-01-08 15:08:55.930 [info] [Trace - 3:08:55 PM] Sending request 'textDocument/codeAction - (2)'.
+2025-01-08 15:08:55.932 [info] [Trace - 3:08:55 PM] Received response 'textDocument/codeAction - (2)' in 2ms.
+2025-01-08 15:08:58.825 [info] [Trace - 3:08:58 PM] Sending request 'textDocument/codeAction - (3)'.
+2025-01-08 15:08:58.827 [info] [Trace - 3:08:58 PM] Received response 'textDocument/codeAction - (3)' in 2ms.
+2025-01-08 15:08:59.845 [info] [Trace - 3:08:59 PM] Sending notification 'textDocument/didSave'.
+2025-01-08 15:08:59.848 [info] [Trace - 3:08:59 PM] Received notification 'textDocument/publishDiagnostics'.
+2025-01-08 15:09:01.397 [info] [Trace - 3:09:01 PM] Sending notification 'textDocument/didSave'.
+2025-01-08 15:09:01.399 [info] [Trace - 3:09:01 PM] Received notification 'textDocument/publishDiagnostics'.
+2025-01-08 15:09:03.983 [info] [Trace - 3:09:03 PM] Sending request 'textDocument/codeAction - (4)'.
+2025-01-08 15:09:03.985 [info] [Trace - 3:09:03 PM] Received response 'textDocument/codeAction - (4)' in 2ms.
+2025-01-08 15:09:05.485 [info] [Trace - 3:09:05 PM] Sending request 'textDocument/codeAction - (5)'.
+2025-01-08 15:09:05.487 [info] [Trace - 3:09:05 PM] Received response 'textDocument/codeAction - (5)' in 2ms.
+2025-01-08 15:10:05.183 [info] [Trace - 3:10:05 PM] Sending request 'textDocument/codeAction - (6)'.
+2025-01-08 15:10:05.185 [info] [Trace - 3:10:05 PM] Received response 'textDocument/codeAction - (6)' in 3ms.
+2025-01-08 15:11:03.787 [info] [Trace - 3:11:03 PM] Sending request 'textDocument/codeAction - (7)'.
+2025-01-08 15:11:03.789 [info] [Trace - 3:11:03 PM] Received response 'textDocument/codeAction - (7)' in 2ms.
+2025-01-08 15:11:03.956 [info] [Trace - 3:11:03 PM] Sending notification 'textDocument/didOpen'.
+2025-01-08 15:11:03.956 [info] [Trace - 3:11:03 PM] Sending notification 'textDocument/didClose'.
+2025-01-08 15:11:03.961 [info] [Trace - 3:11:03 PM] Received notification 'textDocument/publishDiagnostics'.
+2025-01-08 15:11:03.962 [info] [Trace - 3:11:03 PM] Received notification 'textDocument/publishDiagnostics'.
+2025-01-08 15:11:04.345 [info] [Trace - 3:11:04 PM] Sending notification 'textDocument/didSave'.
+2025-01-08 15:11:04.347 [info] [Trace - 3:11:04 PM] Received notification 'textDocument/publishDiagnostics'.
+2025-01-08 15:11:04.555 [info] [Trace - 3:11:04 PM] Sending notification 'textDocument/didOpen'.
+2025-01-08 15:11:04.555 [info] [Trace - 3:11:04 PM] Sending notification 'textDocument/didClose'.
+2025-01-08 15:11:04.559 [info] [Trace - 3:11:04 PM] Received notification 'textDocument/publishDiagnostics'.
+2025-01-08 15:11:04.560 [info] [Trace - 3:11:04 PM] Received notification 'textDocument/publishDiagnostics'.
+2025-01-08 15:11:04.919 [info] [Trace - 3:11:04 PM] Sending notification 'textDocument/didOpen'.
+2025-01-08 15:11:04.919 [info] [Trace - 3:11:04 PM] Sending notification 'textDocument/didClose'.
+2025-01-08 15:11:04.923 [info] [Trace - 3:11:04 PM] Received notification 'textDocument/publishDiagnostics'.
+2025-01-08 15:11:04.924 [info] [Trace - 3:11:04 PM] Received notification 'textDocument/publishDiagnostics'.
+2025-01-08 15:11:05.164 [info] [Trace - 3:11:05 PM] Sending notification 'textDocument/didSave'.
+2025-01-08 15:11:05.165 [info] [Trace - 3:11:05 PM] Received notification 'textDocument/publishDiagnostics'.
+2025-01-08 15:11:07.142 [info] [Trace - 3:11:07 PM] Sending request 'textDocument/codeAction - (8)'.
+2025-01-08 15:11:07.144 [info] [Trace - 3:11:07 PM] Received response 'textDocument/codeAction - (8)' in 2ms.
+2025-01-08 15:11:19.119 [info] [Trace - 3:11:19 PM] Sending notification 'textDocument/didChange'.
+2025-01-08 15:11:19.861 [info] [Trace - 3:11:19 PM] Sending request 'textDocument/codeAction - (9)'.
+2025-01-08 15:11:19.863 [info] [Trace - 3:11:19 PM] Received response 'textDocument/codeAction - (9)' in 2ms.
+2025-01-08 15:11:21.191 [info] [Trace - 3:11:21 PM] Sending request 'textDocument/codeAction - (10)'.
+2025-01-08 15:11:21.193 [info] [Trace - 3:11:21 PM] Received response 'textDocument/codeAction - (10)' in 2ms.
+2025-01-08 15:11:23.362 [info] [Trace - 3:11:23 PM] Sending request 'textDocument/codeAction - (11)'.
+2025-01-08 15:11:23.363 [info] [Trace - 3:11:23 PM] Received response 'textDocument/codeAction - (11)' in 1ms.
+2025-01-08 15:11:24.502 [info] [Trace - 3:11:24 PM] Sending notification 'textDocument/didChange'.
+2025-01-08 15:11:24.682 [info] [Trace - 3:11:24 PM] Sending notification 'textDocument/didChange'.
+2025-01-08 15:11:24.853 [info] [Trace - 3:11:24 PM] Sending notification 'textDocument/didChange'.
+2025-01-08 15:11:25.023 [info] [Trace - 3:11:25 PM] Sending notification 'textDocument/didChange'.
+2025-01-08 15:11:25.201 [info] [Trace - 3:11:25 PM] Sending notification 'textDocument/didChange'.
+2025-01-08 15:11:25.365 [info] [Trace - 3:11:25 PM] Sending notification 'textDocument/didChange'.
+2025-01-08 15:11:25.583 [info] [Trace - 3:11:25 PM] Sending notification 'textDocument/didChange'.
+2025-01-08 15:11:25.838 [info] [Trace - 3:11:25 PM] Sending notification 'textDocument/didChange'.
+2025-01-08 15:11:26.086 [info] [Trace - 3:11:26 PM] Sending request 'textDocument/codeAction - (12)'.
+2025-01-08 15:11:26.088 [info] [Trace - 3:11:26 PM] Received response 'textDocument/codeAction - (12)' in 3ms.
+2025-01-08 15:11:26.132 [info] [Trace - 3:11:26 PM] Sending notification 'textDocument/didChange'.
+2025-01-08 15:11:26.275 [info] [Trace - 3:11:26 PM] Sending notification 'textDocument/didChange'.
+2025-01-08 15:11:26.456 [info] [Trace - 3:11:26 PM] Sending notification 'textDocument/didChange'.
+2025-01-08 15:11:26.650 [info] [Trace - 3:11:26 PM] Sending notification 'textDocument/didChange'.
+2025-01-08 15:11:27.042 [info] [Trace - 3:11:27 PM] Sending notification 'textDocument/didChange'.
+2025-01-08 15:11:27.267 [info] [Trace - 3:11:27 PM] Sending notification 'textDocument/didChange'.
+2025-01-08 15:11:29.030 [info] [Trace - 3:11:29 PM] Sending notification 'textDocument/didChange'.
+2025-01-08 15:11:29.294 [info] [Trace - 3:11:29 PM] Sending request 'textDocument/codeAction - (13)'.
+2025-01-08 15:11:29.296 [info] [Trace - 3:11:29 PM] Received response 'textDocument/codeAction - (13)' in 2ms.
+2025-01-08 15:11:29.659 [info] [Trace - 3:11:29 PM] Sending request 'textDocument/codeAction - (14)'.
+2025-01-08 15:11:29.661 [info] [Trace - 3:11:29 PM] Received response 'textDocument/codeAction - (14)' in 2ms.
+2025-01-08 15:11:32.052 [info] [Trace - 3:11:32 PM] Sending request 'textDocument/codeAction - (15)'.
+2025-01-08 15:11:32.054 [info] [Trace - 3:11:32 PM] Received response 'textDocument/codeAction - (15)' in 2ms.
+2025-01-08 15:11:32.910 [info] [Trace - 3:11:32 PM] Sending notification 'textDocument/didChange'.
+2025-01-08 15:11:32.954 [info] [Trace - 3:11:32 PM] Sending notification 'textDocument/didSave'.
+2025-01-08 15:11:32.957 [info] [Trace - 3:11:32 PM] Received notification 'textDocument/publishDiagnostics'.
+2025-01-08 15:11:33.243 [info] [Trace - 3:11:33 PM] Sending notification 'textDocument/didSave'.
+2025-01-08 15:11:33.245 [info] [Trace - 3:11:33 PM] Received notification 'textDocument/publishDiagnostics'.
+2025-01-08 15:11:33.946 [info] [Trace - 3:11:33 PM] Sending notification 'textDocument/didSave'.
+2025-01-08 15:11:33.948 [info] [Trace - 3:11:33 PM] Received notification 'textDocument/publishDiagnostics'.

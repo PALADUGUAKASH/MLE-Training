@@ -1,0 +1,20 @@
+{
+    // Enable Flake8 as the linter
+    "python.linting.enabled": true,
+    "python.linting.flake8Enabled": true,
+    // Configure auto-import sorting using isort
+    "python.sortImports.path": "isort",
+    "python.sortImports.args": [],
+    // Enable auto-formatting with black
+    "python.formatting.provider": "black",
+    // Default code style options
+    "editor.tabSize": 4, // 4 spaces for tabs
+    "editor.insertSpaces": true, // Insert spaces instead of tabs
+    "editor.trimAutoWhitespace": true, // Remove trailing whitespaces
+    // Enable auto-format on save
+    "editor.formatOnSave": true,
+    // Optional: Format code on paste
+    "editor.formatOnPaste": true,
+    // Enable linting on save
+    "python.linting.lintOnSave": true
+}

@@ -1,0 +1,23 @@
+2025-01-08 15:04:30.664 [info] Extension host with pid 128 started
+2025-01-08 15:04:30.673 [info] Lock '/root/.vscode-server/data/User/workspaceStorage/1bb1d91f562616391abef18f20fb134a/vscode.lock': Lock acquired.
+2025-01-08 15:04:30.690 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-01-08 15:04:30.697 [info] ExtensionService#_doActivateExtension ms-python.python, startup: true, activationEvent: 'workspaceContains:.flake8', root cause: ms-python.flake8
+2025-01-08 15:04:30.855 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-01-08 15:04:30.855 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-01-08 15:04:31.023 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-01-08 15:04:32.357 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-01-08 15:04:32.357 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-01-08 15:04:32.358 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-01-08 15:04:37.316 [info] ExtensionService#_doActivateExtension ms-python.flake8, startup: true, activationEvent: 'workspaceContains:.flake8'
+2025-01-08 15:04:37.316 [info] ExtensionService#_doActivateExtension ms-python.black-formatter, startup: true, activationEvent: 'workspaceContains:*.py'
+2025-01-08 15:04:37.385 [info] Eager extensions activated
+2025-01-08 15:04:37.385 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-01-08 15:04:37.385 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-01-08 15:04:37.405 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'api', root cause: ms-python.python
+2025-01-08 15:04:37.520 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'api', root cause: ms-python.python
+2025-01-08 15:04:38.202 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2025-01-08 15:04:38.829 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10005
+2025-01-08 15:08:53.926 [info] ExtensionService#_doActivateExtension ms-python.isort, startup: false, activationEvent: 'onLanguage:python'
+2025-01-08 15:13:19.233 [warning] vscode.json-language-features - Code actions of kind 'quickfix' requested but returned code action is of kind 'source.sort.json'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-01-08 15:13:34.385 [warning] vscode.json-language-features - Code actions of kind 'quickfix' requested but returned code action is of kind 'source.sort.json'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-01-08 15:13:41.116 [warning] vscode.json-language-features - Code actions of kind 'quickfix' requested but returned code action is of kind 'source.sort.json'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.

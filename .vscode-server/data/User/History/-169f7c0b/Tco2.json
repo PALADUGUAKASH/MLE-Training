@@ -1,0 +1,33 @@
+{
+    // Set Python interpreter for the workspace
+    "python.pythonPath": "/root/miniconda3/envs/mle-dev/bin/python",
+    // Enable auto-formatting and sort imports on save
+    "editor.formatOnSave": true, // Automatically format the file on save
+    "editor.formatOnSaveMode": "file", // Ensure formatting applies to entire file
+    // Enable sorting imports automatically on save
+    "python.sortImports.onSave": true,
+    // Enable linting and use Flake8
+    "python.linting.enabled": true,
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Args": [
+        "--max-line-length=90"
+    ],
+    // Enable black as the auto-formatter with custom arguments
+    "python.formatting.provider": "black",
+    "python.formatting.blackArgs": [
+        "--line-length",
+        "90"
+    ],
+    // Enable isort for sorting imports with custom arguments
+    "python.sortImports.path": "isort",
+    "python.sortImports.args": [
+        "--profile",
+        "black"
+    ],
+    // Automatically remove trailing whitespaces
+    "editor.trimAutoWhitespace": true,
+    // Tab settings: 4 spaces per tab
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "json.schemas": []
+}

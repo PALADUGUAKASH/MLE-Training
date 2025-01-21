@@ -1,0 +1,72 @@
+2025-01-08 11:03:58.130 [warning] Dir "/root/.pixi/envs" is not watchable (directory does not exist)
+2025-01-08 11:03:58.319 [info] Python interpreter path: ./miniconda3/envs/mle-dev/bin/python
+2025-01-08 11:03:58.434 [info] > pyenv which python
+2025-01-08 11:03:58.434 [info] cwd: .
+2025-01-08 11:04:11.333 [info] Starting Pylance language server.
+2025-01-08 11:04:11.339 [info] > conda info --json
+2025-01-08 11:08:04.345 [info] Discover tests for workspace name: undefined - uri: c:/Users/akashvenkat.pala/AppData/Roaming/Code/User/settings.json
+2025-01-08 11:08:05.116 [info] Discover tests for workspace name: undefined - uri: c:/Users/akashvenkat.pala/AppData/Roaming/Code/User/settings.json
+2025-01-08 11:11:09.262 [info] Discover tests for workspace name: root - uri: /root/.vscode/settings.json
+2025-01-08 11:12:21.580 [info] Discover tests for workspace name: root - uri: /root/pycode.py
+2025-01-08 11:12:23.115 [info] Discover tests for workspace name: root - uri: /root/pycode.py
+2025-01-08 11:12:24.160 [info] Discover tests for workspace name: root - uri: /root/pycode.py
+2025-01-08 11:12:25.537 [info] Discover tests for workspace name: root - uri: /root/pycode.py
+2025-01-08 11:12:44.142 [info] Discover tests for workspace name: root - uri: /root/.vscode/settings.json
+2025-01-08 11:20:26.410 [info] Discover tests for workspace name: root - uri: /root/.vscode/settings.json
+2025-01-08 11:21:31.661 [info] Discover tests for workspace name: root - uri: /root/pycode.py
+2025-01-08 11:21:31.934 [info] Discover tests for workspace name: root - uri: /root/pycode.py
+2025-01-08 11:21:32.724 [info] Discover tests for workspace name: root - uri: /root/pycode.py
+2025-01-08 11:22:31.251 [info] > conda info --json
+2025-01-08 11:22:31.960 [info] Send text to terminal: conda activate mle-dev
+2025-01-08 11:23:56.894 [info] Starting Environment refresh
+2025-01-08 11:23:56.894 [info] Searching for interpreters in posix paths locator
+2025-01-08 11:23:56.897 [info] Searching for pyenv environments
+2025-01-08 11:23:56.897 [info] Searching for conda environments
+2025-01-08 11:23:56.897 [info] Searching for global virtual environments
+2025-01-08 11:23:56.897 [info] Searching for custom virtual environments
+2025-01-08 11:23:56.949 [info] > conda info --json
+2025-01-08 11:23:56.949 [info] > hatch env show --json
+2025-01-08 11:23:56.949 [info] cwd: .
+2025-01-08 11:23:56.955 [info] pyenv is not installed
+2025-01-08 11:23:56.955 [info] Finished searching for pyenv environments: 59 milliseconds
+2025-01-08 11:23:56.955 [info] Finished searching for custom virtual envs: 59 milliseconds
+2025-01-08 11:23:56.961 [info] Finished searching for global virtual envs: 65 milliseconds
+2025-01-08 11:23:56.977 [info] Found: /bin/python3 --> /bin/python3.12
+2025-01-08 11:23:56.977 [info] Found: /bin/python3.12 --> /bin/python3.12
+2025-01-08 11:23:56.999 [info] Found: /usr/bin/python3 --> /usr/bin/python3.12
+2025-01-08 11:23:56.999 [info] Found: /usr/bin/python3.12 --> /usr/bin/python3.12
+2025-01-08 11:23:57.012 [info] Found: /root/miniconda3/bin/python --> /root/miniconda3/bin/python3.12
+2025-01-08 11:23:57.014 [info] Found: /root/miniconda3/bin/python3 --> /root/miniconda3/bin/python3.12
+2025-01-08 11:23:57.015 [info] Found: /root/miniconda3/bin/python3.1 --> /root/miniconda3/bin/python3.12
+2025-01-08 11:23:57.015 [info] Found: /root/miniconda3/bin/python3.12 --> /root/miniconda3/bin/python3.12
+2025-01-08 11:23:57.880 [info] > ./miniconda3/envs/mle-dev/bin/python -I ./.vscode-server/extensions/ms-python.python-2024.22.2/python_files/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2024.22.2/python_files/interpreterInfo.py
+2025-01-08 11:23:57.888 [info] > ./miniconda3/bin/python -I ./.vscode-server/extensions/ms-python.python-2024.22.2/python_files/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2024.22.2/python_files/interpreterInfo.py
+2025-01-08 11:23:57.918 [info] Finished searching for conda environments: 1023 milliseconds
+2025-01-08 11:23:57.929 [info] > /bin/python3 -I ./.vscode-server/extensions/ms-python.python-2024.22.2/python_files/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2024.22.2/python_files/interpreterInfo.py
+2025-01-08 11:23:57.957 [info] Finished searching for interpreters in posix paths locator: 1064 milliseconds
+2025-01-08 11:23:57.957 [info] > /usr/bin/python3 -I ./.vscode-server/extensions/ms-python.python-2024.22.2/python_files/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2024.22.2/python_files/interpreterInfo.py
+2025-01-08 11:23:57.959 [info] Environments refresh paths discovered (event): 1069 milliseconds
+2025-01-08 11:23:57.959 [info] Environments refresh paths discovered: 1070 milliseconds
+2025-01-08 11:23:58.007 [info] Environments refresh finished (event): 1118 milliseconds
+2025-01-08 11:23:58.018 [info] Environment refresh took 1130 milliseconds
+2025-01-08 11:24:25.775 [info] Discover tests for workspace name: root - uri: /root
+2025-01-08 11:25:04.110 [info] Discover tests for workspace name: root - uri: /root
+2025-01-08 11:25:04.111 [info] Python interpreter path: ./miniconda3/bin/python
+2025-01-08 11:25:39.456 [info] Discover tests for workspace name: root - uri: /root
+2025-01-08 11:25:39.456 [info] Python interpreter path: ./miniconda3/envs/mle-dev/bin/python
+2025-01-08 11:25:51.068 [info] Discover tests for workspace name: root - uri: /root/pycode.py
+2025-01-08 11:25:53.064 [info] Discover tests for workspace name: root - uri: /root/pycode.py
+2025-01-08 11:27:50.428 [info] Discover tests for workspace name: root - uri: /root/.vscode/settings.json
+2025-01-08 11:27:51.206 [info] Discover tests for workspace name: root - uri: /root/.vscode/settings.json
+2025-01-08 11:28:02.279 [info] Discover tests for workspace name: root - uri: /root/pycode.py
+2025-01-08 11:28:02.888 [info] Discover tests for workspace name: root - uri: /root/pycode.py
+2025-01-08 11:28:03.294 [info] Discover tests for workspace name: root - uri: /root/pycode.py
+2025-01-08 11:28:03.653 [info] Discover tests for workspace name: root - uri: /root/pycode.py
+2025-01-08 11:28:03.963 [info] Discover tests for workspace name: root - uri: /root/pycode.py
+2025-01-08 11:28:04.265 [info] Discover tests for workspace name: root - uri: /root/pycode.py
+2025-01-08 11:28:04.828 [info] Discover tests for workspace name: root - uri: /root/pycode.py
+2025-01-08 11:28:18.004 [info] Discover tests for workspace name: root - uri: /root/pycode.py
+2025-01-08 11:28:19.822 [info] Discover tests for workspace name: root - uri: /root/pycode.py
+2025-01-08 11:28:20.322 [info] Discover tests for workspace name: root - uri: /root/pycode.py
+2025-01-08 11:28:20.757 [info] Discover tests for workspace name: root - uri: /root/pycode.py
+2025-01-08 11:31:46.125 [info] Discover tests for workspace name: root - uri: /root/pycode.py

@@ -1,0 +1,23 @@
+2025-01-08 10:56:57.004 [warning] Dir "/root/.pixi/envs" is not watchable (directory does not exist)
+2025-01-08 10:56:57.236 [info] Python interpreter path: ./miniconda3/envs/mle-dev/bin/python
+2025-01-08 10:56:57.408 [info] > pyenv which python
+2025-01-08 10:56:57.408 [info] cwd: .
+2025-01-08 10:57:00.158 [info] Discover tests for workspace name: root - uri: /root/.vscode/settings.json
+2025-01-08 10:57:05.924 [info] Discover tests for workspace name: root - uri: /root/pycode.py
+2025-01-08 10:57:06.984 [info] Discover tests for workspace name: root - uri: /root/pycode.py
+2025-01-08 10:57:07.656 [info] Discover tests for workspace name: root - uri: /root/pycode.py
+2025-01-08 10:57:08.132 [info] Discover tests for workspace name: root - uri: /root/pycode.py
+2025-01-08 10:57:10.129 [info] Discover tests for workspace name: root - uri: /root/pycode.py
+2025-01-08 10:57:19.600 [info] Starting Pylance language server.
+2025-01-08 10:57:19.612 [info] > conda info --json
+2025-01-08 10:57:50.579 [info] Discover tests for workspace name: root - uri: /root/pycode.py
+2025-01-08 10:57:51.180 [info] Discover tests for workspace name: root - uri: /root/pycode.py
+2025-01-08 10:57:51.498 [info] Discover tests for workspace name: root - uri: /root/pycode.py
+2025-01-08 10:58:52.125 [info] Discover tests for workspace name: root - uri: /root/pycode.py
+2025-01-08 10:59:08.710 [info] Discover tests for workspace name: root - uri: /root/pycode.py
+2025-01-08 11:01:06.655 [info] Discover tests for workspace name: root - uri: /root/pycode.py
+2025-01-08 11:01:08.122 [info] Discover tests for workspace name: root - uri: /root/pycode.py
+2025-01-08 11:01:10.456 [info] Discover tests for workspace name: root - uri: /root/pycode.py
+2025-01-08 11:01:12.631 [info] > conda info --json
+2025-01-08 11:01:12.695 [info] CreateEnv Trigger - Skipping for /root/pycode.py
+2025-01-08 11:01:13.351 [info] Send text to terminal: conda activate mle-dev

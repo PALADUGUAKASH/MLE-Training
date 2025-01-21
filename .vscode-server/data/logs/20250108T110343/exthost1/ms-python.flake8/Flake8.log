@@ -1,0 +1,743 @@
+2025-01-08 11:03:58.530 [info] Name: Flake8
+2025-01-08 11:03:58.530 [info] Module: flake8
+2025-01-08 11:03:58.530 [warning] "python.linting.flake8Enabled" is deprecated. You can remove that setting.
+2025-01-08 11:03:58.530 [warning] The flake8 extension is always enabled. However, you can disable it per workspace using the extensions view.
+2025-01-08 11:03:58.530 [warning] You can exclude files and folders using the `python.linting.ignorePatterns` setting.
+2025-01-08 11:03:58.530 [warning] "python.linting.flake8Enabled" value for workspace /root: true
+2025-01-08 11:03:58.530 [warning] "python.linting.flake8Args" is deprecated. Use "flake8.args" instead.
+2025-01-08 11:03:58.530 [warning] "python.linting.flake8Args" value for workspace /root:
+2025-01-08 11:03:58.530 [warning] 
+[
+    "--max-line-length=90"
+]
+2025-01-08 11:03:58.530 [info] Python extension loading
+2025-01-08 11:03:58.530 [info] Waiting for interpreter from Python extension.
+2025-01-08 11:03:58.530 [info] No interpreter found from setting flake8.interpreter
+2025-01-08 11:03:58.530 [info] Getting interpreter from ms-python.python extension for workspace /root
+2025-01-08 11:03:58.530 [info] Python extension loaded
+2025-01-08 11:03:58.530 [info] Interpreter from ms-python.python extension for /root: /root/miniconda3/envs/mle-dev/bin/python
+2025-01-08 11:03:58.530 [info] No interpreter found from setting flake8.interpreter
+2025-01-08 11:03:58.530 [info] Getting interpreter from ms-python.python extension for workspace /root
+2025-01-08 11:03:58.530 [info] Interpreter from ms-python.python extension for /root: /root/miniconda3/envs/mle-dev/bin/python
+2025-01-08 11:03:58.530 [info] Server run command: /root/miniconda3/envs/mle-dev/bin/python /root/.vscode-server/extensions/ms-python.flake8-2023.10.0/bundled/tool/lsp_server.py
+2025-01-08 11:03:58.530 [info] Server: Start requested.
+2025-01-08 11:03:59.142 [info] CWD Server: /root
+2025-01-08 11:03:59.143 [info] sys.path used to run Server:
+   /root/.vscode-server/extensions/ms-python.flake8-2023.10.0/bundled/libs
+   /root/.vscode-server/extensions/ms-python.flake8-2023.10.0/bundled/tool
+   /root/miniconda3/envs/mle-dev/lib/python313.zip
+   /root/miniconda3/envs/mle-dev/lib/python3.13
+   /root/miniconda3/envs/mle-dev/lib/python3.13/lib-dynload
+   /root/miniconda3/envs/mle-dev/lib/python3.13/site-packages
+2025-01-08 11:03:59.143 [info] Settings used to run Server:
+[
+    {
+        "cwd": "/root",
+        "workspace": "file:///root",
+        "args": [],
+        "severity": {
+            "E": "Error",
+            "F": "Error",
+            "I": "Information",
+            "W": "Warning"
+        },
+        "path": [],
+        "ignorePatterns": [],
+        "interpreter": [
+            "/root/miniconda3/envs/mle-dev/bin/python"
+        ],
+        "importStrategy": "useBundled",
+        "showNotifications": "off"
+    }
+]
+
+2025-01-08 11:03:59.143 [info] Global settings:
+{
+    "cwd": "${workspaceFolder}",
+    "workspace": "/mnt/c/Users/akashvenkat.pala/AppData/Local/Programs/Microsoft VS Code",
+    "args": [],
+    "severity": {
+        "E": "Error",
+        "F": "Error",
+        "I": "Information",
+        "W": "Warning"
+    },
+    "path": [],
+    "ignorePatterns": [],
+    "interpreter": [],
+    "importStrategy": "useBundled",
+    "showNotifications": "off"
+}
+
+2025-01-08 11:03:59.143 [info] /root/miniconda3/envs/mle-dev/bin/python -m flake8 --version
+2025-01-08 11:03:59.143 [info] CWD Linter: /root
+2025-01-08 11:03:59.184 [info] 
+6.1.0 (mccabe: 0.7.0, pycodestyle: 2.11.1, pyflakes: 3.1.0) CPython 3.13.1 on
+Linux
+
+
+2025-01-08 11:03:59.184 [info] Version info for linter running for /root:
+6.1.0 (mccabe: 0.7.0, pycodestyle: 2.11.1, pyflakes: 3.1.0) CPython 3.13.1 on
+Linux
+
+2025-01-08 11:03:59.184 [info] SUPPORTED flake8>=5.0.0
+FOUND flake8==6.1.0
+
+2025-01-08 11:12:18.457 [info] /root/miniconda3/envs/mle-dev/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /root/pycode.py
+2025-01-08 11:12:18.457 [info] CWD Linter: /root
+2025-01-08 11:12:18.528 [info] file:///root/pycode.py :
+'89,80,E,E501:line too long (81 > 79 characters)'
+'90,80,E,E501:line too long (83 > 79 characters)'
+'105,80,E,E501:line too long (88 > 79 characters)'
+'114,80,E,E501:line too long (80 > 79 characters)'
+'203,80,E,E501:line too long (83 > 79 characters)'
+
+2025-01-08 11:12:21.333 [info] /root/miniconda3/envs/mle-dev/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /root/pycode.py
+2025-01-08 11:12:21.333 [info] CWD Linter: /root
+2025-01-08 11:12:21.375 [info] file:///root/pycode.py :
+'89,80,E,E501:line too long (81 > 79 characters)'
+'90,80,E,E501:line too long (83 > 79 characters)'
+'105,80,E,E501:line too long (88 > 79 characters)'
+'114,80,E,E501:line too long (80 > 79 characters)'
+'203,80,E,E501:line too long (83 > 79 characters)'
+
+2025-01-08 11:12:22.866 [info] /root/miniconda3/envs/mle-dev/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /root/pycode.py
+2025-01-08 11:12:22.866 [info] CWD Linter: /root
+2025-01-08 11:12:22.899 [info] file:///root/pycode.py :
+'89,80,E,E501:line too long (81 > 79 characters)'
+'90,80,E,E501:line too long (83 > 79 characters)'
+'105,80,E,E501:line too long (88 > 79 characters)'
+'114,80,E,E501:line too long (80 > 79 characters)'
+'203,80,E,E501:line too long (83 > 79 characters)'
+
+2025-01-08 11:12:23.914 [info] /root/miniconda3/envs/mle-dev/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /root/pycode.py
+2025-01-08 11:12:23.915 [info] CWD Linter: /root
+2025-01-08 11:12:23.951 [info] file:///root/pycode.py :
+'89,80,E,E501:line too long (81 > 79 characters)'
+'90,80,E,E501:line too long (83 > 79 characters)'
+'105,80,E,E501:line too long (88 > 79 characters)'
+'114,80,E,E501:line too long (80 > 79 characters)'
+'203,80,E,E501:line too long (83 > 79 characters)'
+
+2025-01-08 11:12:25.288 [info] /root/miniconda3/envs/mle-dev/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /root/pycode.py
+2025-01-08 11:12:25.288 [info] CWD Linter: /root
+2025-01-08 11:12:25.326 [info] file:///root/pycode.py :
+'89,80,E,E501:line too long (81 > 79 characters)'
+'90,80,E,E501:line too long (83 > 79 characters)'
+'105,80,E,E501:line too long (88 > 79 characters)'
+'114,80,E,E501:line too long (80 > 79 characters)'
+'203,80,E,E501:line too long (83 > 79 characters)'
+
+2025-01-08 11:21:31.414 [info] /root/miniconda3/envs/mle-dev/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /root/pycode.py
+2025-01-08 11:21:31.414 [info] CWD Linter: /root
+2025-01-08 11:21:31.456 [info] file:///root/pycode.py :
+'89,80,E,E501:line too long (81 > 79 characters)'
+'90,80,E,E501:line too long (83 > 79 characters)'
+'105,80,E,E501:line too long (88 > 79 characters)'
+'114,80,E,E501:line too long (80 > 79 characters)'
+'203,80,E,E501:line too long (83 > 79 characters)'
+
+2025-01-08 11:21:31.686 [info] /root/miniconda3/envs/mle-dev/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /root/pycode.py
+2025-01-08 11:21:31.686 [info] CWD Linter: /root
+2025-01-08 11:21:31.715 [info] file:///root/pycode.py :
+'89,80,E,E501:line too long (81 > 79 characters)'
+'90,80,E,E501:line too long (83 > 79 characters)'
+'105,80,E,E501:line too long (88 > 79 characters)'
+'114,80,E,E501:line too long (80 > 79 characters)'
+'203,80,E,E501:line too long (83 > 79 characters)'
+
+2025-01-08 11:21:32.006 [info] /root/miniconda3/envs/mle-dev/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /root/pycode.py
+2025-01-08 11:21:32.006 [info] CWD Linter: /root
+2025-01-08 11:21:32.041 [info] file:///root/pycode.py :
+'89,80,E,E501:line too long (81 > 79 characters)'
+'90,80,E,E501:line too long (83 > 79 characters)'
+'105,80,E,E501:line too long (88 > 79 characters)'
+'114,80,E,E501:line too long (80 > 79 characters)'
+'203,80,E,E501:line too long (83 > 79 characters)'
+
+2025-01-08 11:21:32.247 [info] /root/miniconda3/envs/mle-dev/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /root/pycode.py
+2025-01-08 11:21:32.247 [info] CWD Linter: /root
+2025-01-08 11:21:32.286 [info] file:///root/pycode.py :
+'89,80,E,E501:line too long (81 > 79 characters)'
+'90,80,E,E501:line too long (83 > 79 characters)'
+'105,80,E,E501:line too long (88 > 79 characters)'
+'114,80,E,E501:line too long (80 > 79 characters)'
+'203,80,E,E501:line too long (83 > 79 characters)'
+
+2025-01-08 11:21:32.477 [info] /root/miniconda3/envs/mle-dev/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /root/pycode.py
+2025-01-08 11:21:32.477 [info] CWD Linter: /root
+2025-01-08 11:21:32.514 [info] file:///root/pycode.py :
+'89,80,E,E501:line too long (81 > 79 characters)'
+'90,80,E,E501:line too long (83 > 79 characters)'
+'105,80,E,E501:line too long (88 > 79 characters)'
+'114,80,E,E501:line too long (80 > 79 characters)'
+'203,80,E,E501:line too long (83 > 79 characters)'
+
+2025-01-08 11:24:25.759 [info] No interpreter found from setting flake8.interpreter
+2025-01-08 11:24:25.760 [info] Getting interpreter from ms-python.python extension for workspace /root
+2025-01-08 11:24:25.768 [info] Interpreter from ms-python.python extension for /root: /root/miniconda3/envs/mle-dev/bin/python
+2025-01-08 11:24:25.773 [info] Server: Stop requested
+2025-01-08 11:24:25.805 [info] No interpreter found from setting flake8.interpreter
+2025-01-08 11:24:25.805 [info] Getting interpreter from ms-python.python extension for workspace /root
+2025-01-08 11:24:25.807 [info] Interpreter from ms-python.python extension for /root: /root/miniconda3/envs/mle-dev/bin/python
+2025-01-08 11:24:25.831 [info] Server run command: /root/miniconda3/envs/mle-dev/bin/python /root/.vscode-server/extensions/ms-python.flake8-2023.10.0/bundled/tool/lsp_server.py
+2025-01-08 11:24:25.832 [info] Server: Start requested.
+2025-01-08 11:24:26.699 [info] CWD Server: /root
+2025-01-08 11:24:26.700 [info] sys.path used to run Server:
+   /root/.vscode-server/extensions/ms-python.flake8-2023.10.0/bundled/libs
+   /root/.vscode-server/extensions/ms-python.flake8-2023.10.0/bundled/tool
+   /root/miniconda3/envs/mle-dev/lib/python313.zip
+   /root/miniconda3/envs/mle-dev/lib/python3.13
+   /root/miniconda3/envs/mle-dev/lib/python3.13/lib-dynload
+   /root/miniconda3/envs/mle-dev/lib/python3.13/site-packages
+2025-01-08 11:24:26.700 [info] Settings used to run Server:
+[
+    {
+        "cwd": "/root",
+        "workspace": "file:///root",
+        "args": [],
+        "severity": {
+            "E": "Error",
+            "F": "Error",
+            "I": "Information",
+            "W": "Warning"
+        },
+        "path": [],
+        "ignorePatterns": [],
+        "interpreter": [
+            "/root/miniconda3/envs/mle-dev/bin/python"
+        ],
+        "importStrategy": "useBundled",
+        "showNotifications": "off"
+    }
+]
+
+2025-01-08 11:24:26.700 [info] Global settings:
+{
+    "cwd": "${workspaceFolder}",
+    "workspace": "/mnt/c/Users/akashvenkat.pala/AppData/Local/Programs/Microsoft VS Code",
+    "args": [],
+    "severity": {
+        "E": "Error",
+        "F": "Error",
+        "I": "Information",
+        "W": "Warning"
+    },
+    "path": [],
+    "ignorePatterns": [],
+    "interpreter": [],
+    "importStrategy": "useBundled",
+    "showNotifications": "off"
+}
+
+2025-01-08 11:24:26.703 [info] /root/miniconda3/envs/mle-dev/bin/python -m flake8 --version
+2025-01-08 11:24:26.703 [info] CWD Linter: /root
+2025-01-08 11:24:26.753 [info] 
+6.1.0 (mccabe: 0.7.0, pycodestyle: 2.11.1, pyflakes: 3.1.0) CPython 3.13.1 on
+Linux
+
+
+2025-01-08 11:24:26.753 [info] Version info for linter running for /root:
+6.1.0 (mccabe: 0.7.0, pycodestyle: 2.11.1, pyflakes: 3.1.0) CPython 3.13.1 on
+Linux
+
+2025-01-08 11:24:26.753 [info] SUPPORTED flake8>=5.0.0
+FOUND flake8==6.1.0
+
+2025-01-08 11:24:26.767 [info] [Trace - 11:24:26 AM] Received notification 'window/logMessage'.
+2025-01-08 11:24:26.767 [info] /root/miniconda3/envs/mle-dev/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /root/pycode.py
+2025-01-08 11:24:26.767 [info] [Trace - 11:24:26 AM] Received notification 'window/logMessage'.
+2025-01-08 11:24:26.767 [info] CWD Linter: /root
+2025-01-08 11:24:26.802 [info] [Trace - 11:24:26 AM] Received notification 'window/logMessage'.
+2025-01-08 11:24:26.802 [info] file:///root/pycode.py :
+'89,80,E,E501:line too long (81 > 79 characters)'
+'90,80,E,E501:line too long (83 > 79 characters)'
+'105,80,E,E501:line too long (88 > 79 characters)'
+'114,80,E,E501:line too long (80 > 79 characters)'
+'203,80,E,E501:line too long (83 > 79 characters)'
+
+2025-01-08 11:24:26.804 [info] [Trace - 11:24:26 AM] Received notification 'textDocument/publishDiagnostics'.
+2025-01-08 11:25:04.098 [info] No interpreter found from setting flake8.interpreter
+2025-01-08 11:25:04.098 [info] Getting interpreter from ms-python.python extension for workspace /root
+2025-01-08 11:25:04.107 [info] Interpreter from ms-python.python extension for /root: /root/miniconda3/bin/python
+2025-01-08 11:25:04.107 [info] Server: Stop requested
+2025-01-08 11:25:04.107 [info] [Trace - 11:25:04 AM] Sending request 'shutdown - (1)'.
+2025-01-08 11:25:04.120 [info] [Trace - 11:25:04 AM] Received response 'shutdown - (1)' in 13ms.
+2025-01-08 11:25:04.120 [info] [Trace - 11:25:04 AM] Sending notification 'exit'.
+2025-01-08 11:25:04.132 [info] No interpreter found from setting flake8.interpreter
+2025-01-08 11:25:04.132 [info] Getting interpreter from ms-python.python extension for workspace /root
+2025-01-08 11:25:04.135 [info] Interpreter from ms-python.python extension for /root: /root/miniconda3/bin/python
+2025-01-08 11:25:04.151 [info] Server run command: /root/miniconda3/bin/python /root/.vscode-server/extensions/ms-python.flake8-2023.10.0/bundled/tool/lsp_server.py
+2025-01-08 11:25:04.151 [info] Server: Start requested.
+2025-01-08 11:25:05.194 [info] CWD Server: /root
+2025-01-08 11:25:05.194 [info] sys.path used to run Server:
+   /root/.vscode-server/extensions/ms-python.flake8-2023.10.0/bundled/libs
+   /root/.vscode-server/extensions/ms-python.flake8-2023.10.0/bundled/tool
+   /root/miniconda3/lib/python312.zip
+   /root/miniconda3/lib/python3.12
+   /root/miniconda3/lib/python3.12/lib-dynload
+   /root/miniconda3/lib/python3.12/site-packages
+2025-01-08 11:25:05.194 [info] Settings used to run Server:
+[
+    {
+        "cwd": "/root",
+        "workspace": "file:///root",
+        "args": [],
+        "severity": {
+            "E": "Error",
+            "F": "Error",
+            "I": "Information",
+            "W": "Warning"
+        },
+        "path": [],
+        "ignorePatterns": [],
+        "interpreter": [
+            "/root/miniconda3/bin/python"
+        ],
+        "importStrategy": "useBundled",
+        "showNotifications": "off"
+    }
+]
+
+2025-01-08 11:25:05.194 [info] Global settings:
+{
+    "cwd": "${workspaceFolder}",
+    "workspace": "/mnt/c/Users/akashvenkat.pala/AppData/Local/Programs/Microsoft VS Code",
+    "args": [],
+    "severity": {
+        "E": "Error",
+        "F": "Error",
+        "I": "Information",
+        "W": "Warning"
+    },
+    "path": [],
+    "ignorePatterns": [],
+    "interpreter": [],
+    "importStrategy": "useBundled",
+    "showNotifications": "off"
+}
+
+2025-01-08 11:25:05.201 [info] /root/miniconda3/bin/python -m flake8 --version
+2025-01-08 11:25:05.201 [info] CWD Linter: /root
+2025-01-08 11:25:05.387 [info] 
+6.1.0 (mccabe: 0.7.0, pycodestyle: 2.11.1, pyflakes: 3.1.0) CPython 3.12.8 on
+Linux
+
+
+2025-01-08 11:25:05.387 [info] Version info for linter running for /root:
+6.1.0 (mccabe: 0.7.0, pycodestyle: 2.11.1, pyflakes: 3.1.0) CPython 3.12.8 on
+Linux
+
+2025-01-08 11:25:05.387 [info] SUPPORTED flake8>=5.0.0
+FOUND flake8==6.1.0
+
+2025-01-08 11:25:05.398 [info] [Trace - 11:25:05 AM] Received notification 'window/logMessage'.
+2025-01-08 11:25:05.398 [info] /root/miniconda3/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /root/pycode.py
+2025-01-08 11:25:05.398 [info] [Trace - 11:25:05 AM] Received notification 'window/logMessage'.
+2025-01-08 11:25:05.398 [info] CWD Linter: /root
+2025-01-08 11:25:05.459 [info] [Trace - 11:25:05 AM] Received notification 'window/logMessage'.
+2025-01-08 11:25:05.459 [info] file:///root/pycode.py :
+'89,80,E,E501:line too long (81 > 79 characters)'
+'90,80,E,E501:line too long (83 > 79 characters)'
+'105,80,E,E501:line too long (88 > 79 characters)'
+'114,80,E,E501:line too long (80 > 79 characters)'
+'203,80,E,E501:line too long (83 > 79 characters)'
+
+2025-01-08 11:25:05.462 [info] [Trace - 11:25:05 AM] Received notification 'textDocument/publishDiagnostics'.
+2025-01-08 11:25:39.447 [info] No interpreter found from setting flake8.interpreter
+2025-01-08 11:25:39.448 [info] Getting interpreter from ms-python.python extension for workspace /root
+2025-01-08 11:25:39.454 [info] Interpreter from ms-python.python extension for /root: /root/miniconda3/envs/mle-dev/bin/python
+2025-01-08 11:25:39.455 [info] Server: Stop requested
+2025-01-08 11:25:39.455 [info] [Trace - 11:25:39 AM] Sending request 'shutdown - (1)'.
+2025-01-08 11:25:39.467 [info] [Trace - 11:25:39 AM] Received response 'shutdown - (1)' in 13ms.
+2025-01-08 11:25:39.467 [info] [Trace - 11:25:39 AM] Sending notification 'exit'.
+2025-01-08 11:25:39.468 [info] No interpreter found from setting flake8.interpreter
+2025-01-08 11:25:39.468 [info] Getting interpreter from ms-python.python extension for workspace /root
+2025-01-08 11:25:39.470 [info] Interpreter from ms-python.python extension for /root: /root/miniconda3/envs/mle-dev/bin/python
+2025-01-08 11:25:39.513 [info] Server run command: /root/miniconda3/envs/mle-dev/bin/python /root/.vscode-server/extensions/ms-python.flake8-2023.10.0/bundled/tool/lsp_server.py
+2025-01-08 11:25:39.514 [info] Server: Start requested.
+2025-01-08 11:25:40.237 [info] CWD Server: /root
+2025-01-08 11:25:40.237 [info] sys.path used to run Server:
+   /root/.vscode-server/extensions/ms-python.flake8-2023.10.0/bundled/libs
+   /root/.vscode-server/extensions/ms-python.flake8-2023.10.0/bundled/tool
+   /root/miniconda3/envs/mle-dev/lib/python313.zip
+   /root/miniconda3/envs/mle-dev/lib/python3.13
+   /root/miniconda3/envs/mle-dev/lib/python3.13/lib-dynload
+   /root/miniconda3/envs/mle-dev/lib/python3.13/site-packages
+2025-01-08 11:25:40.237 [info] Settings used to run Server:
+[
+    {
+        "cwd": "/root",
+        "workspace": "file:///root",
+        "args": [],
+        "severity": {
+            "E": "Error",
+            "F": "Error",
+            "I": "Information",
+            "W": "Warning"
+        },
+        "path": [],
+        "ignorePatterns": [],
+        "interpreter": [
+            "/root/miniconda3/envs/mle-dev/bin/python"
+        ],
+        "importStrategy": "useBundled",
+        "showNotifications": "off"
+    }
+]
+
+2025-01-08 11:25:40.237 [info] Global settings:
+{
+    "cwd": "${workspaceFolder}",
+    "workspace": "/mnt/c/Users/akashvenkat.pala/AppData/Local/Programs/Microsoft VS Code",
+    "args": [],
+    "severity": {
+        "E": "Error",
+        "F": "Error",
+        "I": "Information",
+        "W": "Warning"
+    },
+    "path": [],
+    "ignorePatterns": [],
+    "interpreter": [],
+    "importStrategy": "useBundled",
+    "showNotifications": "off"
+}
+
+2025-01-08 11:25:40.239 [info] /root/miniconda3/envs/mle-dev/bin/python -m flake8 --version
+2025-01-08 11:25:40.239 [info] CWD Linter: /root
+2025-01-08 11:25:40.278 [info] 
+6.1.0 (mccabe: 0.7.0, pycodestyle: 2.11.1, pyflakes: 3.1.0) CPython 3.13.1 on
+Linux
+
+
+2025-01-08 11:25:40.278 [info] Version info for linter running for /root:
+6.1.0 (mccabe: 0.7.0, pycodestyle: 2.11.1, pyflakes: 3.1.0) CPython 3.13.1 on
+Linux
+
+2025-01-08 11:25:40.278 [info] SUPPORTED flake8>=5.0.0
+FOUND flake8==6.1.0
+
+2025-01-08 11:25:40.286 [info] [Trace - 11:25:40 AM] Received notification 'window/logMessage'.
+2025-01-08 11:25:40.286 [info] /root/miniconda3/envs/mle-dev/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /root/pycode.py
+2025-01-08 11:25:40.286 [info] [Trace - 11:25:40 AM] Received notification 'window/logMessage'.
+2025-01-08 11:25:40.286 [info] CWD Linter: /root
+2025-01-08 11:25:40.316 [info] [Trace - 11:25:40 AM] Received notification 'window/logMessage'.
+2025-01-08 11:25:40.316 [info] file:///root/pycode.py :
+'89,80,E,E501:line too long (81 > 79 characters)'
+'90,80,E,E501:line too long (83 > 79 characters)'
+'105,80,E,E501:line too long (88 > 79 characters)'
+'114,80,E,E501:line too long (80 > 79 characters)'
+'203,80,E,E501:line too long (83 > 79 characters)'
+
+2025-01-08 11:25:40.318 [info] [Trace - 11:25:40 AM] Received notification 'textDocument/publishDiagnostics'.
+2025-01-08 11:25:43.844 [info] [Trace - 11:25:43 AM] Sending request 'textDocument/codeAction - (1)'.
+2025-01-08 11:25:43.853 [info] [Trace - 11:25:43 AM] Received response 'textDocument/codeAction - (1)' in 9ms.
+2025-01-08 11:25:48.548 [info] [Trace - 11:25:48 AM] Sending request 'textDocument/codeAction - (2)'.
+2025-01-08 11:25:48.553 [info] [Trace - 11:25:48 AM] Received response 'textDocument/codeAction - (2)' in 5ms.
+2025-01-08 11:25:49.897 [info] [Trace - 11:25:49 AM] Sending request 'textDocument/codeAction - (3)'.
+2025-01-08 11:25:49.900 [info] [Trace - 11:25:49 AM] Received response 'textDocument/codeAction - (3)' in 3ms.
+2025-01-08 11:25:50.184 [info] [Trace - 11:25:50 AM] Sending notification 'textDocument/didOpen'.
+2025-01-08 11:25:50.184 [info] [Trace - 11:25:50 AM] Sending notification 'textDocument/didClose'.
+2025-01-08 11:25:50.192 [info] [Trace - 11:25:50 AM] Received notification 'window/logMessage'.
+2025-01-08 11:25:50.192 [info] [Warn  - 11:25:50 AM] Skipping standard library file (stdlib excluded): /root/miniconda3/envs/mle-dev/lib/python3.13/site-packages/sklearn/model_selection/_split.py
+2025-01-08 11:25:50.192 [info] [Trace - 11:25:50 AM] Received notification 'textDocument/publishDiagnostics'.
+2025-01-08 11:25:50.194 [info] [Trace - 11:25:50 AM] Received notification 'textDocument/publishDiagnostics'.
+2025-01-08 11:25:50.817 [info] [Trace - 11:25:50 AM] Sending notification 'textDocument/didSave'.
+2025-01-08 11:25:50.822 [info] [Trace - 11:25:50 AM] Received notification 'window/logMessage'.
+2025-01-08 11:25:50.822 [info] /root/miniconda3/envs/mle-dev/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /root/pycode.py
+2025-01-08 11:25:50.822 [info] [Trace - 11:25:50 AM] Received notification 'window/logMessage'.
+2025-01-08 11:25:50.822 [info] CWD Linter: /root
+2025-01-08 11:25:50.856 [info] [Trace - 11:25:50 AM] Received notification 'window/logMessage'.
+2025-01-08 11:25:50.856 [info] file:///root/pycode.py :
+'89,80,E,E501:line too long (81 > 79 characters)'
+'90,80,E,E501:line too long (83 > 79 characters)'
+'105,80,E,E501:line too long (88 > 79 characters)'
+'114,80,E,E501:line too long (80 > 79 characters)'
+'203,80,E,E501:line too long (83 > 79 characters)'
+
+2025-01-08 11:25:50.856 [info] [Trace - 11:25:50 AM] Received notification 'textDocument/publishDiagnostics'.
+2025-01-08 11:25:51.126 [info] [Trace - 11:25:51 AM] Sending request 'textDocument/codeAction - (4)'.
+2025-01-08 11:25:51.129 [info] [Trace - 11:25:51 AM] Received response 'textDocument/codeAction - (4)' in 2ms.
+2025-01-08 11:25:52.498 [info] [Trace - 11:25:52 AM] Sending request 'textDocument/codeAction - (5)'.
+2025-01-08 11:25:52.501 [info] [Trace - 11:25:52 AM] Received response 'textDocument/codeAction - (5)' in 3ms.
+2025-01-08 11:25:52.812 [info] [Trace - 11:25:52 AM] Sending notification 'textDocument/didSave'.
+2025-01-08 11:25:52.815 [info] [Trace - 11:25:52 AM] Received notification 'window/logMessage'.
+2025-01-08 11:25:52.815 [info] /root/miniconda3/envs/mle-dev/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /root/pycode.py
+2025-01-08 11:25:52.815 [info] [Trace - 11:25:52 AM] Received notification 'window/logMessage'.
+2025-01-08 11:25:52.815 [info] CWD Linter: /root
+2025-01-08 11:25:52.848 [info] [Trace - 11:25:52 AM] Received notification 'window/logMessage'.
+2025-01-08 11:25:52.848 [info] file:///root/pycode.py :
+'89,80,E,E501:line too long (81 > 79 characters)'
+'90,80,E,E501:line too long (83 > 79 characters)'
+'105,80,E,E501:line too long (88 > 79 characters)'
+'114,80,E,E501:line too long (80 > 79 characters)'
+'203,80,E,E501:line too long (83 > 79 characters)'
+
+2025-01-08 11:25:52.848 [info] [Trace - 11:25:52 AM] Received notification 'textDocument/publishDiagnostics'.
+2025-01-08 11:25:53.110 [info] [Trace - 11:25:53 AM] Sending request 'textDocument/codeAction - (6)'.
+2025-01-08 11:25:53.114 [info] [Trace - 11:25:53 AM] Received response 'textDocument/codeAction - (6)' in 3ms.
+2025-01-08 11:25:59.377 [info] [Trace - 11:25:59 AM] Sending request 'textDocument/codeAction - (7)'.
+2025-01-08 11:25:59.380 [info] [Trace - 11:25:59 AM] Received response 'textDocument/codeAction - (7)' in 3ms.
+2025-01-08 11:26:04.010 [info] [Trace - 11:26:04 AM] Sending request 'textDocument/codeAction - (8)'.
+2025-01-08 11:26:04.012 [info] [Trace - 11:26:04 AM] Received response 'textDocument/codeAction - (8)' in 2ms.
+2025-01-08 11:26:04.239 [info] [Trace - 11:26:04 AM] Sending request 'textDocument/codeAction - (9)'.
+2025-01-08 11:26:04.242 [info] [Trace - 11:26:04 AM] Received response 'textDocument/codeAction - (9)' in 3ms.
+2025-01-08 11:27:25.265 [info] [Trace - 11:27:25 AM] Sending request 'textDocument/codeAction - (10)'.
+2025-01-08 11:27:25.268 [info] [Trace - 11:27:25 AM] Received response 'textDocument/codeAction - (10)' in 3ms.
+2025-01-08 11:27:52.307 [info] [Trace - 11:27:52 AM] Sending request 'textDocument/codeAction - (11)'.
+2025-01-08 11:27:52.312 [info] [Trace - 11:27:52 AM] Received response 'textDocument/codeAction - (11)' in 5ms.
+2025-01-08 11:27:52.518 [info] [Trace - 11:27:52 AM] Sending request 'textDocument/codeAction - (12)'.
+2025-01-08 11:27:52.520 [info] [Trace - 11:27:52 AM] Received response 'textDocument/codeAction - (12)' in 2ms.
+2025-01-08 11:28:00.731 [info] [Trace - 11:28:00 AM] Sending request 'textDocument/codeAction - (13)'.
+2025-01-08 11:28:00.733 [info] [Trace - 11:28:00 AM] Received response 'textDocument/codeAction - (13)' in 2ms.
+2025-01-08 11:28:01.386 [info] [Trace - 11:28:01 AM] Sending request 'textDocument/codeAction - (14)'.
+2025-01-08 11:28:01.390 [info] [Trace - 11:28:01 AM] Received response 'textDocument/codeAction - (14)' in 5ms.
+2025-01-08 11:28:02.026 [info] [Trace - 11:28:02 AM] Sending notification 'textDocument/didSave'.
+2025-01-08 11:28:02.030 [info] [Trace - 11:28:02 AM] Received notification 'window/logMessage'.
+2025-01-08 11:28:02.030 [info] /root/miniconda3/envs/mle-dev/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /root/pycode.py
+2025-01-08 11:28:02.030 [info] [Trace - 11:28:02 AM] Received notification 'window/logMessage'.
+2025-01-08 11:28:02.030 [info] CWD Linter: /root
+2025-01-08 11:28:02.060 [info] [Trace - 11:28:02 AM] Received notification 'window/logMessage'.
+2025-01-08 11:28:02.060 [info] file:///root/pycode.py :
+'89,80,E,E501:line too long (81 > 79 characters)'
+'90,80,E,E501:line too long (83 > 79 characters)'
+'105,80,E,E501:line too long (88 > 79 characters)'
+'114,80,E,E501:line too long (80 > 79 characters)'
+'203,80,E,E501:line too long (83 > 79 characters)'
+
+2025-01-08 11:28:02.061 [info] [Trace - 11:28:02 AM] Received notification 'textDocument/publishDiagnostics'.
+2025-01-08 11:28:02.324 [info] [Trace - 11:28:02 AM] Sending request 'textDocument/codeAction - (15)'.
+2025-01-08 11:28:02.327 [info] [Trace - 11:28:02 AM] Received response 'textDocument/codeAction - (15)' in 3ms.
+2025-01-08 11:28:02.635 [info] [Trace - 11:28:02 AM] Sending notification 'textDocument/didSave'.
+2025-01-08 11:28:02.638 [info] [Trace - 11:28:02 AM] Received notification 'window/logMessage'.
+2025-01-08 11:28:02.638 [info] /root/miniconda3/envs/mle-dev/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /root/pycode.py
+2025-01-08 11:28:02.638 [info] [Trace - 11:28:02 AM] Received notification 'window/logMessage'.
+2025-01-08 11:28:02.638 [info] CWD Linter: /root
+2025-01-08 11:28:02.675 [info] [Trace - 11:28:02 AM] Received notification 'window/logMessage'.
+2025-01-08 11:28:02.675 [info] file:///root/pycode.py :
+'89,80,E,E501:line too long (81 > 79 characters)'
+'90,80,E,E501:line too long (83 > 79 characters)'
+'105,80,E,E501:line too long (88 > 79 characters)'
+'114,80,E,E501:line too long (80 > 79 characters)'
+'203,80,E,E501:line too long (83 > 79 characters)'
+
+2025-01-08 11:28:02.675 [info] [Trace - 11:28:02 AM] Received notification 'textDocument/publishDiagnostics'.
+2025-01-08 11:28:02.934 [info] [Trace - 11:28:02 AM] Sending request 'textDocument/codeAction - (16)'.
+2025-01-08 11:28:02.938 [info] [Trace - 11:28:02 AM] Received response 'textDocument/codeAction - (16)' in 4ms.
+2025-01-08 11:28:03.043 [info] [Trace - 11:28:03 AM] Sending notification 'textDocument/didSave'.
+2025-01-08 11:28:03.045 [info] [Trace - 11:28:03 AM] Received notification 'window/logMessage'.
+2025-01-08 11:28:03.045 [info] /root/miniconda3/envs/mle-dev/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /root/pycode.py
+2025-01-08 11:28:03.045 [info] [Trace - 11:28:03 AM] Received notification 'window/logMessage'.
+2025-01-08 11:28:03.045 [info] CWD Linter: /root
+2025-01-08 11:28:03.076 [info] [Trace - 11:28:03 AM] Received notification 'window/logMessage'.
+2025-01-08 11:28:03.076 [info] file:///root/pycode.py :
+'89,80,E,E501:line too long (81 > 79 characters)'
+'90,80,E,E501:line too long (83 > 79 characters)'
+'105,80,E,E501:line too long (88 > 79 characters)'
+'114,80,E,E501:line too long (80 > 79 characters)'
+'203,80,E,E501:line too long (83 > 79 characters)'
+
+2025-01-08 11:28:03.077 [info] [Trace - 11:28:03 AM] Received notification 'textDocument/publishDiagnostics'.
+2025-01-08 11:28:03.347 [info] [Trace - 11:28:03 AM] Sending request 'textDocument/codeAction - (17)'.
+2025-01-08 11:28:03.350 [info] [Trace - 11:28:03 AM] Received response 'textDocument/codeAction - (17)' in 3ms.
+2025-01-08 11:28:03.403 [info] [Trace - 11:28:03 AM] Sending notification 'textDocument/didSave'.
+2025-01-08 11:28:03.406 [info] [Trace - 11:28:03 AM] Received notification 'window/logMessage'.
+2025-01-08 11:28:03.406 [info] /root/miniconda3/envs/mle-dev/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /root/pycode.py
+2025-01-08 11:28:03.406 [info] [Trace - 11:28:03 AM] Received notification 'window/logMessage'.
+2025-01-08 11:28:03.406 [info] CWD Linter: /root
+2025-01-08 11:28:03.438 [info] [Trace - 11:28:03 AM] Received notification 'window/logMessage'.
+2025-01-08 11:28:03.439 [info] file:///root/pycode.py :
+'89,80,E,E501:line too long (81 > 79 characters)'
+'90,80,E,E501:line too long (83 > 79 characters)'
+'105,80,E,E501:line too long (88 > 79 characters)'
+'114,80,E,E501:line too long (80 > 79 characters)'
+'203,80,E,E501:line too long (83 > 79 characters)'
+
+2025-01-08 11:28:03.439 [info] [Trace - 11:28:03 AM] Received notification 'textDocument/publishDiagnostics'.
+2025-01-08 11:28:03.701 [info] [Trace - 11:28:03 AM] Sending request 'textDocument/codeAction - (18)'.
+2025-01-08 11:28:03.706 [info] [Trace - 11:28:03 AM] Received response 'textDocument/codeAction - (18)' in 5ms.
+2025-01-08 11:28:03.712 [info] [Trace - 11:28:03 AM] Sending notification 'textDocument/didSave'.
+2025-01-08 11:28:03.715 [info] [Trace - 11:28:03 AM] Received notification 'window/logMessage'.
+2025-01-08 11:28:03.715 [info] /root/miniconda3/envs/mle-dev/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /root/pycode.py
+2025-01-08 11:28:03.715 [info] [Trace - 11:28:03 AM] Received notification 'window/logMessage'.
+2025-01-08 11:28:03.715 [info] CWD Linter: /root
+2025-01-08 11:28:03.749 [info] [Trace - 11:28:03 AM] Received notification 'window/logMessage'.
+2025-01-08 11:28:03.749 [info] file:///root/pycode.py :
+'89,80,E,E501:line too long (81 > 79 characters)'
+'90,80,E,E501:line too long (83 > 79 characters)'
+'105,80,E,E501:line too long (88 > 79 characters)'
+'114,80,E,E501:line too long (80 > 79 characters)'
+'203,80,E,E501:line too long (83 > 79 characters)'
+
+2025-01-08 11:28:03.749 [info] [Trace - 11:28:03 AM] Received notification 'textDocument/publishDiagnostics'.
+2025-01-08 11:28:04.010 [info] [Trace - 11:28:04 AM] Sending request 'textDocument/codeAction - (19)'.
+2025-01-08 11:28:04.012 [info] [Trace - 11:28:04 AM] Received response 'textDocument/codeAction - (19)' in 3ms.
+2025-01-08 11:28:04.016 [info] [Trace - 11:28:04 AM] Sending notification 'textDocument/didSave'.
+2025-01-08 11:28:04.018 [info] [Trace - 11:28:04 AM] Received notification 'window/logMessage'.
+2025-01-08 11:28:04.018 [info] /root/miniconda3/envs/mle-dev/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /root/pycode.py
+2025-01-08 11:28:04.018 [info] [Trace - 11:28:04 AM] Received notification 'window/logMessage'.
+2025-01-08 11:28:04.018 [info] CWD Linter: /root
+2025-01-08 11:28:04.047 [info] [Trace - 11:28:04 AM] Received notification 'window/logMessage'.
+2025-01-08 11:28:04.048 [info] file:///root/pycode.py :
+'89,80,E,E501:line too long (81 > 79 characters)'
+'90,80,E,E501:line too long (83 > 79 characters)'
+'105,80,E,E501:line too long (88 > 79 characters)'
+'114,80,E,E501:line too long (80 > 79 characters)'
+'203,80,E,E501:line too long (83 > 79 characters)'
+
+2025-01-08 11:28:04.048 [info] [Trace - 11:28:04 AM] Received notification 'textDocument/publishDiagnostics'.
+2025-01-08 11:28:04.306 [info] [Trace - 11:28:04 AM] Sending request 'textDocument/codeAction - (20)'.
+2025-01-08 11:28:04.308 [info] [Trace - 11:28:04 AM] Received response 'textDocument/codeAction - (20)' in 2ms.
+2025-01-08 11:28:04.338 [info] [Trace - 11:28:04 AM] Sending notification 'textDocument/didSave'.
+2025-01-08 11:28:04.341 [info] [Trace - 11:28:04 AM] Received notification 'window/logMessage'.
+2025-01-08 11:28:04.341 [info] /root/miniconda3/envs/mle-dev/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /root/pycode.py
+2025-01-08 11:28:04.341 [info] [Trace - 11:28:04 AM] Received notification 'window/logMessage'.
+2025-01-08 11:28:04.341 [info] CWD Linter: /root
+2025-01-08 11:28:04.373 [info] [Trace - 11:28:04 AM] Received notification 'window/logMessage'.
+2025-01-08 11:28:04.373 [info] file:///root/pycode.py :
+'89,80,E,E501:line too long (81 > 79 characters)'
+'90,80,E,E501:line too long (83 > 79 characters)'
+'105,80,E,E501:line too long (88 > 79 characters)'
+'114,80,E,E501:line too long (80 > 79 characters)'
+'203,80,E,E501:line too long (83 > 79 characters)'
+
+2025-01-08 11:28:04.374 [info] [Trace - 11:28:04 AM] Received notification 'textDocument/publishDiagnostics'.
+2025-01-08 11:28:04.575 [info] [Trace - 11:28:04 AM] Sending notification 'textDocument/didSave'.
+2025-01-08 11:28:04.578 [info] [Trace - 11:28:04 AM] Received notification 'window/logMessage'.
+2025-01-08 11:28:04.578 [info] /root/miniconda3/envs/mle-dev/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /root/pycode.py
+2025-01-08 11:28:04.578 [info] [Trace - 11:28:04 AM] Received notification 'window/logMessage'.
+2025-01-08 11:28:04.578 [info] CWD Linter: /root
+2025-01-08 11:28:04.630 [info] [Trace - 11:28:04 AM] Received notification 'window/logMessage'.
+2025-01-08 11:28:04.630 [info] file:///root/pycode.py :
+'89,80,E,E501:line too long (81 > 79 characters)'
+'90,80,E,E501:line too long (83 > 79 characters)'
+'105,80,E,E501:line too long (88 > 79 characters)'
+'114,80,E,E501:line too long (80 > 79 characters)'
+'203,80,E,E501:line too long (83 > 79 characters)'
+
+2025-01-08 11:28:04.630 [info] [Trace - 11:28:04 AM] Received notification 'textDocument/publishDiagnostics'.
+2025-01-08 11:28:04.637 [info] [Trace - 11:28:04 AM] Sending request 'textDocument/codeAction - (21)'.
+2025-01-08 11:28:04.640 [info] [Trace - 11:28:04 AM] Received response 'textDocument/codeAction - (21)' in 3ms.
+2025-01-08 11:28:04.675 [info] [Trace - 11:28:04 AM] Sending notification 'textDocument/didOpen'.
+2025-01-08 11:28:04.675 [info] [Trace - 11:28:04 AM] Sending notification 'textDocument/didClose'.
+2025-01-08 11:28:04.680 [info] [Trace - 11:28:04 AM] Received notification 'window/logMessage'.
+2025-01-08 11:28:04.680 [info] [Warn  - 11:28:04 AM] Skipping standard library file (stdlib excluded): /root/miniconda3/envs/mle-dev/lib/python3.13/site-packages/sklearn/ensemble/_forest.py
+2025-01-08 11:28:04.681 [info] [Trace - 11:28:04 AM] Received notification 'textDocument/publishDiagnostics'.
+2025-01-08 11:28:04.683 [info] [Trace - 11:28:04 AM] Received notification 'textDocument/publishDiagnostics'.
+2025-01-08 11:28:04.732 [info] [Trace - 11:28:04 AM] Sending notification 'textDocument/didChange'.
+2025-01-08 11:28:04.775 [info] [Trace - 11:28:04 AM] Sending notification 'textDocument/didOpen'.
+2025-01-08 11:28:04.775 [info] [Trace - 11:28:04 AM] Sending notification 'textDocument/didClose'.
+2025-01-08 11:28:04.780 [info] [Trace - 11:28:04 AM] Received notification 'window/logMessage'.
+2025-01-08 11:28:04.780 [info] [Warn  - 11:28:04 AM] Skipping standard library file (stdlib excluded): /root/miniconda3/envs/mle-dev/lib/python3.13/site-packages/sklearn/ensemble/_forest.py
+2025-01-08 11:28:04.780 [info] [Trace - 11:28:04 AM] Received notification 'textDocument/publishDiagnostics'.
+2025-01-08 11:28:04.782 [info] [Trace - 11:28:04 AM] Received notification 'textDocument/publishDiagnostics'.
+2025-01-08 11:28:04.979 [info] [Trace - 11:28:04 AM] Sending request 'textDocument/codeAction - (22)'.
+2025-01-08 11:28:04.981 [info] [Trace - 11:28:04 AM] Received response 'textDocument/codeAction - (22)' in 2ms.
+2025-01-08 11:28:05.880 [info] [Trace - 11:28:05 AM] Sending request 'textDocument/codeAction - (23)'.
+2025-01-08 11:28:05.883 [info] [Trace - 11:28:05 AM] Received response 'textDocument/codeAction - (23)' in 3ms.
+2025-01-08 11:28:06.779 [info] [Trace - 11:28:06 AM] Sending request 'textDocument/codeAction - (24)'.
+2025-01-08 11:28:06.781 [info] [Trace - 11:28:06 AM] Received response 'textDocument/codeAction - (24)' in 3ms.
+2025-01-08 11:28:08.121 [info] [Trace - 11:28:08 AM] Sending request 'textDocument/codeAction - (25)'.
+2025-01-08 11:28:08.125 [info] [Trace - 11:28:08 AM] Received response 'textDocument/codeAction - (25)' in 4ms.
+2025-01-08 11:28:12.897 [info] [Trace - 11:28:12 AM] Sending request 'textDocument/codeAction - (26)'.
+2025-01-08 11:28:12.901 [info] [Trace - 11:28:12 AM] Received response 'textDocument/codeAction - (26)' in 4ms.
+2025-01-08 11:28:13.466 [info] [Trace - 11:28:13 AM] Sending request 'textDocument/codeAction - (27)'.
+2025-01-08 11:28:13.470 [info] [Trace - 11:28:13 AM] Received response 'textDocument/codeAction - (27)' in 4ms.
+2025-01-08 11:28:13.709 [info] [Trace - 11:28:13 AM] Sending request 'textDocument/codeAction - (28)'.
+2025-01-08 11:28:13.713 [info] [Trace - 11:28:13 AM] Received response 'textDocument/codeAction - (28)' in 4ms.
+2025-01-08 11:28:15.496 [info] [Trace - 11:28:15 AM] Sending request 'textDocument/codeAction - (29)'.
+2025-01-08 11:28:15.501 [info] [Trace - 11:28:15 AM] Received response 'textDocument/codeAction - (29)' in 5ms.
+2025-01-08 11:28:16.539 [info] [Trace - 11:28:16 AM] Sending notification 'textDocument/didChange'.
+2025-01-08 11:28:16.781 [info] [Trace - 11:28:16 AM] Sending request 'textDocument/codeAction - (30)'.
+2025-01-08 11:28:16.784 [info] [Trace - 11:28:16 AM] Received response 'textDocument/codeAction - (30)' in 3ms.
+2025-01-08 11:28:17.268 [info] [Trace - 11:28:17 AM] Sending request 'textDocument/codeAction - (31)'.
+2025-01-08 11:28:17.271 [info] [Trace - 11:28:17 AM] Received response 'textDocument/codeAction - (31)' in 2ms.
+2025-01-08 11:28:17.442 [info] [Trace - 11:28:17 AM] Sending request 'textDocument/codeAction - (32)'.
+2025-01-08 11:28:17.446 [info] [Trace - 11:28:17 AM] Received response 'textDocument/codeAction - (32)' in 4ms.
+2025-01-08 11:28:17.752 [info] [Trace - 11:28:17 AM] Sending notification 'textDocument/didSave'.
+2025-01-08 11:28:17.755 [info] [Trace - 11:28:17 AM] Received notification 'window/logMessage'.
+2025-01-08 11:28:17.755 [info] /root/miniconda3/envs/mle-dev/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /root/pycode.py
+2025-01-08 11:28:17.755 [info] [Trace - 11:28:17 AM] Received notification 'window/logMessage'.
+2025-01-08 11:28:17.755 [info] CWD Linter: /root
+2025-01-08 11:28:17.789 [info] [Trace - 11:28:17 AM] Received notification 'window/logMessage'.
+2025-01-08 11:28:17.790 [info] file:///root/pycode.py :
+'89,80,E,E501:line too long (81 > 79 characters)'
+'90,80,E,E501:line too long (83 > 79 characters)'
+'105,80,E,E501:line too long (88 > 79 characters)'
+'114,80,E,E501:line too long (80 > 79 characters)'
+'203,80,E,E501:line too long (83 > 79 characters)'
+
+2025-01-08 11:28:17.790 [info] [Trace - 11:28:17 AM] Received notification 'textDocument/publishDiagnostics'.
+2025-01-08 11:28:18.054 [info] [Trace - 11:28:18 AM] Sending request 'textDocument/codeAction - (33)'.
+2025-01-08 11:28:18.060 [info] [Trace - 11:28:18 AM] Received response 'textDocument/codeAction - (33)' in 6ms.
+2025-01-08 11:28:19.569 [info] [Trace - 11:28:19 AM] Sending notification 'textDocument/didSave'.
+2025-01-08 11:28:19.572 [info] [Trace - 11:28:19 AM] Received notification 'window/logMessage'.
+2025-01-08 11:28:19.572 [info] /root/miniconda3/envs/mle-dev/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /root/pycode.py
+2025-01-08 11:28:19.572 [info] [Trace - 11:28:19 AM] Received notification 'window/logMessage'.
+2025-01-08 11:28:19.572 [info] CWD Linter: /root
+2025-01-08 11:28:19.606 [info] [Trace - 11:28:19 AM] Received notification 'window/logMessage'.
+2025-01-08 11:28:19.606 [info] file:///root/pycode.py :
+'89,80,E,E501:line too long (81 > 79 characters)'
+'90,80,E,E501:line too long (83 > 79 characters)'
+'105,80,E,E501:line too long (88 > 79 characters)'
+'114,80,E,E501:line too long (80 > 79 characters)'
+'203,80,E,E501:line too long (83 > 79 characters)'
+
+2025-01-08 11:28:19.606 [info] [Trace - 11:28:19 AM] Received notification 'textDocument/publishDiagnostics'.
+2025-01-08 11:28:19.875 [info] [Trace - 11:28:19 AM] Sending request 'textDocument/codeAction - (34)'.
+2025-01-08 11:28:19.879 [info] [Trace - 11:28:19 AM] Received response 'textDocument/codeAction - (34)' in 4ms.
+2025-01-08 11:28:20.070 [info] [Trace - 11:28:20 AM] Sending notification 'textDocument/didSave'.
+2025-01-08 11:28:20.073 [info] [Trace - 11:28:20 AM] Received notification 'window/logMessage'.
+2025-01-08 11:28:20.073 [info] /root/miniconda3/envs/mle-dev/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /root/pycode.py
+2025-01-08 11:28:20.073 [info] [Trace - 11:28:20 AM] Received notification 'window/logMessage'.
+2025-01-08 11:28:20.073 [info] CWD Linter: /root
+2025-01-08 11:28:20.106 [info] [Trace - 11:28:20 AM] Received notification 'window/logMessage'.
+2025-01-08 11:28:20.106 [info] file:///root/pycode.py :
+'89,80,E,E501:line too long (81 > 79 characters)'
+'90,80,E,E501:line too long (83 > 79 characters)'
+'105,80,E,E501:line too long (88 > 79 characters)'
+'114,80,E,E501:line too long (80 > 79 characters)'
+'203,80,E,E501:line too long (83 > 79 characters)'
+
+2025-01-08 11:28:20.106 [info] [Trace - 11:28:20 AM] Received notification 'textDocument/publishDiagnostics'.
+2025-01-08 11:28:20.380 [info] [Trace - 11:28:20 AM] Sending request 'textDocument/codeAction - (35)'.
+2025-01-08 11:28:20.384 [info] [Trace - 11:28:20 AM] Received response 'textDocument/codeAction - (35)' in 4ms.
+2025-01-08 11:28:20.507 [info] [Trace - 11:28:20 AM] Sending notification 'textDocument/didSave'.
+2025-01-08 11:28:20.510 [info] [Trace - 11:28:20 AM] Received notification 'window/logMessage'.
+2025-01-08 11:28:20.510 [info] /root/miniconda3/envs/mle-dev/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /root/pycode.py
+2025-01-08 11:28:20.510 [info] [Trace - 11:28:20 AM] Received notification 'window/logMessage'.
+2025-01-08 11:28:20.510 [info] CWD Linter: /root
+2025-01-08 11:28:20.546 [info] [Trace - 11:28:20 AM] Received notification 'window/logMessage'.
+2025-01-08 11:28:20.546 [info] file:///root/pycode.py :
+'89,80,E,E501:line too long (81 > 79 characters)'
+'90,80,E,E501:line too long (83 > 79 characters)'
+'105,80,E,E501:line too long (88 > 79 characters)'
+'114,80,E,E501:line too long (80 > 79 characters)'
+'203,80,E,E501:line too long (83 > 79 characters)'
+
+2025-01-08 11:28:20.546 [info] [Trace - 11:28:20 AM] Received notification 'textDocument/publishDiagnostics'.
+2025-01-08 11:28:20.815 [info] [Trace - 11:28:20 AM] Sending request 'textDocument/codeAction - (36)'.
+2025-01-08 11:28:20.820 [info] [Trace - 11:28:20 AM] Received response 'textDocument/codeAction - (36)' in 5ms.
+2025-01-08 11:31:44.879 [info] [Trace - 11:31:44 AM] Sending request 'textDocument/codeAction - (37)'.
+2025-01-08 11:31:44.884 [info] [Trace - 11:31:44 AM] Received response 'textDocument/codeAction - (37)' in 5ms.
+2025-01-08 11:31:45.508 [info] [Trace - 11:31:45 AM] Sending notification 'textDocument/didOpen'.
+2025-01-08 11:31:45.508 [info] [Trace - 11:31:45 AM] Sending notification 'textDocument/didClose'.
+2025-01-08 11:31:45.514 [info] [Trace - 11:31:45 AM] Received notification 'window/logMessage'.
+2025-01-08 11:31:45.514 [info] [Warn  - 11:31:45 AM] Skipping standard library file (stdlib excluded): /root/miniconda3/envs/mle-dev/lib/python3.13/site-packages/scipy/stats/_discrete_distns.py
+2025-01-08 11:31:45.514 [info] [Trace - 11:31:45 AM] Received notification 'textDocument/publishDiagnostics'.
+2025-01-08 11:31:45.516 [info] [Trace - 11:31:45 AM] Received notification 'textDocument/publishDiagnostics'.
+2025-01-08 11:31:45.872 [info] [Trace - 11:31:45 AM] Sending notification 'textDocument/didSave'.
+2025-01-08 11:31:45.875 [info] [Trace - 11:31:45 AM] Received notification 'window/logMessage'.
+2025-01-08 11:31:45.875 [info] /root/miniconda3/envs/mle-dev/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /root/pycode.py
+2025-01-08 11:31:45.875 [info] [Trace - 11:31:45 AM] Received notification 'window/logMessage'.
+2025-01-08 11:31:45.875 [info] CWD Linter: /root
+2025-01-08 11:31:45.905 [info] [Trace - 11:31:45 AM] Received notification 'textDocument/publishDiagnostics'.
+2025-01-08 11:31:45.993 [info] [Trace - 11:31:45 AM] Sending request 'textDocument/codeAction - (38)'.
+2025-01-08 11:31:46.001 [info] [Trace - 11:31:46 AM] Received response 'textDocument/codeAction - (38)' in 7ms.
+2025-01-08 11:31:46.180 [info] [Trace - 11:31:46 AM] Sending request 'textDocument/codeAction - (39)'.
+2025-01-08 11:31:46.185 [info] [Trace - 11:31:46 AM] Received response 'textDocument/codeAction - (39)' in 5ms.
+2025-01-08 11:33:14.169 [info] [Trace - 11:33:14 AM] Sending request 'textDocument/codeAction - (40)'.
+2025-01-08 11:33:14.174 [info] [Trace - 11:33:14 AM] Received response 'textDocument/codeAction - (40)' in 6ms.
+2025-01-08 11:34:06.479 [info] [Trace - 11:34:06 AM] Sending notification 'textDocument/didClose'.
+2025-01-08 11:34:06.500 [info] [Trace - 11:34:06 AM] Received notification 'textDocument/publishDiagnostics'.

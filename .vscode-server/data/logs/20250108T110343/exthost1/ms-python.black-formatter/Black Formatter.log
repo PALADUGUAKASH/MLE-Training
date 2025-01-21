@@ -1,0 +1,565 @@
+2025-01-08 11:03:58.530 [info] Name: Black Formatter
+2025-01-08 11:03:58.530 [info] Module: black
+2025-01-08 11:03:58.531 [info] Default formatter is set to null for workspace /root
+2025-01-08 11:03:58.531 [warning] Black Formatter is NOT set as the default formatter for workspace /root
+2025-01-08 11:03:58.531 [warning] To set Black Formatter as the default formatter, add the following to your settings.json file:
+2025-01-08 11:03:58.531 [warning] 
+"[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+}
+2025-01-08 11:03:58.531 [warning] "python.formatting.blackArgs" is deprecated. Use "black-formatter.args" instead.
+2025-01-08 11:03:58.531 [warning] "python.formatting.blackArgs" for workspace /root:
+2025-01-08 11:03:58.531 [warning] 
+[
+    "--line-length",
+    "90"
+]
+2025-01-08 11:03:58.531 [info] Python extension loading
+2025-01-08 11:03:58.531 [info] Waiting for interpreter from python extension.
+2025-01-08 11:03:58.531 [info] No interpreter found from setting black-formatter.interpreter
+2025-01-08 11:03:58.531 [info] Getting interpreter from ms-python.python extension for workspace /root
+2025-01-08 11:03:58.531 [info] Python extension loaded
+2025-01-08 11:03:58.531 [info] Interpreter from ms-python.python extension for /root: /root/miniconda3/envs/mle-dev/bin/python
+2025-01-08 11:03:58.531 [info] Workspace settings for /root (client side): {
+    "cwd": "/root",
+    "workspace": "file:///root",
+    "args": [],
+    "path": [],
+    "interpreter": [
+        "/root/miniconda3/envs/mle-dev/bin/python"
+    ],
+    "importStrategy": "useBundled",
+    "showNotifications": "off"
+}
+2025-01-08 11:03:58.531 [info] No interpreter found from setting black-formatter.interpreter
+2025-01-08 11:03:58.531 [info] Getting interpreter from ms-python.python extension for workspace /root
+2025-01-08 11:03:58.531 [info] Interpreter from ms-python.python extension for /root: /root/miniconda3/envs/mle-dev/bin/python
+2025-01-08 11:03:58.531 [info] Workspace settings for /root (client side): {
+    "cwd": "/root",
+    "workspace": "file:///root",
+    "args": [],
+    "path": [],
+    "interpreter": [
+        "/root/miniconda3/envs/mle-dev/bin/python"
+    ],
+    "importStrategy": "useBundled",
+    "showNotifications": "off"
+}
+2025-01-08 11:03:58.531 [info] Global settings (client side): {
+    "cwd": "/mnt/c/Users/akashvenkat.pala/AppData/Local/Programs/Microsoft VS Code",
+    "workspace": "/mnt/c/Users/akashvenkat.pala/AppData/Local/Programs/Microsoft VS Code",
+    "args": [],
+    "path": [],
+    "interpreter": [],
+    "importStrategy": "useBundled",
+    "showNotifications": "off"
+}
+2025-01-08 11:03:58.531 [info] Server run command: /root/miniconda3/envs/mle-dev/bin/python /root/.vscode-server/extensions/ms-python.black-formatter-2024.4.0/bundled/tool/lsp_server.py
+2025-01-08 11:03:58.531 [info] Server: Start requested.
+2025-01-08 11:03:59.091 [info] CWD Server: /root
+2025-01-08 11:03:59.091 [info] Settings received on server:
+[
+    {
+        "cwd": "/root",
+        "workspace": "file:///root",
+        "args": [],
+        "path": [],
+        "interpreter": [
+            "/root/miniconda3/envs/mle-dev/bin/python"
+        ],
+        "importStrategy": "useBundled",
+        "showNotifications": "off"
+    }
+]
+
+2025-01-08 11:03:59.091 [info] Global settings received on server:
+{
+    "cwd": "/mnt/c/Users/akashvenkat.pala/AppData/Local/Programs/Microsoft VS Code",
+    "workspace": "/mnt/c/Users/akashvenkat.pala/AppData/Local/Programs/Microsoft VS Code",
+    "args": [],
+    "path": [],
+    "interpreter": [],
+    "importStrategy": "useBundled",
+    "showNotifications": "off"
+}
+
+2025-01-08 11:03:59.091 [info] sys.path used to run Server:
+   /root/.vscode-server/extensions/ms-python.black-formatter-2024.4.0/bundled/libs
+   /root/.vscode-server/extensions/ms-python.black-formatter-2024.4.0/bundled/tool
+   /root/miniconda3/envs/mle-dev/lib/python313.zip
+   /root/miniconda3/envs/mle-dev/lib/python3.13
+   /root/miniconda3/envs/mle-dev/lib/python3.13/lib-dynload
+   /root/miniconda3/envs/mle-dev/lib/python3.13/site-packages
+2025-01-08 11:03:59.091 [info] /root/miniconda3/envs/mle-dev/bin/python -m black --version
+2025-01-08 11:03:59.091 [info] CWD formatter: /root
+2025-01-08 11:03:59.159 [info] Version info for formatter running for /root:
+black, 24.8.0 (compiled: no)
+Python (CPython) 3.13.1
+
+2025-01-08 11:03:59.159 [info] SUPPORTED black>=22.3.0
+FOUND black==24.8.0
+
+2025-01-08 11:12:21.217 [info] /root/miniconda3/envs/mle-dev/bin/python -m black --stdin-filename /root/pycode.py -
+2025-01-08 11:12:21.217 [info] CWD formatter: /root
+2025-01-08 11:12:21.281 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2025-01-08 11:12:22.756 [info] /root/miniconda3/envs/mle-dev/bin/python -m black --stdin-filename /root/pycode.py -
+2025-01-08 11:12:22.756 [info] CWD formatter: /root
+2025-01-08 11:12:22.821 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2025-01-08 11:12:23.802 [info] /root/miniconda3/envs/mle-dev/bin/python -m black --stdin-filename /root/pycode.py -
+2025-01-08 11:12:23.802 [info] CWD formatter: /root
+2025-01-08 11:12:23.870 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2025-01-08 11:12:25.178 [info] /root/miniconda3/envs/mle-dev/bin/python -m black --stdin-filename /root/pycode.py -
+2025-01-08 11:12:25.178 [info] CWD formatter: /root
+2025-01-08 11:12:25.249 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2025-01-08 11:21:31.278 [info] /root/miniconda3/envs/mle-dev/bin/python -m black --stdin-filename /root/pycode.py -
+2025-01-08 11:21:31.278 [info] CWD formatter: /root
+2025-01-08 11:21:31.353 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2025-01-08 11:21:31.576 [info] /root/miniconda3/envs/mle-dev/bin/python -m black --stdin-filename /root/pycode.py -
+2025-01-08 11:21:31.576 [info] CWD formatter: /root
+2025-01-08 11:21:31.645 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2025-01-08 11:21:31.890 [info] /root/miniconda3/envs/mle-dev/bin/python -m black --stdin-filename /root/pycode.py -
+2025-01-08 11:21:31.890 [info] CWD formatter: /root
+2025-01-08 11:21:31.959 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2025-01-08 11:21:32.116 [info] /root/miniconda3/envs/mle-dev/bin/python -m black --stdin-filename /root/pycode.py -
+2025-01-08 11:21:32.116 [info] CWD formatter: /root
+2025-01-08 11:21:32.190 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2025-01-08 11:21:32.363 [info] /root/miniconda3/envs/mle-dev/bin/python -m black --stdin-filename /root/pycode.py -
+2025-01-08 11:21:32.363 [info] CWD formatter: /root
+2025-01-08 11:21:32.439 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2025-01-08 11:24:25.761 [info] No interpreter found from setting black-formatter.interpreter
+2025-01-08 11:24:25.761 [info] Getting interpreter from ms-python.python extension for workspace /root
+2025-01-08 11:24:25.770 [info] Interpreter from ms-python.python extension for /root: /root/miniconda3/envs/mle-dev/bin/python
+2025-01-08 11:24:25.770 [info] Workspace settings for /root (client side): {
+    "cwd": "/root",
+    "workspace": "file:///root",
+    "args": [],
+    "path": [],
+    "interpreter": [
+        "/root/miniconda3/envs/mle-dev/bin/python"
+    ],
+    "importStrategy": "useBundled",
+    "showNotifications": "off"
+}
+2025-01-08 11:24:25.773 [info] Server: Stop requested
+2025-01-08 11:24:25.798 [info] No interpreter found from setting black-formatter.interpreter
+2025-01-08 11:24:25.798 [info] Getting interpreter from ms-python.python extension for workspace /root
+2025-01-08 11:24:25.800 [info] Interpreter from ms-python.python extension for /root: /root/miniconda3/envs/mle-dev/bin/python
+2025-01-08 11:24:25.800 [info] Workspace settings for /root (client side): {
+    "cwd": "/root",
+    "workspace": "file:///root",
+    "args": [],
+    "path": [],
+    "interpreter": [
+        "/root/miniconda3/envs/mle-dev/bin/python"
+    ],
+    "importStrategy": "useBundled",
+    "showNotifications": "off"
+}
+2025-01-08 11:24:25.801 [info] Global settings (client side): {
+    "cwd": "/mnt/c/Users/akashvenkat.pala/AppData/Local/Programs/Microsoft VS Code",
+    "workspace": "/mnt/c/Users/akashvenkat.pala/AppData/Local/Programs/Microsoft VS Code",
+    "args": [],
+    "path": [],
+    "interpreter": [],
+    "importStrategy": "useBundled",
+    "showNotifications": "off"
+}
+2025-01-08 11:24:25.818 [info] Server run command: /root/miniconda3/envs/mle-dev/bin/python /root/.vscode-server/extensions/ms-python.black-formatter-2024.4.0/bundled/tool/lsp_server.py
+2025-01-08 11:24:25.819 [info] Server: Start requested.
+2025-01-08 11:24:26.004 [info] [Error - 11:24:26 AM] Server process exited with code 0.
+2025-01-08 11:24:26.648 [info] CWD Server: /root
+2025-01-08 11:24:26.648 [info] Settings received on server:
+[
+    {
+        "cwd": "/root",
+        "workspace": "file:///root",
+        "args": [],
+        "path": [],
+        "interpreter": [
+            "/root/miniconda3/envs/mle-dev/bin/python"
+        ],
+        "importStrategy": "useBundled",
+        "showNotifications": "off"
+    }
+]
+
+2025-01-08 11:24:26.648 [info] Global settings received on server:
+{
+    "cwd": "/mnt/c/Users/akashvenkat.pala/AppData/Local/Programs/Microsoft VS Code",
+    "workspace": "/mnt/c/Users/akashvenkat.pala/AppData/Local/Programs/Microsoft VS Code",
+    "args": [],
+    "path": [],
+    "interpreter": [],
+    "importStrategy": "useBundled",
+    "showNotifications": "off"
+}
+
+2025-01-08 11:24:26.648 [info] sys.path used to run Server:
+   /root/.vscode-server/extensions/ms-python.black-formatter-2024.4.0/bundled/libs
+   /root/.vscode-server/extensions/ms-python.black-formatter-2024.4.0/bundled/tool
+   /root/miniconda3/envs/mle-dev/lib/python313.zip
+   /root/miniconda3/envs/mle-dev/lib/python3.13
+   /root/miniconda3/envs/mle-dev/lib/python3.13/lib-dynload
+   /root/miniconda3/envs/mle-dev/lib/python3.13/site-packages
+2025-01-08 11:24:26.651 [info] /root/miniconda3/envs/mle-dev/bin/python -m black --version
+2025-01-08 11:24:26.651 [info] CWD formatter: /root
+2025-01-08 11:24:26.764 [info] Version info for formatter running for /root:
+black, 24.8.0 (compiled: no)
+Python (CPython) 3.13.1
+
+2025-01-08 11:24:26.764 [info] SUPPORTED black>=22.3.0
+FOUND black==24.8.0
+
+2025-01-08 11:25:04.099 [info] No interpreter found from setting black-formatter.interpreter
+2025-01-08 11:25:04.099 [info] Getting interpreter from ms-python.python extension for workspace /root
+2025-01-08 11:25:04.108 [info] Interpreter from ms-python.python extension for /root: /root/miniconda3/bin/python
+2025-01-08 11:25:04.108 [info] Workspace settings for /root (client side): {
+    "cwd": "/root",
+    "workspace": "file:///root",
+    "args": [],
+    "path": [],
+    "interpreter": [
+        "/root/miniconda3/bin/python"
+    ],
+    "importStrategy": "useBundled",
+    "showNotifications": "off"
+}
+2025-01-08 11:25:04.109 [info] Server: Stop requested
+2025-01-08 11:25:04.109 [info] [Trace - 11:25:04 AM] Sending request 'shutdown - (1)'.
+2025-01-08 11:25:04.120 [info] [Trace - 11:25:04 AM] Received response 'shutdown - (1)' in 11ms.
+2025-01-08 11:25:04.120 [info] [Trace - 11:25:04 AM] Sending notification 'exit'.
+2025-01-08 11:25:04.137 [info] No interpreter found from setting black-formatter.interpreter
+2025-01-08 11:25:04.137 [info] Getting interpreter from ms-python.python extension for workspace /root
+2025-01-08 11:25:04.139 [info] Interpreter from ms-python.python extension for /root: /root/miniconda3/bin/python
+2025-01-08 11:25:04.139 [info] Workspace settings for /root (client side): {
+    "cwd": "/root",
+    "workspace": "file:///root",
+    "args": [],
+    "path": [],
+    "interpreter": [
+        "/root/miniconda3/bin/python"
+    ],
+    "importStrategy": "useBundled",
+    "showNotifications": "off"
+}
+2025-01-08 11:25:04.140 [info] Global settings (client side): {
+    "cwd": "/mnt/c/Users/akashvenkat.pala/AppData/Local/Programs/Microsoft VS Code",
+    "workspace": "/mnt/c/Users/akashvenkat.pala/AppData/Local/Programs/Microsoft VS Code",
+    "args": [],
+    "path": [],
+    "interpreter": [],
+    "importStrategy": "useBundled",
+    "showNotifications": "off"
+}
+2025-01-08 11:25:04.153 [info] Server run command: /root/miniconda3/bin/python /root/.vscode-server/extensions/ms-python.black-formatter-2024.4.0/bundled/tool/lsp_server.py
+2025-01-08 11:25:04.154 [info] Server: Start requested.
+2025-01-08 11:25:04.296 [info] [Error - 11:25:04 AM] Server process exited with code 0.
+2025-01-08 11:25:05.152 [info] CWD Server: /root
+2025-01-08 11:25:05.152 [info] Settings received on server:
+[
+    {
+        "cwd": "/root",
+        "workspace": "file:///root",
+        "args": [],
+        "path": [],
+        "interpreter": [
+            "/root/miniconda3/bin/python"
+        ],
+        "importStrategy": "useBundled",
+        "showNotifications": "off"
+    }
+]
+
+2025-01-08 11:25:05.152 [info] Global settings received on server:
+{
+    "cwd": "/mnt/c/Users/akashvenkat.pala/AppData/Local/Programs/Microsoft VS Code",
+    "workspace": "/mnt/c/Users/akashvenkat.pala/AppData/Local/Programs/Microsoft VS Code",
+    "args": [],
+    "path": [],
+    "interpreter": [],
+    "importStrategy": "useBundled",
+    "showNotifications": "off"
+}
+
+2025-01-08 11:25:05.152 [info] sys.path used to run Server:
+   /root/.vscode-server/extensions/ms-python.black-formatter-2024.4.0/bundled/libs
+   /root/.vscode-server/extensions/ms-python.black-formatter-2024.4.0/bundled/tool
+   /root/miniconda3/lib/python312.zip
+   /root/miniconda3/lib/python3.12
+   /root/miniconda3/lib/python3.12/lib-dynload
+   /root/miniconda3/lib/python3.12/site-packages
+2025-01-08 11:25:05.158 [info] /root/miniconda3/bin/python -m black --version
+2025-01-08 11:25:05.158 [info] CWD formatter: /root
+2025-01-08 11:25:05.477 [info] Version info for formatter running for /root:
+black, 24.8.0 (compiled: no)
+Python (CPython) 3.12.8
+
+2025-01-08 11:25:05.477 [info] SUPPORTED black>=22.3.0
+FOUND black==24.8.0
+
+2025-01-08 11:25:39.449 [info] No interpreter found from setting black-formatter.interpreter
+2025-01-08 11:25:39.449 [info] Getting interpreter from ms-python.python extension for workspace /root
+2025-01-08 11:25:39.454 [info] Interpreter from ms-python.python extension for /root: /root/miniconda3/envs/mle-dev/bin/python
+2025-01-08 11:25:39.454 [info] Workspace settings for /root (client side): {
+    "cwd": "/root",
+    "workspace": "file:///root",
+    "args": [],
+    "path": [],
+    "interpreter": [
+        "/root/miniconda3/envs/mle-dev/bin/python"
+    ],
+    "importStrategy": "useBundled",
+    "showNotifications": "off"
+}
+2025-01-08 11:25:39.455 [info] Server: Stop requested
+2025-01-08 11:25:39.455 [info] [Trace - 11:25:39 AM] Sending request 'shutdown - (1)'.
+2025-01-08 11:25:39.468 [info] [Trace - 11:25:39 AM] Received response 'shutdown - (1)' in 13ms.
+2025-01-08 11:25:39.468 [info] [Trace - 11:25:39 AM] Sending notification 'exit'.
+2025-01-08 11:25:39.481 [info] No interpreter found from setting black-formatter.interpreter
+2025-01-08 11:25:39.481 [info] Getting interpreter from ms-python.python extension for workspace /root
+2025-01-08 11:25:39.483 [info] Interpreter from ms-python.python extension for /root: /root/miniconda3/envs/mle-dev/bin/python
+2025-01-08 11:25:39.483 [info] Workspace settings for /root (client side): {
+    "cwd": "/root",
+    "workspace": "file:///root",
+    "args": [],
+    "path": [],
+    "interpreter": [
+        "/root/miniconda3/envs/mle-dev/bin/python"
+    ],
+    "importStrategy": "useBundled",
+    "showNotifications": "off"
+}
+2025-01-08 11:25:39.484 [info] Global settings (client side): {
+    "cwd": "/mnt/c/Users/akashvenkat.pala/AppData/Local/Programs/Microsoft VS Code",
+    "workspace": "/mnt/c/Users/akashvenkat.pala/AppData/Local/Programs/Microsoft VS Code",
+    "args": [],
+    "path": [],
+    "interpreter": [],
+    "importStrategy": "useBundled",
+    "showNotifications": "off"
+}
+2025-01-08 11:25:39.517 [info] Server run command: /root/miniconda3/envs/mle-dev/bin/python /root/.vscode-server/extensions/ms-python.black-formatter-2024.4.0/bundled/tool/lsp_server.py
+2025-01-08 11:25:39.517 [info] Server: Start requested.
+2025-01-08 11:25:39.664 [info] [Error - 11:25:39 AM] Server process exited with code 0.
+2025-01-08 11:25:40.235 [info] CWD Server: /root
+2025-01-08 11:25:40.235 [info] Settings received on server:
+[
+    {
+        "cwd": "/root",
+        "workspace": "file:///root",
+        "args": [],
+        "path": [],
+        "interpreter": [
+            "/root/miniconda3/envs/mle-dev/bin/python"
+        ],
+        "importStrategy": "useBundled",
+        "showNotifications": "off"
+    }
+]
+
+2025-01-08 11:25:40.235 [info] Global settings received on server:
+{
+    "cwd": "/mnt/c/Users/akashvenkat.pala/AppData/Local/Programs/Microsoft VS Code",
+    "workspace": "/mnt/c/Users/akashvenkat.pala/AppData/Local/Programs/Microsoft VS Code",
+    "args": [],
+    "path": [],
+    "interpreter": [],
+    "importStrategy": "useBundled",
+    "showNotifications": "off"
+}
+
+2025-01-08 11:25:40.235 [info] sys.path used to run Server:
+   /root/.vscode-server/extensions/ms-python.black-formatter-2024.4.0/bundled/libs
+   /root/.vscode-server/extensions/ms-python.black-formatter-2024.4.0/bundled/tool
+   /root/miniconda3/envs/mle-dev/lib/python313.zip
+   /root/miniconda3/envs/mle-dev/lib/python3.13
+   /root/miniconda3/envs/mle-dev/lib/python3.13/lib-dynload
+   /root/miniconda3/envs/mle-dev/lib/python3.13/site-packages
+2025-01-08 11:25:40.238 [info] /root/miniconda3/envs/mle-dev/bin/python -m black --version
+2025-01-08 11:25:40.238 [info] CWD formatter: /root
+2025-01-08 11:25:40.332 [info] Version info for formatter running for /root:
+black, 24.8.0 (compiled: no)
+Python (CPython) 3.13.1
+
+2025-01-08 11:25:40.332 [info] SUPPORTED black>=22.3.0
+FOUND black==24.8.0
+
+2025-01-08 11:25:50.184 [info] [Trace - 11:25:50 AM] Sending notification 'textDocument/didOpen'.
+2025-01-08 11:25:50.184 [info] [Trace - 11:25:50 AM] Sending notification 'textDocument/didClose'.
+2025-01-08 11:25:50.687 [info] [Trace - 11:25:50 AM] Sending request 'textDocument/formatting - (1)'.
+2025-01-08 11:25:50.696 [info] [Trace - 11:25:50 AM] Received notification 'window/logMessage'.
+2025-01-08 11:25:50.696 [info] /root/miniconda3/envs/mle-dev/bin/python -m black --stdin-filename /root/pycode.py -
+2025-01-08 11:25:50.696 [info] [Trace - 11:25:50 AM] Received notification 'window/logMessage'.
+2025-01-08 11:25:50.696 [info] CWD formatter: /root
+2025-01-08 11:25:50.757 [info] [Trace - 11:25:50 AM] Received notification 'window/logMessage'.
+2025-01-08 11:25:50.757 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2025-01-08 11:25:50.757 [info] [Trace - 11:25:50 AM] Received response 'textDocument/formatting - (1)' in 70ms.
+2025-01-08 11:25:52.693 [info] [Trace - 11:25:52 AM] Sending request 'textDocument/formatting - (2)'.
+2025-01-08 11:25:52.697 [info] [Trace - 11:25:52 AM] Received notification 'window/logMessage'.
+2025-01-08 11:25:52.697 [info] /root/miniconda3/envs/mle-dev/bin/python -m black --stdin-filename /root/pycode.py -
+2025-01-08 11:25:52.697 [info] [Trace - 11:25:52 AM] Received notification 'window/logMessage'.
+2025-01-08 11:25:52.697 [info] CWD formatter: /root
+2025-01-08 11:25:52.768 [info] [Trace - 11:25:52 AM] Received notification 'window/logMessage'.
+2025-01-08 11:25:52.769 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2025-01-08 11:25:52.769 [info] [Trace - 11:25:52 AM] Received response 'textDocument/formatting - (2)' in 76ms.
+2025-01-08 11:28:01.897 [info] [Trace - 11:28:01 AM] Sending request 'textDocument/formatting - (3)'.
+2025-01-08 11:28:01.903 [info] [Trace - 11:28:01 AM] Received notification 'window/logMessage'.
+2025-01-08 11:28:01.903 [info] /root/miniconda3/envs/mle-dev/bin/python -m black --stdin-filename /root/pycode.py -
+2025-01-08 11:28:01.903 [info] [Trace - 11:28:01 AM] Received notification 'window/logMessage'.
+2025-01-08 11:28:01.903 [info] CWD formatter: /root
+2025-01-08 11:28:01.969 [info] [Trace - 11:28:01 AM] Received notification 'window/logMessage'.
+2025-01-08 11:28:01.969 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2025-01-08 11:28:01.969 [info] [Trace - 11:28:01 AM] Received response 'textDocument/formatting - (3)' in 72ms.
+2025-01-08 11:28:02.515 [info] [Trace - 11:28:02 AM] Sending request 'textDocument/formatting - (4)'.
+2025-01-08 11:28:02.523 [info] [Trace - 11:28:02 AM] Received notification 'window/logMessage'.
+2025-01-08 11:28:02.523 [info] /root/miniconda3/envs/mle-dev/bin/python -m black --stdin-filename /root/pycode.py -
+2025-01-08 11:28:02.523 [info] [Trace - 11:28:02 AM] Received notification 'window/logMessage'.
+2025-01-08 11:28:02.523 [info] CWD formatter: /root
+2025-01-08 11:28:02.595 [info] [Trace - 11:28:02 AM] Received notification 'window/logMessage'.
+2025-01-08 11:28:02.595 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2025-01-08 11:28:02.595 [info] [Trace - 11:28:02 AM] Received response 'textDocument/formatting - (4)' in 80ms.
+2025-01-08 11:28:02.921 [info] [Trace - 11:28:02 AM] Sending request 'textDocument/formatting - (5)'.
+2025-01-08 11:28:02.927 [info] [Trace - 11:28:02 AM] Received notification 'window/logMessage'.
+2025-01-08 11:28:02.927 [info] /root/miniconda3/envs/mle-dev/bin/python -m black --stdin-filename /root/pycode.py -
+2025-01-08 11:28:02.927 [info] [Trace - 11:28:02 AM] Received notification 'window/logMessage'.
+2025-01-08 11:28:02.927 [info] CWD formatter: /root
+2025-01-08 11:28:02.992 [info] [Trace - 11:28:02 AM] Received notification 'window/logMessage'.
+2025-01-08 11:28:02.992 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2025-01-08 11:28:02.992 [info] [Trace - 11:28:02 AM] Received response 'textDocument/formatting - (5)' in 71ms.
+2025-01-08 11:28:03.270 [info] [Trace - 11:28:03 AM] Sending request 'textDocument/formatting - (6)'.
+2025-01-08 11:28:03.277 [info] [Trace - 11:28:03 AM] Received notification 'window/logMessage'.
+2025-01-08 11:28:03.277 [info] /root/miniconda3/envs/mle-dev/bin/python -m black --stdin-filename /root/pycode.py -
+2025-01-08 11:28:03.277 [info] [Trace - 11:28:03 AM] Received notification 'window/logMessage'.
+2025-01-08 11:28:03.277 [info] CWD formatter: /root
+2025-01-08 11:28:03.355 [info] [Trace - 11:28:03 AM] Received notification 'window/logMessage'.
+2025-01-08 11:28:03.355 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2025-01-08 11:28:03.355 [info] [Trace - 11:28:03 AM] Received response 'textDocument/formatting - (6)' in 86ms.
+2025-01-08 11:28:03.552 [info] [Trace - 11:28:03 AM] Sending request 'textDocument/formatting - (7)'.
+2025-01-08 11:28:03.556 [info] [Trace - 11:28:03 AM] Received notification 'window/logMessage'.
+2025-01-08 11:28:03.556 [info] /root/miniconda3/envs/mle-dev/bin/python -m black --stdin-filename /root/pycode.py -
+2025-01-08 11:28:03.556 [info] [Trace - 11:28:03 AM] Received notification 'window/logMessage'.
+2025-01-08 11:28:03.556 [info] CWD formatter: /root
+2025-01-08 11:28:03.616 [info] [Trace - 11:28:03 AM] Received notification 'window/logMessage'.
+2025-01-08 11:28:03.616 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2025-01-08 11:28:03.616 [info] [Trace - 11:28:03 AM] Received response 'textDocument/formatting - (7)' in 64ms.
+2025-01-08 11:28:03.888 [info] [Trace - 11:28:03 AM] Sending request 'textDocument/formatting - (8)'.
+2025-01-08 11:28:03.894 [info] [Trace - 11:28:03 AM] Received notification 'window/logMessage'.
+2025-01-08 11:28:03.894 [info] /root/miniconda3/envs/mle-dev/bin/python -m black --stdin-filename /root/pycode.py -
+2025-01-08 11:28:03.894 [info] [Trace - 11:28:03 AM] Received notification 'window/logMessage'.
+2025-01-08 11:28:03.894 [info] CWD formatter: /root
+2025-01-08 11:28:03.956 [info] [Trace - 11:28:03 AM] Received notification 'window/logMessage'.
+2025-01-08 11:28:03.956 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2025-01-08 11:28:03.956 [info] [Trace - 11:28:03 AM] Received response 'textDocument/formatting - (8)' in 68ms.
+2025-01-08 11:28:04.196 [info] [Trace - 11:28:04 AM] Sending request 'textDocument/formatting - (9)'.
+2025-01-08 11:28:04.203 [info] [Trace - 11:28:04 AM] Received notification 'window/logMessage'.
+2025-01-08 11:28:04.203 [info] /root/miniconda3/envs/mle-dev/bin/python -m black --stdin-filename /root/pycode.py -
+2025-01-08 11:28:04.203 [info] [Trace - 11:28:04 AM] Received notification 'window/logMessage'.
+2025-01-08 11:28:04.203 [info] CWD formatter: /root
+2025-01-08 11:28:04.282 [info] [Trace - 11:28:04 AM] Received notification 'window/logMessage'.
+2025-01-08 11:28:04.282 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2025-01-08 11:28:04.282 [info] [Trace - 11:28:04 AM] Received response 'textDocument/formatting - (9)' in 86ms.
+2025-01-08 11:28:04.448 [info] [Trace - 11:28:04 AM] Sending request 'textDocument/formatting - (10)'.
+2025-01-08 11:28:04.454 [info] [Trace - 11:28:04 AM] Received notification 'window/logMessage'.
+2025-01-08 11:28:04.454 [info] /root/miniconda3/envs/mle-dev/bin/python -m black --stdin-filename /root/pycode.py -
+2025-01-08 11:28:04.454 [info] [Trace - 11:28:04 AM] Received notification 'window/logMessage'.
+2025-01-08 11:28:04.454 [info] CWD formatter: /root
+2025-01-08 11:28:04.533 [info] [Trace - 11:28:04 AM] Received notification 'window/logMessage'.
+2025-01-08 11:28:04.533 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2025-01-08 11:28:04.533 [info] [Trace - 11:28:04 AM] Received response 'textDocument/formatting - (10)' in 85ms.
+2025-01-08 11:28:04.675 [info] [Trace - 11:28:04 AM] Sending notification 'textDocument/didOpen'.
+2025-01-08 11:28:04.675 [info] [Trace - 11:28:04 AM] Sending notification 'textDocument/didClose'.
+2025-01-08 11:28:04.732 [info] [Trace - 11:28:04 AM] Sending notification 'textDocument/didChange'.
+2025-01-08 11:28:04.775 [info] [Trace - 11:28:04 AM] Sending notification 'textDocument/didOpen'.
+2025-01-08 11:28:04.775 [info] [Trace - 11:28:04 AM] Sending notification 'textDocument/didClose'.
+2025-01-08 11:28:16.539 [info] [Trace - 11:28:16 AM] Sending notification 'textDocument/didChange'.
+2025-01-08 11:28:17.614 [info] [Trace - 11:28:17 AM] Sending request 'textDocument/formatting - (11)'.
+2025-01-08 11:28:17.620 [info] [Trace - 11:28:17 AM] Received notification 'window/logMessage'.
+2025-01-08 11:28:17.620 [info] /root/miniconda3/envs/mle-dev/bin/python -m black --stdin-filename /root/pycode.py -
+2025-01-08 11:28:17.620 [info] [Trace - 11:28:17 AM] Received notification 'window/logMessage'.
+2025-01-08 11:28:17.620 [info] CWD formatter: /root
+2025-01-08 11:28:17.703 [info] [Trace - 11:28:17 AM] Received notification 'window/logMessage'.
+2025-01-08 11:28:17.703 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2025-01-08 11:28:17.703 [info] [Trace - 11:28:17 AM] Received response 'textDocument/formatting - (11)' in 89ms.
+2025-01-08 11:28:19.453 [info] [Trace - 11:28:19 AM] Sending request 'textDocument/formatting - (12)'.
+2025-01-08 11:28:19.458 [info] [Trace - 11:28:19 AM] Received notification 'window/logMessage'.
+2025-01-08 11:28:19.459 [info] /root/miniconda3/envs/mle-dev/bin/python -m black --stdin-filename /root/pycode.py -
+2025-01-08 11:28:19.459 [info] [Trace - 11:28:19 AM] Received notification 'window/logMessage'.
+2025-01-08 11:28:19.459 [info] CWD formatter: /root
+2025-01-08 11:28:19.517 [info] [Trace - 11:28:19 AM] Received notification 'window/logMessage'.
+2025-01-08 11:28:19.517 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2025-01-08 11:28:19.517 [info] [Trace - 11:28:19 AM] Received response 'textDocument/formatting - (12)' in 65ms.
+2025-01-08 11:28:19.944 [info] [Trace - 11:28:19 AM] Sending request 'textDocument/formatting - (13)'.
+2025-01-08 11:28:19.951 [info] [Trace - 11:28:19 AM] Received notification 'window/logMessage'.
+2025-01-08 11:28:19.951 [info] /root/miniconda3/envs/mle-dev/bin/python -m black --stdin-filename /root/pycode.py -
+2025-01-08 11:28:19.951 [info] [Trace - 11:28:19 AM] Received notification 'window/logMessage'.
+2025-01-08 11:28:19.951 [info] CWD formatter: /root
+2025-01-08 11:28:20.018 [info] [Trace - 11:28:20 AM] Received notification 'window/logMessage'.
+2025-01-08 11:28:20.018 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2025-01-08 11:28:20.018 [info] [Trace - 11:28:20 AM] Received response 'textDocument/formatting - (13)' in 74ms.
+2025-01-08 11:28:20.378 [info] [Trace - 11:28:20 AM] Sending request 'textDocument/formatting - (14)'.
+2025-01-08 11:28:20.386 [info] [Trace - 11:28:20 AM] Received notification 'window/logMessage'.
+2025-01-08 11:28:20.386 [info] /root/miniconda3/envs/mle-dev/bin/python -m black --stdin-filename /root/pycode.py -
+2025-01-08 11:28:20.386 [info] [Trace - 11:28:20 AM] Received notification 'window/logMessage'.
+2025-01-08 11:28:20.386 [info] CWD formatter: /root
+2025-01-08 11:28:20.455 [info] [Trace - 11:28:20 AM] Received notification 'window/logMessage'.
+2025-01-08 11:28:20.455 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2025-01-08 11:28:20.455 [info] [Trace - 11:28:20 AM] Received response 'textDocument/formatting - (14)' in 77ms.
+2025-01-08 11:31:45.508 [info] [Trace - 11:31:45 AM] Sending notification 'textDocument/didOpen'.
+2025-01-08 11:31:45.508 [info] [Trace - 11:31:45 AM] Sending notification 'textDocument/didClose'.
+2025-01-08 11:31:45.755 [info] [Trace - 11:31:45 AM] Sending request 'textDocument/formatting - (15)'.
+2025-01-08 11:31:45.761 [info] [Trace - 11:31:45 AM] Received notification 'window/logMessage'.
+2025-01-08 11:31:45.761 [info] /root/miniconda3/envs/mle-dev/bin/python -m black --stdin-filename /root/pycode.py -
+2025-01-08 11:31:45.761 [info] [Trace - 11:31:45 AM] Received notification 'window/logMessage'.
+2025-01-08 11:31:45.761 [info] CWD formatter: /root
+2025-01-08 11:31:45.824 [info] [Trace - 11:31:45 AM] Received notification 'window/logMessage'.
+2025-01-08 11:31:45.824 [info] All done! ✨ 🍰 ✨
+1 file left unchanged.
+
+2025-01-08 11:31:45.824 [info] [Trace - 11:31:45 AM] Received response 'textDocument/formatting - (15)' in 69ms.
+2025-01-08 11:34:06.479 [info] [Trace - 11:34:06 AM] Sending notification 'textDocument/didClose'.

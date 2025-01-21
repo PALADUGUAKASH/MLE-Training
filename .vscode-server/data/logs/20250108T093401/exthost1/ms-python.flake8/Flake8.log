@@ -1,0 +1,483 @@
+2025-01-08 09:41:16.393 [info] Name: Flake8
+2025-01-08 09:41:16.393 [info] Module: flake8
+2025-01-08 09:41:16.393 [info] Python extension loading
+2025-01-08 09:41:16.393 [info] Waiting for interpreter from Python extension.
+2025-01-08 09:41:16.393 [info] No interpreter found from setting flake8.interpreter
+2025-01-08 09:41:16.393 [info] Getting interpreter from ms-python.python extension for workspace /root
+2025-01-08 09:41:16.393 [info] Python extension loaded
+2025-01-08 09:41:16.393 [info] Interpreter from ms-python.python extension for /root: /root/miniconda3/envs/mle-dev/bin/python
+2025-01-08 09:41:16.393 [info] No interpreter found from setting flake8.interpreter
+2025-01-08 09:41:16.393 [info] Getting interpreter from ms-python.python extension for workspace /root
+2025-01-08 09:41:16.393 [info] Interpreter from ms-python.python extension for /root: /root/miniconda3/envs/mle-dev/bin/python
+2025-01-08 09:41:16.393 [info] Server run command: /root/miniconda3/envs/mle-dev/bin/python /root/.vscode-server/extensions/ms-python.flake8-2023.10.0/bundled/tool/lsp_server.py
+2025-01-08 09:41:16.393 [info] Server: Start requested.
+2025-01-08 09:41:17.182 [info] CWD Server: /root
+2025-01-08 09:41:17.183 [info] sys.path used to run Server:
+   /root/.vscode-server/extensions/ms-python.flake8-2023.10.0/bundled/libs
+   /root/.vscode-server/extensions/ms-python.flake8-2023.10.0/bundled/tool
+   /root/miniconda3/envs/mle-dev/lib/python313.zip
+   /root/miniconda3/envs/mle-dev/lib/python3.13
+   /root/miniconda3/envs/mle-dev/lib/python3.13/lib-dynload
+   /root/miniconda3/envs/mle-dev/lib/python3.13/site-packages
+2025-01-08 09:41:17.183 [info] Settings used to run Server:
+[
+    {
+        "cwd": "/root",
+        "workspace": "file:///root",
+        "args": [],
+        "severity": {
+            "E": "Error",
+            "F": "Error",
+            "I": "Information",
+            "W": "Warning"
+        },
+        "path": [],
+        "ignorePatterns": [],
+        "interpreter": [
+            "/root/miniconda3/envs/mle-dev/bin/python"
+        ],
+        "importStrategy": "useBundled",
+        "showNotifications": "off"
+    }
+]
+
+2025-01-08 09:41:17.183 [info] Global settings:
+{
+    "cwd": "${workspaceFolder}",
+    "workspace": "/mnt/c/Users/akashvenkat.pala/AppData/Local/Programs/Microsoft VS Code",
+    "args": [],
+    "severity": {
+        "E": "Error",
+        "F": "Error",
+        "I": "Information",
+        "W": "Warning"
+    },
+    "path": [],
+    "ignorePatterns": [],
+    "interpreter": [],
+    "importStrategy": "useBundled",
+    "showNotifications": "off"
+}
+
+2025-01-08 09:41:17.188 [info] /root/miniconda3/envs/mle-dev/bin/python -m flake8 --version
+2025-01-08 09:41:17.188 [info] CWD Linter: /root
+2025-01-08 09:41:17.314 [info] 
+6.1.0 (mccabe: 0.7.0, pycodestyle: 2.11.1, pyflakes: 3.1.0) CPython 3.13.1 on
+Linux
+
+
+2025-01-08 09:41:17.314 [info] Version info for linter running for /root:
+6.1.0 (mccabe: 0.7.0, pycodestyle: 2.11.1, pyflakes: 3.1.0) CPython 3.13.1 on
+Linux
+
+2025-01-08 09:41:17.314 [info] SUPPORTED flake8>=5.0.0
+FOUND flake8==6.1.0
+
+2025-01-08 10:29:31.146 [info] [Info  - 10:29:31 AM] Skipping linting for untitled://wsl%2Bubuntu-24.04/root/nonstandard_code.py skipped: not supported
+2025-01-08 10:30:04.222 [info] /root/miniconda3/envs/mle-dev/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /root/pycode.py
+2025-01-08 10:30:04.222 [info] CWD Linter: /root
+2025-01-08 10:30:04.311 [info] file:///root/pycode.py :
+'3,1,F,F401:'matplotlib as mpl' imported but unused'
+'4,1,F,F401:'matplotlib.pyplot as plt' imported but unused'
+'14,1,E,E302:expected 2 blank lines, found 1'
+'22,1,F,F811:redefinition of unused 'pd' from line 2'
+'22,1,E,E305:expected 2 blank lines after class or function definition, found 1'
+'22,1,E,E402:module level import not at top of file'
+'24,1,E,E302:expected 2 blank lines, found 1'
+'29,1,E,E305:expected 2 blank lines after class or function definition, found 1'
+'33,1,E,E402:module level import not at top of file'
+'41,1,E,E402:module level import not at top of file'
+'52,1,E,E305:expected 2 blank lines after class or function definition, found 1'
+'59,80,E,E501:line too long (94 > 79 characters)'
+'60,80,E,E501:line too long (99 > 79 characters)'
+'74,36,E,E225:missing whitespace around operator'
+'76,61,E,E261:at least two spaces before inline comment'
+'76,80,E,E501:line too long (91 > 79 characters)'
+'79,1,E,E402:module level import not at top of file'
+'89,80,E,E501:line too long (86 > 79 characters)'
+'90,80,E,E501:line too long (88 > 79 characters)'
+'91,39,E,E225:missing whitespace around operator'
+'91,80,E,E501:line too long (88 > 79 characters)'
+'94,80,E,E501:line too long (80 > 79 characters)'
+'96,1,E,E402:module level import not at top of file'
+'101,1,E,E402:module level import not at top of file'
+'108,1,E,E402:module level import not at top of file'
+'113,1,E,E402:module level import not at top of file'
+'124,1,E,E402:module level import not at top of file'
+'125,1,E,E402:module level import not at top of file'
+'126,1,E,E402:module level import not at top of file'
+'135,80,E,E501:line too long (99 > 79 characters)'
+'142,1,E,E402:module level import not at top of file'
+'152,73,W,W291:trailing whitespace'
+'154,80,E,E501:line too long (85 > 79 characters)'
+'174,27,E,E128:continuation line under-indented for visual indent'
+'175,80,E,E501:line too long (101 > 79 characters)'
+'176,80,E,E501:line too long (103 > 79 characters)'
+'177,44,E,E225:missing whitespace around operator'
+'177,80,E,E501:line too long (103 > 79 characters)'
+'180,80,E,E501:line too long (83 > 79 characters)'
+
+2025-01-08 10:30:37.437 [info] /root/miniconda3/envs/mle-dev/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /root/pycode.py
+2025-01-08 10:30:37.437 [info] CWD Linter: /root
+2025-01-08 10:30:37.472 [info] file:///root/pycode.py :
+'3,1,F,F401:'matplotlib as mpl' imported but unused'
+'4,1,F,F401:'matplotlib.pyplot as plt' imported but unused'
+'24,1,F,F811:redefinition of unused 'pd' from line 2'
+'24,1,E,E402:module level import not at top of file'
+'37,1,E,E402:module level import not at top of file'
+'47,1,E,E402:module level import not at top of file'
+'86,80,E,E501:line too long (81 > 79 characters)'
+'87,80,E,E501:line too long (83 > 79 characters)'
+'94,1,E,E402:module level import not at top of file'
+'104,80,E,E501:line too long (88 > 79 characters)'
+'113,80,E,E501:line too long (80 > 79 characters)'
+'115,1,E,E402:module level import not at top of file'
+'120,1,E,E402:module level import not at top of file'
+'128,1,E,E402:module level import not at top of file'
+'134,1,E,E402:module level import not at top of file'
+'145,1,E,E402:module level import not at top of file'
+'146,1,E,E402:module level import not at top of file'
+'147,1,E,E402:module level import not at top of file'
+'169,1,E,E402:module level import not at top of file'
+'219,80,E,E501:line too long (83 > 79 characters)'
+
+2025-01-08 10:30:42.439 [info] /root/miniconda3/envs/mle-dev/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /root/pycode.py
+2025-01-08 10:30:42.440 [info] CWD Linter: /root
+2025-01-08 10:30:42.463 [info] file:///root/pycode.py :
+'3,1,F,F401:'matplotlib as mpl' imported but unused'
+'4,1,F,F401:'matplotlib.pyplot as plt' imported but unused'
+'24,1,F,F811:redefinition of unused 'pd' from line 2'
+'24,1,E,E402:module level import not at top of file'
+'37,1,E,E402:module level import not at top of file'
+'47,1,E,E402:module level import not at top of file'
+'86,80,E,E501:line too long (81 > 79 characters)'
+'87,80,E,E501:line too long (83 > 79 characters)'
+'94,1,E,E402:module level import not at top of file'
+'104,80,E,E501:line too long (88 > 79 characters)'
+'113,80,E,E501:line too long (80 > 79 characters)'
+'115,1,E,E402:module level import not at top of file'
+'120,1,E,E402:module level import not at top of file'
+'128,1,E,E402:module level import not at top of file'
+'134,1,E,E402:module level import not at top of file'
+'145,1,E,E402:module level import not at top of file'
+'146,1,E,E402:module level import not at top of file'
+'147,1,E,E402:module level import not at top of file'
+'169,1,E,E402:module level import not at top of file'
+'219,80,E,E501:line too long (83 > 79 characters)'
+
+2025-01-08 10:31:16.119 [info] /root/miniconda3/envs/mle-dev/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /root/pycode.py
+2025-01-08 10:31:16.120 [info] CWD Linter: /root
+2025-01-08 10:31:16.152 [info] file:///root/pycode.py :
+'3,1,F,F401:'matplotlib as mpl' imported but unused'
+'4,1,F,F401:'matplotlib.pyplot as plt' imported but unused'
+'24,1,F,F811:redefinition of unused 'pd' from line 2'
+'24,1,E,E402:module level import not at top of file'
+'37,1,E,E402:module level import not at top of file'
+'47,1,E,E402:module level import not at top of file'
+'86,80,E,E501:line too long (81 > 79 characters)'
+'87,80,E,E501:line too long (83 > 79 characters)'
+'94,1,E,E402:module level import not at top of file'
+'104,80,E,E501:line too long (88 > 79 characters)'
+'113,80,E,E501:line too long (80 > 79 characters)'
+'115,1,E,E402:module level import not at top of file'
+'120,1,E,E402:module level import not at top of file'
+'128,1,E,E402:module level import not at top of file'
+'134,1,E,E402:module level import not at top of file'
+'145,1,E,E402:module level import not at top of file'
+'146,1,E,E402:module level import not at top of file'
+'147,1,E,E402:module level import not at top of file'
+'169,1,E,E402:module level import not at top of file'
+'219,80,E,E501:line too long (83 > 79 characters)'
+
+2025-01-08 10:31:18.200 [info] /root/miniconda3/envs/mle-dev/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /root/pycode.py
+2025-01-08 10:31:18.200 [info] CWD Linter: /root
+2025-01-08 10:31:18.238 [info] file:///root/pycode.py :
+'3,1,F,F401:'matplotlib as mpl' imported but unused'
+'4,1,F,F401:'matplotlib.pyplot as plt' imported but unused'
+'24,1,F,F811:redefinition of unused 'pd' from line 2'
+'24,1,E,E402:module level import not at top of file'
+'37,1,E,E402:module level import not at top of file'
+'47,1,E,E402:module level import not at top of file'
+'86,80,E,E501:line too long (81 > 79 characters)'
+'87,80,E,E501:line too long (83 > 79 characters)'
+'94,1,E,E402:module level import not at top of file'
+'104,80,E,E501:line too long (88 > 79 characters)'
+'113,80,E,E501:line too long (80 > 79 characters)'
+'115,1,E,E402:module level import not at top of file'
+'120,1,E,E402:module level import not at top of file'
+'128,1,E,E402:module level import not at top of file'
+'134,1,E,E402:module level import not at top of file'
+'145,1,E,E402:module level import not at top of file'
+'146,1,E,E402:module level import not at top of file'
+'147,1,E,E402:module level import not at top of file'
+'169,1,E,E402:module level import not at top of file'
+'219,80,E,E501:line too long (83 > 79 characters)'
+
+2025-01-08 10:31:20.105 [info] /root/miniconda3/envs/mle-dev/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /root/pycode.py
+2025-01-08 10:31:20.106 [info] CWD Linter: /root
+2025-01-08 10:31:20.142 [info] file:///root/pycode.py :
+'3,1,F,F401:'matplotlib as mpl' imported but unused'
+'4,1,F,F401:'matplotlib.pyplot as plt' imported but unused'
+'24,1,F,F811:redefinition of unused 'pd' from line 2'
+'24,1,E,E402:module level import not at top of file'
+'37,1,E,E402:module level import not at top of file'
+'47,1,E,E402:module level import not at top of file'
+'86,80,E,E501:line too long (81 > 79 characters)'
+'87,80,E,E501:line too long (83 > 79 characters)'
+'94,1,E,E402:module level import not at top of file'
+'104,80,E,E501:line too long (88 > 79 characters)'
+'113,80,E,E501:line too long (80 > 79 characters)'
+'115,1,E,E402:module level import not at top of file'
+'120,1,E,E402:module level import not at top of file'
+'128,1,E,E402:module level import not at top of file'
+'134,1,E,E402:module level import not at top of file'
+'145,1,E,E402:module level import not at top of file'
+'146,1,E,E402:module level import not at top of file'
+'147,1,E,E402:module level import not at top of file'
+'169,1,E,E402:module level import not at top of file'
+'219,80,E,E501:line too long (83 > 79 characters)'
+
+2025-01-08 10:36:35.786 [info] [Warn  - 10:36:35 AM] Skipping standard library file (stdlib excluded): /root/miniconda3/envs/mle-dev/lib/python3.13/site-packages/sklearn/metrics/__init__.py
+2025-01-08 10:36:35.945 [info] [Warn  - 10:36:35 AM] Skipping standard library file (stdlib excluded): /root/miniconda3/envs/mle-dev/lib/python3.13/site-packages/sklearn/impute/__init__.py
+2025-01-08 10:36:49.639 [info] [Warn  - 10:36:49 AM] Skipping standard library file (stdlib excluded): /root/miniconda3/envs/mle-dev/lib/python3.13/site-packages/sklearn/__init__.py
+2025-01-08 10:36:49.743 [info] [Warn  - 10:36:49 AM] Skipping standard library file (stdlib excluded): /root/miniconda3/envs/mle-dev/lib/python3.13/site-packages/sklearn/model_selection/__init__.py
+2025-01-08 10:36:49.770 [info] [Warn  - 10:36:49 AM] Skipping standard library file (stdlib excluded): /root/miniconda3/envs/mle-dev/lib/python3.13/site-packages/sklearn/ensemble/__init__.py
+2025-01-08 10:36:54.824 [info] [Warn  - 10:36:54 AM] Skipping standard library file (stdlib excluded): /root/miniconda3/envs/mle-dev/lib/python3.13/site-packages/sklearn/__init__.py
+2025-01-08 10:36:54.993 [info] [Warn  - 10:36:54 AM] Skipping standard library file (stdlib excluded): /root/miniconda3/envs/mle-dev/lib/python3.13/site-packages/scipy/__init__.py
+2025-01-08 10:37:08.468 [info] /root/miniconda3/envs/mle-dev/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /root/pycode.py
+2025-01-08 10:37:08.469 [info] CWD Linter: /root
+2025-01-08 10:37:08.510 [info] file:///root/pycode.py :
+'42,1,E,E402:module level import not at top of file'
+'90,80,E,E501:line too long (81 > 79 characters)'
+'91,80,E,E501:line too long (83 > 79 characters)'
+'106,80,E,E501:line too long (88 > 79 characters)'
+'115,80,E,E501:line too long (80 > 79 characters)'
+'204,80,E,E501:line too long (83 > 79 characters)'
+
+2025-01-08 10:37:20.175 [info] /root/miniconda3/envs/mle-dev/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /root/pycode.py
+2025-01-08 10:37:20.175 [info] CWD Linter: /root
+2025-01-08 10:37:20.217 [info] file:///root/pycode.py :
+'89,80,E,E501:line too long (81 > 79 characters)'
+'90,80,E,E501:line too long (83 > 79 characters)'
+'105,80,E,E501:line too long (88 > 79 characters)'
+'114,80,E,E501:line too long (80 > 79 characters)'
+'203,80,E,E501:line too long (83 > 79 characters)'
+
+2025-01-08 10:42:03.570 [info] /root/miniconda3/envs/mle-dev/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /root/pycode.py
+2025-01-08 10:42:03.571 [info] CWD Linter: /root
+2025-01-08 10:42:03.613 [info] file:///root/pycode.py :
+'89,80,E,E501:line too long (81 > 79 characters)'
+'90,80,E,E501:line too long (83 > 79 characters)'
+'105,80,E,E501:line too long (88 > 79 characters)'
+'114,80,E,E501:line too long (80 > 79 characters)'
+'203,80,E,E501:line too long (83 > 79 characters)'
+
+2025-01-08 10:42:05.936 [info] /root/miniconda3/envs/mle-dev/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /root/pycode.py
+2025-01-08 10:42:05.936 [info] CWD Linter: /root
+2025-01-08 10:42:05.971 [info] file:///root/pycode.py :
+'89,80,E,E501:line too long (81 > 79 characters)'
+'90,80,E,E501:line too long (83 > 79 characters)'
+'105,80,E,E501:line too long (88 > 79 characters)'
+'114,80,E,E501:line too long (80 > 79 characters)'
+'203,80,E,E501:line too long (83 > 79 characters)'
+
+2025-01-08 10:42:07.192 [info] /root/miniconda3/envs/mle-dev/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /root/pycode.py
+2025-01-08 10:42:07.192 [info] CWD Linter: /root
+2025-01-08 10:42:07.230 [info] file:///root/pycode.py :
+'89,80,E,E501:line too long (81 > 79 characters)'
+'90,80,E,E501:line too long (83 > 79 characters)'
+'105,80,E,E501:line too long (88 > 79 characters)'
+'114,80,E,E501:line too long (80 > 79 characters)'
+'203,80,E,E501:line too long (83 > 79 characters)'
+
+2025-01-08 10:42:08.659 [info] /root/miniconda3/envs/mle-dev/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /root/pycode.py
+2025-01-08 10:42:08.659 [info] CWD Linter: /root
+2025-01-08 10:42:08.696 [info] file:///root/pycode.py :
+'89,80,E,E501:line too long (81 > 79 characters)'
+'90,80,E,E501:line too long (83 > 79 characters)'
+'105,80,E,E501:line too long (88 > 79 characters)'
+'114,80,E,E501:line too long (80 > 79 characters)'
+'203,80,E,E501:line too long (83 > 79 characters)'
+
+2025-01-08 10:42:22.982 [info] /root/miniconda3/envs/mle-dev/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /root/pycode.py
+2025-01-08 10:42:22.983 [info] CWD Linter: /root
+2025-01-08 10:42:23.020 [info] file:///root/pycode.py :
+'89,80,E,E501:line too long (81 > 79 characters)'
+'90,80,E,E501:line too long (83 > 79 characters)'
+'104,80,E,E501:line too long (88 > 79 characters)'
+'113,80,E,E501:line too long (80 > 79 characters)'
+'202,80,E,E501:line too long (83 > 79 characters)'
+
+2025-01-08 10:45:15.998 [info] /root/miniconda3/envs/mle-dev/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /root/pycode.py
+2025-01-08 10:45:15.998 [info] CWD Linter: /root
+2025-01-08 10:45:16.037 [info] file:///root/pycode.py :
+'89,80,E,E501:line too long (81 > 79 characters)'
+'90,80,E,E501:line too long (83 > 79 characters)'
+'105,80,E,E501:line too long (88 > 79 characters)'
+'114,80,E,E501:line too long (80 > 79 characters)'
+'203,80,E,E501:line too long (83 > 79 characters)'
+
+2025-01-08 10:45:17.166 [info] /root/miniconda3/envs/mle-dev/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /root/pycode.py
+2025-01-08 10:45:17.166 [info] CWD Linter: /root
+2025-01-08 10:45:17.198 [info] file:///root/pycode.py :
+'89,80,E,E501:line too long (81 > 79 characters)'
+'90,80,E,E501:line too long (83 > 79 characters)'
+'105,80,E,E501:line too long (88 > 79 characters)'
+'114,80,E,E501:line too long (80 > 79 characters)'
+'203,80,E,E501:line too long (83 > 79 characters)'
+
+2025-01-08 10:45:18.147 [info] /root/miniconda3/envs/mle-dev/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /root/pycode.py
+2025-01-08 10:45:18.147 [info] CWD Linter: /root
+2025-01-08 10:45:18.178 [info] file:///root/pycode.py :
+'89,80,E,E501:line too long (81 > 79 characters)'
+'90,80,E,E501:line too long (83 > 79 characters)'
+'105,80,E,E501:line too long (88 > 79 characters)'
+'114,80,E,E501:line too long (80 > 79 characters)'
+'203,80,E,E501:line too long (83 > 79 characters)'
+
+2025-01-08 10:45:26.892 [info] /root/miniconda3/envs/mle-dev/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /root/pycode.py
+2025-01-08 10:45:26.893 [info] CWD Linter: /root
+2025-01-08 10:45:26.925 [info] file:///root/pycode.py :
+'89,80,E,E501:line too long (81 > 79 characters)'
+'90,80,E,E501:line too long (83 > 79 characters)'
+'105,80,E,E501:line too long (88 > 79 characters)'
+'114,80,E,E501:line too long (80 > 79 characters)'
+'203,80,E,E501:line too long (83 > 79 characters)'
+
+2025-01-08 10:45:27.320 [info] /root/miniconda3/envs/mle-dev/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /root/pycode.py
+2025-01-08 10:45:27.320 [info] CWD Linter: /root
+2025-01-08 10:45:27.356 [info] file:///root/pycode.py :
+'89,80,E,E501:line too long (81 > 79 characters)'
+'90,80,E,E501:line too long (83 > 79 characters)'
+'105,80,E,E501:line too long (88 > 79 characters)'
+'114,80,E,E501:line too long (80 > 79 characters)'
+'203,80,E,E501:line too long (83 > 79 characters)'
+
+2025-01-08 10:45:27.547 [info] /root/miniconda3/envs/mle-dev/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /root/pycode.py
+2025-01-08 10:45:27.547 [info] CWD Linter: /root
+2025-01-08 10:45:27.570 [info] file:///root/pycode.py :
+'89,80,E,E501:line too long (81 > 79 characters)'
+'90,80,E,E501:line too long (83 > 79 characters)'
+'105,80,E,E501:line too long (88 > 79 characters)'
+'114,80,E,E501:line too long (80 > 79 characters)'
+'203,80,E,E501:line too long (83 > 79 characters)'
+
+2025-01-08 10:45:27.792 [info] /root/miniconda3/envs/mle-dev/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /root/pycode.py
+2025-01-08 10:45:27.792 [info] CWD Linter: /root
+2025-01-08 10:45:27.818 [info] file:///root/pycode.py :
+'89,80,E,E501:line too long (81 > 79 characters)'
+'90,80,E,E501:line too long (83 > 79 characters)'
+'105,80,E,E501:line too long (88 > 79 characters)'
+'114,80,E,E501:line too long (80 > 79 characters)'
+'203,80,E,E501:line too long (83 > 79 characters)'
+
+2025-01-08 10:45:28.174 [info] /root/miniconda3/envs/mle-dev/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /root/pycode.py
+2025-01-08 10:45:28.174 [info] CWD Linter: /root
+2025-01-08 10:45:28.205 [info] file:///root/pycode.py :
+'89,80,E,E501:line too long (81 > 79 characters)'
+'90,80,E,E501:line too long (83 > 79 characters)'
+'105,80,E,E501:line too long (88 > 79 characters)'
+'114,80,E,E501:line too long (80 > 79 characters)'
+'203,80,E,E501:line too long (83 > 79 characters)'
+
+2025-01-08 10:45:28.266 [info] /root/miniconda3/envs/mle-dev/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /root/pycode.py
+2025-01-08 10:45:28.266 [info] CWD Linter: /root
+2025-01-08 10:45:28.294 [info] file:///root/pycode.py :
+'89,80,E,E501:line too long (81 > 79 characters)'
+'90,80,E,E501:line too long (83 > 79 characters)'
+'105,80,E,E501:line too long (88 > 79 characters)'
+'114,80,E,E501:line too long (80 > 79 characters)'
+'203,80,E,E501:line too long (83 > 79 characters)'
+
+2025-01-08 10:45:41.092 [info] /root/miniconda3/envs/mle-dev/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /root/pycode.py
+2025-01-08 10:45:41.092 [info] CWD Linter: /root
+2025-01-08 10:45:41.117 [info] file:///root/pycode.py :
+'89,80,E,E501:line too long (81 > 79 characters)'
+'90,80,E,E501:line too long (83 > 79 characters)'
+'105,80,E,E501:line too long (88 > 79 characters)'
+'114,80,E,E501:line too long (80 > 79 characters)'
+'203,80,E,E501:line too long (83 > 79 characters)'
+
+2025-01-08 10:45:43.461 [info] [Warn  - 10:45:43 AM] Skipping standard library file (stdlib excluded): /root/miniconda3/envs/mle-dev/lib/python3.13/site-packages/sklearn/model_selection/_search.py
+2025-01-08 10:45:43.875 [info] /root/miniconda3/envs/mle-dev/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /root/pycode.py
+2025-01-08 10:45:43.875 [info] CWD Linter: /root
+2025-01-08 10:45:43.903 [info] file:///root/pycode.py :
+'89,80,E,E501:line too long (81 > 79 characters)'
+'90,80,E,E501:line too long (83 > 79 characters)'
+'105,80,E,E501:line too long (88 > 79 characters)'
+'114,80,E,E501:line too long (80 > 79 characters)'
+'203,80,E,E501:line too long (83 > 79 characters)'
+
+2025-01-08 10:45:44.441 [info] /root/miniconda3/envs/mle-dev/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /root/pycode.py
+2025-01-08 10:45:44.441 [info] CWD Linter: /root
+2025-01-08 10:45:44.469 [info] file:///root/pycode.py :
+'89,80,E,E501:line too long (81 > 79 characters)'
+'90,80,E,E501:line too long (83 > 79 characters)'
+'105,80,E,E501:line too long (88 > 79 characters)'
+'114,80,E,E501:line too long (80 > 79 characters)'
+'203,80,E,E501:line too long (83 > 79 characters)'
+
+2025-01-08 10:45:44.669 [info] [Warn  - 10:45:44 AM] Skipping standard library file (stdlib excluded): /root/miniconda3/envs/mle-dev/lib/python3.13/site-packages/sklearn/model_selection/_search.py
+2025-01-08 10:45:47.297 [info] /root/miniconda3/envs/mle-dev/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /root/pycode.py
+2025-01-08 10:45:47.297 [info] CWD Linter: /root
+2025-01-08 10:45:47.336 [info] file:///root/pycode.py :
+'89,80,E,E501:line too long (81 > 79 characters)'
+'90,80,E,E501:line too long (83 > 79 characters)'
+'105,80,E,E501:line too long (88 > 79 characters)'
+'114,80,E,E501:line too long (80 > 79 characters)'
+'203,80,E,E501:line too long (83 > 79 characters)'
+
+2025-01-08 10:45:48.889 [info] /root/miniconda3/envs/mle-dev/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /root/pycode.py
+2025-01-08 10:45:48.889 [info] CWD Linter: /root
+2025-01-08 10:45:48.924 [info] file:///root/pycode.py :
+'89,80,E,E501:line too long (81 > 79 characters)'
+'90,80,E,E501:line too long (83 > 79 characters)'
+'105,80,E,E501:line too long (88 > 79 characters)'
+'114,80,E,E501:line too long (80 > 79 characters)'
+'203,80,E,E501:line too long (83 > 79 characters)'
+
+2025-01-08 10:49:37.518 [info] /root/miniconda3/envs/mle-dev/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /root/pycode.py
+2025-01-08 10:49:37.518 [info] CWD Linter: /root
+2025-01-08 10:49:37.556 [info] file:///root/pycode.py :
+'89,80,E,E501:line too long (81 > 79 characters)'
+'90,80,E,E501:line too long (83 > 79 characters)'
+'105,80,E,E501:line too long (88 > 79 characters)'
+'114,80,E,E501:line too long (80 > 79 characters)'
+'203,80,E,E501:line too long (83 > 79 characters)'
+
+2025-01-08 10:49:39.122 [info] /root/miniconda3/envs/mle-dev/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /root/pycode.py
+2025-01-08 10:49:39.122 [info] CWD Linter: /root
+2025-01-08 10:49:39.162 [info] file:///root/pycode.py :
+'89,80,E,E501:line too long (81 > 79 characters)'
+'90,80,E,E501:line too long (83 > 79 characters)'
+'105,80,E,E501:line too long (88 > 79 characters)'
+'114,80,E,E501:line too long (80 > 79 characters)'
+'203,80,E,E501:line too long (83 > 79 characters)'
+
+2025-01-08 10:49:39.443 [info] /root/miniconda3/envs/mle-dev/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /root/pycode.py
+2025-01-08 10:49:39.443 [info] CWD Linter: /root
+2025-01-08 10:49:39.473 [info] file:///root/pycode.py :
+'89,80,E,E501:line too long (81 > 79 characters)'
+'90,80,E,E501:line too long (83 > 79 characters)'
+'105,80,E,E501:line too long (88 > 79 characters)'
+'114,80,E,E501:line too long (80 > 79 characters)'
+'203,80,E,E501:line too long (83 > 79 characters)'
+
+2025-01-08 10:49:39.778 [info] /root/miniconda3/envs/mle-dev/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /root/pycode.py
+2025-01-08 10:49:39.778 [info] CWD Linter: /root
+2025-01-08 10:49:39.814 [info] file:///root/pycode.py :
+'89,80,E,E501:line too long (81 > 79 characters)'
+'90,80,E,E501:line too long (83 > 79 characters)'
+'105,80,E,E501:line too long (88 > 79 characters)'
+'114,80,E,E501:line too long (80 > 79 characters)'
+'203,80,E,E501:line too long (83 > 79 characters)'
+
+2025-01-08 10:49:39.930 [info] /root/miniconda3/envs/mle-dev/bin/python -m flake8 --format='%(row)d,%(col)d,%(code).1s,%(code)s:%(text)s' /root/pycode.py
+2025-01-08 10:49:39.930 [info] CWD Linter: /root
+2025-01-08 10:49:39.966 [info] file:///root/pycode.py :
+'89,80,E,E501:line too long (81 > 79 characters)'
+'90,80,E,E501:line too long (83 > 79 characters)'
+'105,80,E,E501:line too long (88 > 79 characters)'
+'114,80,E,E501:line too long (80 > 79 characters)'
+'203,80,E,E501:line too long (83 > 79 characters)'
+
